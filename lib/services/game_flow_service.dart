@@ -2,17 +2,46 @@ import 'dart:math';
 
 import 'package:undercover/models/game_models.dart';
 import 'package:undercover/services/game_setup_service.dart';
+import 'package:undercover/services/played_word_pair_service.dart';
 
 class GameFlowService {
-  GameFlowService({Random? random}) : _random = random ?? Random();
+  GameFlowService({Random? random, PlayedWordPairService? playedPairs})
+    : _random = random ?? Random(),
+      _playedPairs = playedPairs ?? PlayedWordPairService();
 
   final Random _random;
+  final PlayedWordPairService _playedPairs;
+
+  Future<GameSession> prepareSessionAvoidingPlayedPairs({
+    required GameSetupConfig config,
+    required WordTheme theme,
+  }) async {
+    final playedKeys = await _playedPairs.playedPairKeys(theme.id);
+    final availablePairs = theme.pairs
+        .where((pair) => !playedKeys.contains(_playedPairs.pairKey(pair)))
+        .toList();
+    final session = prepareSession(
+      config: config,
+      theme: theme,
+      pairPool: availablePairs.isEmpty ? null : availablePairs,
+    );
+    await _playedPairs.markPlayed(
+      theme,
+      WordPair(
+        civilianWord: session.civilianWord,
+        undercoverWord: session.undercoverWord,
+      ),
+    );
+    return session;
+  }
 
   GameSession prepareSession({
     required GameSetupConfig config,
     required WordTheme theme,
+    List<WordPair>? pairPool,
   }) {
-    final pair = theme.pairs[_random.nextInt(theme.pairs.length)];
+    final pairs = pairPool ?? theme.pairs;
+    final pair = pairs[_random.nextInt(pairs.length)];
     final roles = <PlayerRole>[
       ...List.filled(config.civilians, PlayerRole.civilian),
       ...List.filled(config.undercovers, PlayerRole.undercover),
@@ -36,16 +65,17 @@ class GameFlowService {
     return GameSession(
       theme: theme,
       civilianWord: pair.civilianWord,
+      undercoverWord: pair.undercoverWord,
       assignments: assignments,
       round: 1,
     );
   }
 
-  GameSession prepareReplaySession({
+  Future<GameSession> prepareReplaySession({
     required GameSession previousSession,
     WordTheme? theme,
     String? additionalPlayerName,
-  }) {
+  }) async {
     final names = [
       ...previousSession.assignments.map((player) => player.name),
       if (additionalPlayerName != null) additionalPlayerName.trim(),
@@ -62,7 +92,7 @@ class GameFlowService {
       undercovers: previousUndercovers,
       misterWhites: previousMisterWhites,
     );
-    var session = prepareSession(
+    var session = await prepareSessionAvoidingPlayedPairs(
       config: config,
       theme: theme ?? previousSession.theme,
     );

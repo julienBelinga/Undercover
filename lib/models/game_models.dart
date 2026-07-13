@@ -90,6 +90,7 @@ class GameSession {
   const GameSession({
     required this.theme,
     required this.civilianWord,
+    required this.undercoverWord,
     required this.assignments,
     required this.round,
     this.outcome = GameOutcome.inProgress,
@@ -97,6 +98,7 @@ class GameSession {
 
   final WordTheme theme;
   final String civilianWord;
+  final String undercoverWord;
   final List<PlayerAssignment> assignments;
   final int round;
   final GameOutcome outcome;
@@ -112,6 +114,7 @@ class GameSession {
     return GameSession(
       theme: theme,
       civilianWord: civilianWord,
+      undercoverWord: undercoverWord,
       assignments: assignments ?? this.assignments,
       round: round ?? this.round,
       outcome: outcome ?? this.outcome,

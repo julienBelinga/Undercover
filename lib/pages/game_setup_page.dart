@@ -26,6 +26,7 @@ class _GameSetupPageState extends State<GameSetupPage> {
 
   late GameSetupConfig _config = _service.initialConfig();
   var _isLoading = true;
+  var _isStarting = false;
 
   @override
   void initState() {
@@ -52,21 +53,22 @@ class _GameSetupPageState extends State<GameSetupPage> {
   }
 
   Future<void> _continue() async {
+    setState(() => _isStarting = true);
     await _storage.saveConfig(_config);
+    final session = await GameFlowService().prepareSessionAvoidingPlayedPairs(
+      config: _config,
+      theme: widget.theme,
+    );
     if (!mounted) {
       return;
     }
 
     Navigator.of(context).push(
       MaterialPageRoute<void>(
-        builder: (_) => DistributionPage(
-          session: GameFlowService().prepareSession(
-            config: _config,
-            theme: widget.theme,
-          ),
-        ),
+        builder: (_) => DistributionPage(session: session),
       ),
     );
+    if (mounted) setState(() => _isStarting = false);
   }
 
   @override
@@ -147,8 +149,12 @@ class _GameSetupPageState extends State<GameSetupPage> {
                   ),
                   const SizedBox(height: 16),
                   PrimaryActionButton(
-                    label: 'Commencer la partie',
-                    onPressed: _config.isValid ? _continue : null,
+                    label: _isStarting
+                        ? 'Preparation...'
+                        : 'Commencer la partie',
+                    onPressed: _config.isValid && !_isStarting
+                        ? _continue
+                        : null,
                   ),
                 ],
               ),

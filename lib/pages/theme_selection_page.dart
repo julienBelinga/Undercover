@@ -38,10 +38,11 @@ class _ThemeSelectionPageState extends State<ThemeSelectionPage> {
     await _storage.saveThemeId(theme.id);
     if (!mounted) return;
     if (widget.replaySession != null) {
-      final session = GameFlowService().prepareReplaySession(
+      final session = await GameFlowService().prepareReplaySession(
         previousSession: widget.replaySession!,
         theme: theme,
       );
+      if (!mounted) return;
       Navigator.of(context).pushReplacement(
         MaterialPageRoute<void>(
           builder: (_) => DistributionPage(session: session),

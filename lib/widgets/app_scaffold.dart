@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:undercover/config/theme.dart';
 import 'package:undercover/models/game_models.dart';
+import 'package:undercover/pages/account_page.dart';
 
 class AppScaffold extends StatelessWidget {
   const AppScaffold({
@@ -27,11 +28,15 @@ class AppScaffold extends StatelessWidget {
               child: Row(
                 children: [
                   IconButton(
-                    tooltip: showBack ? 'Retour' : 'Menu',
+                    tooltip: showBack ? 'Retour' : 'Compte',
                     onPressed: showBack
                         ? () => Navigator.of(context).pop()
-                        : null,
-                    icon: Icon(showBack ? AppIcons.back : AppIcons.menu),
+                        : () => Navigator.of(context).push(
+                            MaterialPageRoute<void>(
+                              builder: (_) => const AccountPage(),
+                            ),
+                          ),
+                    icon: Icon(showBack ? AppIcons.back : AppIcons.user),
                   ),
                   Expanded(
                     child: Text(

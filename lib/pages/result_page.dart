@@ -68,12 +68,12 @@ class ResultPage extends StatelessWidget {
             const SizedBox(height: 14),
             PrimaryActionButton(
               label: 'Rejouer',
-              onPressed: () => _startDistribution(
-                context,
-                GameFlowService().prepareReplaySession(
-                  previousSession: session,
-                ),
-              ),
+              onPressed: () async {
+                final replaySession = await GameFlowService()
+                    .prepareReplaySession(previousSession: session);
+                if (!context.mounted) return;
+                _startDistribution(context, replaySession);
+              },
             ),
             const SizedBox(height: 10),
             SizedBox(
@@ -137,13 +137,12 @@ class ResultPage extends StatelessWidget {
       builder: (_) => _AddPlayerDialog(session: session),
     );
     if (name == null || !context.mounted) return;
-    _startDistribution(
-      context,
-      GameFlowService().prepareReplaySession(
-        previousSession: session,
-        additionalPlayerName: name,
-      ),
+    final replaySession = await GameFlowService().prepareReplaySession(
+      previousSession: session,
+      additionalPlayerName: name,
     );
+    if (!context.mounted) return;
+    _startDistribution(context, replaySession);
   }
 }
 

@@ -169,10 +169,10 @@ void main() {
       );
     });
 
-    test('replay keeps names, theme and role distribution', () {
+    test('replay keeps names, theme and role distribution', () async {
       final flow = GameFlowService(random: Random(5));
       final previous = namedSession(setup.configForPlayerCount(6));
-      final replay = flow.prepareReplaySession(previousSession: previous);
+      final replay = await flow.prepareReplaySession(previousSession: previous);
 
       expect(
         replay.assignments.map((player) => player.name),
@@ -192,31 +192,36 @@ void main() {
       expect(replay.round, 1);
     });
 
-    test('adding a player preserves names and adds one civilian slot', () {
-      final flow = GameFlowService(random: Random(7));
-      final previous = namedSession(setup.configForPlayerCount(6));
-      final replay = flow.prepareReplaySession(
-        previousSession: previous,
-        additionalPlayerName: 'New player',
-      );
+    test(
+      'adding a player preserves names and adds one civilian slot',
+      () async {
+        final flow = GameFlowService(random: Random(7));
+        final previous = namedSession(setup.configForPlayerCount(6));
+        final replay = await flow.prepareReplaySession(
+          previousSession: previous,
+          additionalPlayerName: 'New player',
+        );
 
-      expect(replay.assignments.length, 7);
-      expect(replay.assignments.last.name, 'New player');
-      expect(
-        replay.assignments.where((p) => p.role == PlayerRole.undercover).length,
-        1,
-      );
-      expect(
-        replay.assignments
-            .where((p) => p.role == PlayerRole.misterWhite)
-            .length,
-        1,
-      );
-      expect(
-        replay.assignments.where((p) => p.role == PlayerRole.civilian).length,
-        5,
-      );
-    });
+        expect(replay.assignments.length, 7);
+        expect(replay.assignments.last.name, 'New player');
+        expect(
+          replay.assignments
+              .where((p) => p.role == PlayerRole.undercover)
+              .length,
+          1,
+        );
+        expect(
+          replay.assignments
+              .where((p) => p.role == PlayerRole.misterWhite)
+              .length,
+          1,
+        );
+        expect(
+          replay.assignments.where((p) => p.role == PlayerRole.civilian).length,
+          5,
+        );
+      },
+    );
 
     test('eliminated player is absent from alive players', () {
       final flow = GameFlowService(random: Random(1));
@@ -274,6 +279,7 @@ void main() {
       final session = GameSession(
         theme: base.theme,
         civilianWord: 'Cinéma',
+        undercoverWord: base.undercoverWord,
         assignments: base.assignments,
         round: base.round,
       );

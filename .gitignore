@@ -1,3 +1,5 @@
+.env
+
 # Miscellaneous
 *.class
 *.log
@@ -43,3 +45,10 @@ app.*.map.json
 /android/app/debug
 /android/app/profile
 /android/app/release
+
+# OAuth / Google credentials
+androidOAuth.json
+webappOAuth.json
+iOSOAuth.plist
+android/app/google-services.json
+ios/Runner/GoogleService-Info.plist
