@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:undercover/config/theme.dart';
-import 'package:undercover/pages/game_setup_page.dart';
+import 'package:undercover/pages/theme_selection_page.dart';
 
 void main() {
   runApp(const MyApp());
@@ -15,7 +15,7 @@ class MyApp extends StatelessWidget {
       title: 'Undercover',
       debugShowCheckedModeBanner: false,
       theme: AppTheme.dark(),
-      home: const GameSetupPage(),
+      home: const ThemeSelectionPage(),
     );
   }
 }

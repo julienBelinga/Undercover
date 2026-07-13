@@ -2,8 +2,12 @@ import 'package:flutter/material.dart';
 import 'package:undercover/config/theme.dart';
 import 'package:undercover/models/game_models.dart';
 import 'package:undercover/pages/game_board_page.dart';
+import 'package:undercover/services/game_flow_service.dart';
+import 'package:undercover/services/game_storage_service.dart';
 import 'package:undercover/widgets/app_scaffold.dart';
 import 'package:undercover/widgets/primary_action_button.dart';
+
+enum _DistributionStep { name, privateCard, revealed }
 
 class DistributionPage extends StatefulWidget {
   const DistributionPage({super.key, required this.session});
@@ -15,136 +19,175 @@ class DistributionPage extends StatefulWidget {
 }
 
 class _DistributionPageState extends State<DistributionPage> {
+  final _flow = GameFlowService();
+  final _nameController = TextEditingController();
   var _index = 0;
-  var _isRevealed = false;
+  var _step = _DistributionStep.name;
+  String? _error;
+  late GameSession _session = widget.session;
 
-  PlayerAssignment get _current => widget.session.assignments[_index];
+  PlayerAssignment get _current => _session.assignments[_index];
 
-  void _next() {
-    if (!_isRevealed) {
-      setState(() => _isRevealed = true);
+  @override
+  void initState() {
+    super.initState();
+    if (_current.name.isNotEmpty) {
+      _step = _DistributionStep.privateCard;
+    }
+  }
+
+  @override
+  void dispose() {
+    _nameController.dispose();
+    super.dispose();
+  }
+
+  void _confirmName() {
+    final error = _flow.validatePlayerName(
+      _session,
+      _current.id,
+      _nameController.text,
+    );
+    if (error != null) {
+      setState(() => _error = error);
       return;
     }
+    setState(() {
+      _session = _flow.assignPlayerName(
+        _session,
+        _current.id,
+        _nameController.text,
+      );
+      _error = null;
+      _step = _DistributionStep.privateCard;
+    });
+  }
 
-    if (_index == widget.session.assignments.length - 1) {
+  Future<void> _nextPlayer() async {
+    if (_index == _session.assignments.length - 1) {
+      await const GameStorageService().savePlayerNames(
+        _session.assignments.map((player) => player.name).toList(),
+      );
+      if (!mounted) return;
       Navigator.of(context).pushReplacement(
         MaterialPageRoute<void>(
-          builder: (_) => GameBoardPage(session: widget.session),
+          builder: (_) => GameBoardPage(session: _session),
         ),
       );
       return;
     }
-
     setState(() {
       _index += 1;
-      _isRevealed = false;
+      _nameController.clear();
+      _step = _current.name.isEmpty
+          ? _DistributionStep.name
+          : _DistributionStep.privateCard;
     });
   }
 
   @override
   Widget build(BuildContext context) {
-    final progress = _index + 1;
     return AppScaffold(
-      title: 'Undercover',
-      bottomBar: const AppBottomBar(),
+      title: 'Joueur ${_index + 1}',
+      showBack: true,
       child: Padding(
         padding: const EdgeInsets.fromLTRB(20, 8, 20, 20),
         child: Column(
           children: [
-            Align(
-              alignment: Alignment.centerLeft,
-              child: Text(
-                'Attribution des roles',
-                style: Theme.of(context).textTheme.labelLarge?.copyWith(
-                  color: AppTheme.muted,
-                  fontWeight: FontWeight.w800,
-                  letterSpacing: 1.2,
-                ),
-              ),
-            ),
-            const SizedBox(height: 8),
             LinearProgressIndicator(
-              value: progress / widget.session.assignments.length,
+              value: (_index + 1) / _session.assignments.length,
               color: AppTheme.primary,
               backgroundColor: const Color(0xFF283247),
             ),
-            const SizedBox(height: 18),
-            Text(
-              'Passe le telephone a\n${_current.name}',
-              textAlign: TextAlign.center,
-              style: Theme.of(
-                context,
-              ).textTheme.headlineSmall?.copyWith(fontWeight: FontWeight.w900),
-            ),
-            const SizedBox(height: 8),
-            Text(
-              'Assure-toi que personne ne regarde ton ecran.',
-              textAlign: TextAlign.center,
-              style: Theme.of(
-                context,
-              ).textTheme.bodyMedium?.copyWith(color: AppTheme.muted),
-            ),
             const SizedBox(height: 24),
-            Expanded(
-              child: AnimatedSwitcher(
-                duration: const Duration(milliseconds: 220),
-                child: _isRevealed
-                    ? _RevealedCard(
-                        key: ValueKey(_current.name),
-                        player: _current,
-                      )
-                    : const _HiddenCard(key: ValueKey('hidden')),
-              ),
-            ),
+            Expanded(child: _buildStep(context)),
             const SizedBox(height: 18),
             PrimaryActionButton(
-              label: _isRevealed
-                  ? (_index == widget.session.assignments.length - 1
-                        ? 'Lancer la partie'
-                        : 'Joueur suivant')
-                  : 'Reveler',
-              onPressed: _next,
+              label: switch (_step) {
+                _DistributionStep.name => 'Valider le prenom',
+                _DistributionStep.privateCard => 'Reveler ma carte',
+                _DistributionStep.revealed =>
+                  _index == _session.assignments.length - 1
+                      ? 'Lancer la partie'
+                      : 'Joueur suivant',
+              },
+              onPressed: switch (_step) {
+                _DistributionStep.name => _confirmName,
+                _DistributionStep.privateCard => () => setState(
+                  () => _step = _DistributionStep.revealed,
+                ),
+                _DistributionStep.revealed => _nextPlayer,
+              },
             ),
           ],
         ),
       ),
     );
   }
-}
 
-class _HiddenCard extends StatelessWidget {
-  const _HiddenCard({super.key});
+  Widget _buildStep(BuildContext context) {
+    if (_step == _DistributionStep.name) {
+      return Column(
+        mainAxisAlignment: MainAxisAlignment.center,
+        children: [
+          const Icon(AppIcons.user, color: AppTheme.primary, size: 64),
+          const SizedBox(height: 18),
+          Text(
+            'Comment tu t’appelles ?',
+            style: Theme.of(
+              context,
+            ).textTheme.headlineSmall?.copyWith(fontWeight: FontWeight.w900),
+          ),
+          const SizedBox(height: 20),
+          TextField(
+            key: Key('player-name-${_index + 1}'),
+            controller: _nameController,
+            autofocus: true,
+            textCapitalization: TextCapitalization.words,
+            textInputAction: TextInputAction.done,
+            onSubmitted: (_) => _confirmName(),
+            decoration: InputDecoration(
+              hintText: 'Prenom',
+              errorText: _error,
+              filled: true,
+              fillColor: AppTheme.elevatedSurface,
+              border: OutlineInputBorder(
+                borderRadius: BorderRadius.circular(12),
+                borderSide: BorderSide.none,
+              ),
+            ),
+          ),
+        ],
+      );
+    }
 
-  @override
-  Widget build(BuildContext context) {
-    return Container(
-      width: double.infinity,
-      padding: const EdgeInsets.all(24),
-      decoration: BoxDecoration(
-        color: AppTheme.elevatedSurface,
-        borderRadius: BorderRadius.circular(18),
-        border: Border.all(color: AppTheme.primary.withValues(alpha: 0.3)),
-      ),
-      child: const Center(
-        child: Icon(AppIcons.reveal, color: AppTheme.primary, size: 76),
-      ),
-    );
-  }
-}
+    if (_step == _DistributionStep.privateCard) {
+      return Column(
+        mainAxisAlignment: MainAxisAlignment.center,
+        children: [
+          const Icon(AppIcons.reveal, color: AppTheme.primary, size: 76),
+          const SizedBox(height: 22),
+          Text(
+            'Passe le telephone a\n${_current.name}',
+            textAlign: TextAlign.center,
+            style: Theme.of(
+              context,
+            ).textTheme.headlineSmall?.copyWith(fontWeight: FontWeight.w900),
+          ),
+          const SizedBox(height: 10),
+          const Text(
+            'Assure-toi que personne ne regarde.',
+            style: TextStyle(color: AppTheme.muted),
+          ),
+        ],
+      );
+    }
 
-class _RevealedCard extends StatelessWidget {
-  const _RevealedCard({super.key, required this.player});
-
-  final PlayerAssignment player;
-
-  @override
-  Widget build(BuildContext context) {
-    final roleColor = switch (player.role) {
+    final roleColor = switch (_current.role) {
       PlayerRole.civilian => AppTheme.primary,
       PlayerRole.undercover => AppTheme.accent,
       PlayerRole.misterWhite => AppTheme.violet,
     };
-
     return Container(
       width: double.infinity,
       padding: const EdgeInsets.all(24),
@@ -152,33 +195,26 @@ class _RevealedCard extends StatelessWidget {
         color: AppTheme.elevatedSurface,
         borderRadius: BorderRadius.circular(18),
         border: Border.all(color: roleColor.withValues(alpha: 0.55)),
-        boxShadow: [
-          BoxShadow(color: roleColor.withValues(alpha: 0.18), blurRadius: 28),
-        ],
       ),
       child: Column(
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
-          Icon(_roleIcon(player.role), color: roleColor, size: 70),
-          const SizedBox(height: 22),
+          Icon(_roleIcon(_current.role), color: roleColor, size: 70),
+          const SizedBox(height: 20),
           Text(
-            player.role.label,
+            _current.role.label,
             style: Theme.of(context).textTheme.headlineSmall?.copyWith(
               color: roleColor,
               fontWeight: FontWeight.w900,
             ),
           ),
           const SizedBox(height: 8),
-          Text(
-            player.role.shortRule,
-            textAlign: TextAlign.center,
-            style: Theme.of(
-              context,
-            ).textTheme.bodyMedium?.copyWith(color: AppTheme.muted),
-          ),
+          Text(_current.role.shortRule, textAlign: TextAlign.center),
           const SizedBox(height: 26),
           Text(
-            player.word,
+            _current.word,
+            key: const Key('secret-word'),
+            textAlign: TextAlign.center,
             style: Theme.of(
               context,
             ).textTheme.displaySmall?.copyWith(fontWeight: FontWeight.w900),
@@ -188,11 +224,9 @@ class _RevealedCard extends StatelessWidget {
     );
   }
 
-  IconData _roleIcon(PlayerRole role) {
-    return switch (role) {
-      PlayerRole.civilian => AppIcons.user,
-      PlayerRole.undercover => AppIcons.undercover,
-      PlayerRole.misterWhite => AppIcons.misterWhite,
-    };
-  }
+  IconData _roleIcon(PlayerRole role) => switch (role) {
+    PlayerRole.civilian => AppIcons.user,
+    PlayerRole.undercover => AppIcons.undercover,
+    PlayerRole.misterWhite => AppIcons.misterWhite,
+  };
 }

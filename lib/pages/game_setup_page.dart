@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:undercover/config/theme.dart';
 import 'package:undercover/models/game_models.dart';
-import 'package:undercover/pages/player_names_page.dart';
+import 'package:undercover/pages/distribution_page.dart';
+import 'package:undercover/services/game_flow_service.dart';
 import 'package:undercover/services/game_setup_service.dart';
 import 'package:undercover/services/game_storage_service.dart';
 import 'package:undercover/widgets/app_scaffold.dart';
@@ -11,7 +12,9 @@ import 'package:undercover/widgets/role_counter_card.dart';
 import 'package:undercover/widgets/setup_summary_card.dart';
 
 class GameSetupPage extends StatefulWidget {
-  const GameSetupPage({super.key});
+  const GameSetupPage({super.key, required this.theme});
+
+  final WordTheme theme;
 
   @override
   State<GameSetupPage> createState() => _GameSetupPageState();
@@ -55,7 +58,14 @@ class _GameSetupPageState extends State<GameSetupPage> {
     }
 
     Navigator.of(context).push(
-      MaterialPageRoute<void>(builder: (_) => PlayerNamesPage(config: _config)),
+      MaterialPageRoute<void>(
+        builder: (_) => DistributionPage(
+          session: GameFlowService().prepareSession(
+            config: _config,
+            theme: widget.theme,
+          ),
+        ),
+      ),
     );
   }
 
@@ -63,8 +73,7 @@ class _GameSetupPageState extends State<GameSetupPage> {
   Widget build(BuildContext context) {
     return AppScaffold(
       title: 'Nouvelle partie',
-      showBack: false,
-      bottomBar: const AppBottomBar(),
+      showBack: true,
       child: _isLoading
           ? const Center(child: CircularProgressIndicator())
           : Padding(
@@ -83,7 +92,7 @@ class _GameSetupPageState extends State<GameSetupPage> {
                         ),
                         const SizedBox(height: 18),
                         Text(
-                          'Repartition des roles',
+                          '${widget.theme.name} - Repartition des roles',
                           style: Theme.of(context).textTheme.titleMedium
                               ?.copyWith(fontWeight: FontWeight.w900),
                         ),

@@ -1,23 +1,17 @@
 import 'package:flutter/material.dart';
 import 'package:undercover/config/theme.dart';
 import 'package:undercover/models/game_models.dart';
+import 'package:undercover/pages/game_setup_page.dart';
 import 'package:undercover/pages/distribution_page.dart';
 import 'package:undercover/services/game_content_service.dart';
 import 'package:undercover/services/game_flow_service.dart';
-import 'package:undercover/services/game_setup_service.dart';
 import 'package:undercover/services/game_storage_service.dart';
 import 'package:undercover/widgets/app_scaffold.dart';
-import 'package:undercover/widgets/primary_action_button.dart';
 
 class ThemeSelectionPage extends StatefulWidget {
-  const ThemeSelectionPage({
-    super.key,
-    required this.config,
-    required this.names,
-  });
+  const ThemeSelectionPage({super.key, this.replaySession});
 
-  final GameSetupConfig config;
-  final List<String> names;
+  final GameSession? replaySession;
 
   @override
   State<ThemeSelectionPage> createState() => _ThemeSelectionPageState();
@@ -26,65 +20,59 @@ class ThemeSelectionPage extends StatefulWidget {
 class _ThemeSelectionPageState extends State<ThemeSelectionPage> {
   static const _content = GameContentService();
   static const _storage = GameStorageService();
-
   late final List<WordTheme> _themes = _content.themes();
-  late WordTheme _selectedTheme = _themes.first;
+  String? _lastThemeId;
 
   @override
   void initState() {
     super.initState();
-    _loadTheme();
+    _loadLastTheme();
   }
 
-  Future<void> _loadTheme() async {
-    final themeId = await _storage.loadThemeId();
-    if (!mounted || themeId == null) {
-      return;
-    }
-
-    setState(() {
-      _selectedTheme = _content.themeById(themeId);
-    });
+  Future<void> _loadLastTheme() async {
+    final id = await _storage.loadThemeId();
+    if (mounted) setState(() => _lastThemeId = id);
   }
 
-  Future<void> _startDistribution() async {
-    await _storage.saveThemeId(_selectedTheme.id);
-    final session = GameFlowService().createSession(
-      config: widget.config,
-      playerNames: widget.names,
-      theme: _selectedTheme,
-    );
-
-    if (!mounted) {
+  Future<void> _selectTheme(WordTheme theme) async {
+    await _storage.saveThemeId(theme.id);
+    if (!mounted) return;
+    if (widget.replaySession != null) {
+      final session = GameFlowService().prepareReplaySession(
+        previousSession: widget.replaySession!,
+        theme: theme,
+      );
+      Navigator.of(context).pushReplacement(
+        MaterialPageRoute<void>(
+          builder: (_) => DistributionPage(session: session),
+        ),
+      );
       return;
     }
-
     Navigator.of(context).push(
-      MaterialPageRoute<void>(
-        builder: (_) => DistributionPage(session: session),
-      ),
+      MaterialPageRoute<void>(builder: (_) => GameSetupPage(theme: theme)),
     );
   }
 
   @override
   Widget build(BuildContext context) {
     return AppScaffold(
-      title: 'Nouvelle partie',
-      showBack: true,
+      title: widget.replaySession == null ? 'Undercover' : 'Changer de theme',
+      showBack: widget.replaySession != null,
       child: Padding(
         padding: const EdgeInsets.fromLTRB(20, 8, 20, 20),
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
             Text(
-              'Theme de mots',
+              'Choisis un theme',
               style: Theme.of(
                 context,
               ).textTheme.headlineSmall?.copyWith(fontWeight: FontWeight.w900),
             ),
             const SizedBox(height: 8),
             Text(
-              'Choisis le paquet utilise pour cette manche.',
+              'Chaque theme contient son propre paquet de mots.',
               style: Theme.of(
                 context,
               ).textTheme.bodyMedium?.copyWith(color: AppTheme.muted),
@@ -96,18 +84,14 @@ class _ThemeSelectionPageState extends State<ThemeSelectionPage> {
                 separatorBuilder: (_, _) => const SizedBox(height: 12),
                 itemBuilder: (context, index) {
                   final theme = _themes[index];
-                  final isSelected = theme.id == _selectedTheme.id;
                   return _ThemeCard(
+                    key: Key('theme-${theme.id}'),
                     theme: theme,
-                    isSelected: isSelected,
-                    onTap: () => setState(() => _selectedTheme = theme),
+                    isLastUsed: theme.id == _lastThemeId,
+                    onTap: () => _selectTheme(theme),
                   );
                 },
               ),
-            ),
-            PrimaryActionButton(
-              label: 'Distribuer les roles',
-              onPressed: _startDistribution,
             ),
           ],
         ),
@@ -118,13 +102,14 @@ class _ThemeSelectionPageState extends State<ThemeSelectionPage> {
 
 class _ThemeCard extends StatelessWidget {
   const _ThemeCard({
+    super.key,
     required this.theme,
-    required this.isSelected,
+    required this.isLastUsed,
     required this.onTap,
   });
 
   final WordTheme theme;
-  final bool isSelected;
+  final bool isLastUsed;
   final VoidCallback onTap;
 
   @override
@@ -138,8 +123,7 @@ class _ThemeCard extends StatelessWidget {
           color: AppTheme.elevatedSurface,
           borderRadius: BorderRadius.circular(14),
           border: Border.all(
-            color: isSelected ? AppTheme.primary : const Color(0xFF283247),
-            width: isSelected ? 2 : 1,
+            color: isLastUsed ? AppTheme.primary : const Color(0xFF283247),
           ),
         ),
         child: Row(
@@ -174,7 +158,7 @@ class _ThemeCard extends StatelessWidget {
                 ],
               ),
             ),
-            if (isSelected) const Icon(AppIcons.vote, color: AppTheme.primary),
+            const Icon(AppIcons.play, color: AppTheme.primary),
           ],
         ),
       ),

@@ -13,46 +13,26 @@ class GameBoardPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return AppScaffold(
-      title: 'Undercover',
-      bottomBar: const AppBottomBar(),
+      title: 'Manche ${session.round}',
       child: Padding(
         padding: const EdgeInsets.fromLTRB(20, 8, 20, 20),
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
             Text(
-              'La Manche bat son plein',
+              'La manche bat son plein',
               style: Theme.of(
                 context,
               ).textTheme.headlineSmall?.copyWith(fontWeight: FontWeight.w900),
             ),
             const SizedBox(height: 8),
             Text(
-              'Analysez les indices, debusquez l’intrus.',
+              'Analysez les indices, puis eliminez un suspect.',
               style: Theme.of(
                 context,
               ).textTheme.bodyMedium?.copyWith(color: AppTheme.muted),
             ),
-            const SizedBox(height: 22),
-            Row(
-              mainAxisAlignment: MainAxisAlignment.spaceBetween,
-              children: [
-                const Text(
-                  'Joueurs en vie',
-                  style: TextStyle(
-                    color: AppTheme.primary,
-                    fontWeight: FontWeight.w900,
-                  ),
-                ),
-                Text(
-                  'Phase de debat',
-                  style: Theme.of(
-                    context,
-                  ).textTheme.bodySmall?.copyWith(color: AppTheme.muted),
-                ),
-              ],
-            ),
-            const SizedBox(height: 12),
+            const SizedBox(height: 20),
             Expanded(
               child: GridView.builder(
                 itemCount: session.assignments.length,
@@ -64,47 +44,7 @@ class GameBoardPage extends StatelessWidget {
                 ),
                 itemBuilder: (context, index) {
                   final player = session.assignments[index];
-                  return Container(
-                    decoration: BoxDecoration(
-                      color: AppTheme.elevatedSurface,
-                      borderRadius: BorderRadius.circular(12),
-                      border: Border.all(color: const Color(0xFF283247)),
-                    ),
-                    child: Column(
-                      mainAxisAlignment: MainAxisAlignment.center,
-                      children: [
-                        const Icon(
-                          AppIcons.user,
-                          color: AppTheme.primary,
-                          size: 34,
-                        ),
-                        const SizedBox(height: 10),
-                        Text(
-                          player.name,
-                          style: const TextStyle(fontWeight: FontWeight.w800),
-                        ),
-                        const SizedBox(height: 8),
-                        Container(
-                          padding: const EdgeInsets.symmetric(
-                            horizontal: 10,
-                            vertical: 4,
-                          ),
-                          decoration: BoxDecoration(
-                            color: AppTheme.primary.withValues(alpha: 0.16),
-                            borderRadius: BorderRadius.circular(20),
-                          ),
-                          child: const Text(
-                            'Vivant',
-                            style: TextStyle(
-                              color: AppTheme.primary,
-                              fontSize: 11,
-                              fontWeight: FontWeight.w900,
-                            ),
-                          ),
-                        ),
-                      ],
-                    ),
-                  );
+                  return _PlayerTile(player: player);
                 },
               ),
             ),
@@ -112,12 +52,59 @@ class GameBoardPage extends StatelessWidget {
             PrimaryActionButton(
               label: 'Lancer le vote',
               onPressed: () {
-                Navigator.of(context).push(
+                Navigator.of(context).pushReplacement(
                   MaterialPageRoute<void>(
                     builder: (_) => VotePage(session: session),
                   ),
                 );
               },
+            ),
+          ],
+        ),
+      ),
+    );
+  }
+}
+
+class _PlayerTile extends StatelessWidget {
+  const _PlayerTile({required this.player});
+
+  final PlayerAssignment player;
+
+  @override
+  Widget build(BuildContext context) {
+    final alive = !player.isEliminated;
+    return Opacity(
+      key: Key('player-${player.id}'),
+      opacity: alive ? 1 : 0.38,
+      child: Container(
+        decoration: BoxDecoration(
+          color: AppTheme.elevatedSurface,
+          borderRadius: BorderRadius.circular(12),
+          border: Border.all(color: const Color(0xFF283247)),
+        ),
+        child: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: [
+            Icon(
+              alive ? AppIcons.user : AppIcons.close,
+              color: alive ? AppTheme.primary : AppTheme.muted,
+              size: 34,
+            ),
+            const SizedBox(height: 10),
+            Text(
+              player.name,
+              textAlign: TextAlign.center,
+              style: const TextStyle(fontWeight: FontWeight.w800),
+            ),
+            const SizedBox(height: 8),
+            Text(
+              alive ? 'Vivant' : 'Elimine',
+              style: TextStyle(
+                color: alive ? AppTheme.primary : AppTheme.muted,
+                fontSize: 11,
+                fontWeight: FontWeight.w900,
+              ),
             ),
           ],
         ),
