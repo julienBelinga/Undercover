@@ -6,8 +6,11 @@ import 'package:shared_preferences/shared_preferences.dart';
 import 'package:undercover/main.dart';
 import 'package:undercover/models/game_models.dart';
 import 'package:undercover/pages/distribution_page.dart';
+import 'package:undercover/pages/feedback_page.dart';
 import 'package:undercover/pages/game_setup_page.dart';
+import 'package:undercover/pages/help_page.dart';
 import 'package:undercover/pages/result_page.dart';
+import 'package:undercover/pages/rules_page.dart';
 import 'package:undercover/pages/theme_selection_page.dart';
 import 'package:undercover/services/game_content_service.dart';
 import 'package:undercover/services/game_flow_service.dart';
@@ -33,6 +36,32 @@ void main() {
 
     expect(find.byType(GameSetupPage), findsOneWidget);
     expect(find.textContaining('General - Repartition'), findsOneWidget);
+  });
+
+  testWidgets('help opens rules and feedback', (tester) async {
+    await pumpApp(tester);
+
+    await tester.tap(find.byTooltip('Aide'));
+    await tester.pumpAndSettle();
+    expect(find.byType(HelpPage), findsOneWidget);
+
+    await tester.tap(find.text('Regles du jeu'));
+    await tester.pumpAndSettle();
+    expect(find.byType(RulesPage), findsOneWidget);
+
+    await tester.tap(find.byTooltip('Retour'));
+    await tester.pumpAndSettle();
+    await tester.tap(find.text('Signaler un bug'));
+    await tester.pumpAndSettle();
+    expect(find.byType(FeedbackPage), findsOneWidget);
+
+    await tester.enterText(
+      find.byKey(const Key('feedback-message')),
+      'Le vote devrait afficher une confirmation.',
+    );
+    await tester.tap(find.text('Envoyer'));
+    await tester.pumpAndSettle();
+    expect(find.text('Merci, ton retour est enregistre.'), findsOneWidget);
   });
 
   testWidgets('setup starts sequential player distribution', (tester) async {

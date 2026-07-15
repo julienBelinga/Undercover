@@ -18,13 +18,17 @@ class UserProfileService {
     if (client == null || user == null) return;
 
     final cleanedName = name?.trim();
-    await client.from('users').upsert({
-      'auth_user_id': user.id,
-      'name': cleanedName?.isNotEmpty == true
-          ? cleanedName
-          : _displayNameFor(user),
-      'mail': user.email ?? '',
-    }, onConflict: 'auth_user_id');
+    try {
+      await client.from('users').upsert({
+        'auth_user_id': user.id,
+        'name': cleanedName?.isNotEmpty == true
+            ? cleanedName
+            : _displayNameFor(user),
+        'mail': user.email ?? '',
+      }, onConflict: 'auth_user_id');
+    } catch (_) {
+      return;
+    }
   }
 
   Future<void> saveTheme(String themeId) async {
@@ -32,11 +36,15 @@ class UserProfileService {
     final user = client?.auth.currentUser;
     if (client == null || user == null) return;
 
-    await upsertCurrentUser();
-    await client
-        .from('users')
-        .update({'theme': themeId})
-        .eq('auth_user_id', user.id);
+    try {
+      await upsertCurrentUser();
+      await client
+          .from('users')
+          .update({'theme': themeId})
+          .eq('auth_user_id', user.id);
+    } catch (_) {
+      return;
+    }
   }
 
   Future<void> recordPlayedPair(WordTheme theme, WordPair pair) async {
@@ -44,35 +52,39 @@ class UserProfileService {
     final user = client?.auth.currentUser;
     if (client == null || user == null) return;
 
-    await upsertCurrentUser();
-    final row = await client
-        .from('users')
-        .select('played_pairs')
-        .eq('auth_user_id', user.id)
-        .maybeSingle();
-
-    final playedPairs = List<Map<String, dynamic>>.from(
-      ((row?['played_pairs'] as List?) ?? const []).map(
-        (item) => Map<String, dynamic>.from(item as Map),
-      ),
-    );
-    final entry = {
-      'theme_id': theme.id,
-      'civilian_word': pair.civilianWord,
-      'undercover_word': pair.undercoverWord,
-    };
-    final alreadyRecorded = playedPairs.any(
-      (played) =>
-          played['theme_id'] == entry['theme_id'] &&
-          played['civilian_word'] == entry['civilian_word'] &&
-          played['undercover_word'] == entry['undercover_word'],
-    );
-    if (!alreadyRecorded) {
-      playedPairs.add(entry);
-      await client
+    try {
+      await upsertCurrentUser();
+      final row = await client
           .from('users')
-          .update({'played_pairs': playedPairs})
-          .eq('auth_user_id', user.id);
+          .select('played_pairs')
+          .eq('auth_user_id', user.id)
+          .maybeSingle();
+
+      final playedPairs = List<Map<String, dynamic>>.from(
+        ((row?['played_pairs'] as List?) ?? const []).map(
+          (item) => Map<String, dynamic>.from(item as Map),
+        ),
+      );
+      final entry = {
+        'theme_id': theme.id,
+        'civilian_word': pair.civilianWord,
+        'undercover_word': pair.undercoverWord,
+      };
+      final alreadyRecorded = playedPairs.any(
+        (played) =>
+            played['theme_id'] == entry['theme_id'] &&
+            played['civilian_word'] == entry['civilian_word'] &&
+            played['undercover_word'] == entry['undercover_word'],
+      );
+      if (!alreadyRecorded) {
+        playedPairs.add(entry);
+        await client
+            .from('users')
+            .update({'played_pairs': playedPairs})
+            .eq('auth_user_id', user.id);
+      }
+    } catch (_) {
+      return;
     }
   }
 

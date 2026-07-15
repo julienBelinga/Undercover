@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:undercover/config/theme.dart';
 import 'package:undercover/models/game_models.dart';
 import 'package:undercover/pages/account_page.dart';
+import 'package:undercover/pages/help_page.dart';
 
 class AppScaffold extends StatelessWidget {
   const AppScaffold({
@@ -49,9 +50,11 @@ class AppScaffold extends StatelessWidget {
                     ),
                   ),
                   IconButton(
-                    tooltip: 'Parametres',
-                    onPressed: () {},
-                    icon: const Icon(AppIcons.settings),
+                    tooltip: 'Aide',
+                    onPressed: () => Navigator.of(context).push(
+                      MaterialPageRoute<void>(builder: (_) => const HelpPage()),
+                    ),
+                    icon: const Icon(AppIcons.rules),
                   ),
                 ],
               ),

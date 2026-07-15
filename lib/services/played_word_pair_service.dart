@@ -18,11 +18,16 @@ class PlayedWordPairService {
     final user = client?.auth.currentUser;
     if (client == null || user == null) return {};
 
-    final rows = await client
-        .from('played_word_pairs')
-        .select('civilian_word, undercover_word')
-        .eq('user_id', user.id)
-        .eq('theme_id', themeId);
+    final List<dynamic> rows;
+    try {
+      rows = await client
+          .from('played_word_pairs')
+          .select('civilian_word, undercover_word')
+          .eq('user_id', user.id)
+          .eq('theme_id', themeId);
+    } catch (_) {
+      return {};
+    }
 
     return rows
         .map<String>(
@@ -41,13 +46,17 @@ class PlayedWordPairService {
     final user = client?.auth.currentUser;
     if (client == null || user == null) return;
 
-    await client.from('played_word_pairs').upsert({
-      'user_id': user.id,
-      'theme_id': theme.id,
-      'civilian_word': pair.civilianWord,
-      'undercover_word': pair.undercoverWord,
-    }, onConflict: 'user_id,theme_id,civilian_word,undercover_word');
-    await UserProfileService(client: client).recordPlayedPair(theme, pair);
+    try {
+      await client.from('played_word_pairs').upsert({
+        'user_id': user.id,
+        'theme_id': theme.id,
+        'civilian_word': pair.civilianWord,
+        'undercover_word': pair.undercoverWord,
+      }, onConflict: 'user_id,theme_id,civilian_word,undercover_word');
+      await UserProfileService(client: client).recordPlayedPair(theme, pair);
+    } catch (_) {
+      return;
+    }
   }
 
   String pairKey(WordPair pair) =>
