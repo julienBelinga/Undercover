@@ -1,5 +1,6 @@
 import 'package:undercover/config/supabase_config.dart';
 import 'package:undercover/models/game_models.dart';
+import 'package:undercover/services/user_profile_service.dart';
 import 'package:supabase_flutter/supabase_flutter.dart';
 
 class PlayedWordPairService {
@@ -46,6 +47,7 @@ class PlayedWordPairService {
       'civilian_word': pair.civilianWord,
       'undercover_word': pair.undercoverWord,
     }, onConflict: 'user_id,theme_id,civilian_word,undercover_word');
+    await UserProfileService(client: client).recordPlayedPair(theme, pair);
   }
 
   String pairKey(WordPair pair) =>

@@ -16,6 +16,7 @@ class AccountPage extends StatefulWidget {
 }
 
 class _AccountPageState extends State<AccountPage> {
+  final _nameController = TextEditingController();
   final _emailController = TextEditingController();
   final _passwordController = TextEditingController();
   late final AuthService _authService = widget.authService ?? AuthService();
@@ -25,6 +26,7 @@ class _AccountPageState extends State<AccountPage> {
 
   @override
   void dispose() {
+    _nameController.dispose();
     _emailController.dispose();
     _passwordController.dispose();
     super.dispose();
@@ -38,6 +40,7 @@ class _AccountPageState extends State<AccountPage> {
     try {
       if (_isSignUp) {
         await _authService.signUpWithEmail(
+          name: _nameController.text.trim(),
           email: _emailController.text.trim(),
           password: _passwordController.text,
         );
@@ -106,6 +109,7 @@ class _AccountPageState extends State<AccountPage> {
                 _SignedInCard(user: user, onSignOut: _signOut)
               else
                 _AuthForm(
+                  nameController: _nameController,
                   emailController: _emailController,
                   passwordController: _passwordController,
                   isSignUp: _isSignUp,
@@ -115,6 +119,7 @@ class _AccountPageState extends State<AccountPage> {
                   onSubmit: _submitEmail,
                   onGoogle: () => _signInWith(_authService.signInWithGoogle),
                   onApple: () => _signInWith(_authService.signInWithApple),
+                  canUseApple: _authService.canUseNativeAppleSignIn,
                 ),
             ],
           );
@@ -186,6 +191,7 @@ class _SignedInCard extends StatelessWidget {
 
 class _AuthForm extends StatelessWidget {
   const _AuthForm({
+    required this.nameController,
     required this.emailController,
     required this.passwordController,
     required this.isSignUp,
@@ -195,8 +201,10 @@ class _AuthForm extends StatelessWidget {
     required this.onSubmit,
     required this.onGoogle,
     required this.onApple,
+    required this.canUseApple,
   });
 
+  final TextEditingController nameController;
   final TextEditingController emailController;
   final TextEditingController passwordController;
   final bool isSignUp;
@@ -206,11 +214,21 @@ class _AuthForm extends StatelessWidget {
   final VoidCallback onSubmit;
   final VoidCallback onGoogle;
   final VoidCallback onApple;
+  final bool canUseApple;
 
   @override
   Widget build(BuildContext context) {
     return Column(
       children: [
+        if (isSignUp) ...[
+          TextField(
+            key: const Key('account-name'),
+            controller: nameController,
+            textInputAction: TextInputAction.next,
+            decoration: const InputDecoration(labelText: 'Prenom'),
+          ),
+          const SizedBox(height: 12),
+        ],
         TextField(
           key: const Key('account-email'),
           controller: emailController,
@@ -252,7 +270,7 @@ class _AuthForm extends StatelessWidget {
           width: double.infinity,
           height: 48,
           child: OutlinedButton.icon(
-            onPressed: isLoading ? null : onApple,
+            onPressed: isLoading || !canUseApple ? null : onApple,
             icon: const Icon(AppIcons.user),
             label: const Text('Continuer avec Apple'),
           ),

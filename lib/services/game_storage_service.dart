@@ -1,5 +1,6 @@
 import 'package:shared_preferences/shared_preferences.dart';
 import 'package:undercover/services/game_setup_service.dart';
+import 'package:undercover/services/user_profile_service.dart';
 
 class GameStorageService {
   const GameStorageService();
@@ -35,6 +36,7 @@ class GameStorageService {
   Future<void> saveThemeId(String themeId) async {
     final prefs = await SharedPreferences.getInstance();
     await prefs.setString(_themeIdKey, themeId);
+    await UserProfileService().saveTheme(themeId);
   }
 
   Future<GameSetupConfig?> loadConfig() async {
