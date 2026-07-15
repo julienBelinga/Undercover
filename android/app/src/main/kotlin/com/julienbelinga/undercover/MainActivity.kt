@@ -1,4 +1,4 @@
-package com.undercover.app
+package com.julienbelinga.undercover
 
 import io.flutter.embedding.android.FlutterActivity
 
