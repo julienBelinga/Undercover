@@ -6,52 +6,12 @@
   "color": "#FFD166",
   "pairs": [
     {
-      "civilianWord": "Film de 3 heures",
-      "undercoverWord": "Test de vessie",
-      "style": "soft_joke"
-    },
-    {
-      "civilianWord": "Popcorn petit",
-      "undercoverWord": "Credit immobilier sucre",
-      "style": "soft_joke"
-    },
-    {
-      "civilianWord": "Twist final",
-      "undercoverWord": "Mensonge avec budget",
-      "style": "soft_joke"
-    },
-    {
-      "civilianWord": "Bande-annonce",
-      "undercoverWord": "Film entier en deux minutes",
-      "style": "soft_joke"
-    },
-    {
-      "civilianWord": "Remake inutile",
-      "undercoverWord": "Nostalgie facturee",
-      "style": "soft_joke"
-    },
-    {
       "civilianWord": "Titanic",
       "undercoverWord": "Avatar",
       "style": "normal"
     },
     {
-      "civilianWord": "Avatar",
-      "undercoverWord": "Aliens",
-      "style": "normal"
-    },
-    {
       "civilianWord": "Aliens",
-      "undercoverWord": "Terminator",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Titanic",
-      "undercoverWord": "Aliens",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Avatar",
       "undercoverWord": "Terminator",
       "style": "normal"
     },
@@ -61,22 +21,7 @@
       "style": "normal"
     },
     {
-      "civilianWord": "Star Trek",
-      "undercoverWord": "Dune",
-      "style": "normal"
-    },
-    {
       "civilianWord": "Dune",
-      "undercoverWord": "Blade Runner",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Star Wars",
-      "undercoverWord": "Dune",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Star Trek",
       "undercoverWord": "Blade Runner",
       "style": "normal"
     },
@@ -86,22 +31,7 @@
       "style": "normal"
     },
     {
-      "civilianWord": "Inception",
-      "undercoverWord": "Interstellar",
-      "style": "normal"
-    },
-    {
       "civilianWord": "Interstellar",
-      "undercoverWord": "Tenet",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Matrix",
-      "undercoverWord": "Interstellar",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Inception",
       "undercoverWord": "Tenet",
       "style": "normal"
     },
@@ -111,22 +41,7 @@
       "style": "normal"
     },
     {
-      "civilianWord": "King Kong",
-      "undercoverWord": "Godzilla",
-      "style": "normal"
-    },
-    {
       "civilianWord": "Godzilla",
-      "undercoverWord": "Jaws",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Jurassic Park",
-      "undercoverWord": "Godzilla",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "King Kong",
       "undercoverWord": "Jaws",
       "style": "normal"
     },
@@ -136,47 +51,12 @@
       "style": "normal"
     },
     {
-      "civilianWord": "Seigneur des Anneaux",
-      "undercoverWord": "Hobbit",
-      "style": "normal"
-    },
-    {
       "civilianWord": "Hobbit",
       "undercoverWord": "Narnia",
       "style": "normal"
     },
     {
-      "civilianWord": "Harry Potter",
-      "undercoverWord": "Hobbit",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Seigneur des Anneaux",
-      "undercoverWord": "Narnia",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Indiana Jones",
-      "undercoverWord": "Tomb Raider",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Tomb Raider",
-      "undercoverWord": "Uncharted",
-      "style": "normal"
-    },
-    {
       "civilianWord": "Uncharted",
-      "undercoverWord": "La Momie",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Indiana Jones",
-      "undercoverWord": "Uncharted",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Tomb Raider",
       "undercoverWord": "La Momie",
       "style": "normal"
     },
@@ -186,22 +66,7 @@
       "style": "normal"
     },
     {
-      "civilianWord": "Jason Bourne",
-      "undercoverWord": "Mission Impossible",
-      "style": "normal"
-    },
-    {
       "civilianWord": "Mission Impossible",
-      "undercoverWord": "Kingsman",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "James Bond",
-      "undercoverWord": "Mission Impossible",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Jason Bourne",
       "undercoverWord": "Kingsman",
       "style": "normal"
     },
@@ -211,22 +76,7 @@
       "style": "normal"
     },
     {
-      "civilianWord": "Creed",
-      "undercoverWord": "Raging Bull",
-      "style": "normal"
-    },
-    {
       "civilianWord": "Raging Bull",
-      "undercoverWord": "Million Dollar Baby",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Rocky",
-      "undercoverWord": "Raging Bull",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Creed",
       "undercoverWord": "Million Dollar Baby",
       "style": "normal"
     },
@@ -236,22 +86,7 @@
       "style": "normal"
     },
     {
-      "civilianWord": "Scarface",
-      "undercoverWord": "Les Affranchis",
-      "style": "normal"
-    },
-    {
       "civilianWord": "Les Affranchis",
-      "undercoverWord": "Casino",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Le Parrain",
-      "undercoverWord": "Les Affranchis",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Scarface",
       "undercoverWord": "Casino",
       "style": "normal"
     },
@@ -261,22 +96,7 @@
       "style": "normal"
     },
     {
-      "civilianWord": "Kill Bill",
-      "undercoverWord": "Reservoir Dogs",
-      "style": "normal"
-    },
-    {
       "civilianWord": "Reservoir Dogs",
-      "undercoverWord": "Django Unchained",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Pulp Fiction",
-      "undercoverWord": "Reservoir Dogs",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Kill Bill",
       "undercoverWord": "Django Unchained",
       "style": "normal"
     },
@@ -286,22 +106,7 @@
       "style": "normal"
     },
     {
-      "civilianWord": "Green Mile",
-      "undercoverWord": "Seul au monde",
-      "style": "normal"
-    },
-    {
       "civilianWord": "Seul au monde",
-      "undercoverWord": "Philadelphia",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Forrest Gump",
-      "undercoverWord": "Seul au monde",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Green Mile",
       "undercoverWord": "Philadelphia",
       "style": "normal"
     },
@@ -311,47 +116,12 @@
       "style": "normal"
     },
     {
-      "civilianWord": "Whiplash",
-      "undercoverWord": "Moulin Rouge",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Moulin Rouge",
-      "undercoverWord": "Chicago",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "La La Land",
-      "undercoverWord": "Moulin Rouge",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Whiplash",
-      "undercoverWord": "Chicago",
-      "style": "normal"
-    },
-    {
       "civilianWord": "Shining",
       "undercoverWord": "Scream",
       "style": "normal"
     },
     {
-      "civilianWord": "Scream",
-      "undercoverWord": "Halloween",
-      "style": "normal"
-    },
-    {
       "civilianWord": "Halloween",
-      "undercoverWord": "Conjuring",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Shining",
-      "undercoverWord": "Halloween",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Scream",
       "undercoverWord": "Conjuring",
       "style": "normal"
     },
@@ -361,22 +131,7 @@
       "style": "normal"
     },
     {
-      "civilianWord": "Predator",
-      "undercoverWord": "The Thing",
-      "style": "normal"
-    },
-    {
       "civilianWord": "The Thing",
-      "undercoverWord": "Terminator",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Alien",
-      "undercoverWord": "The Thing",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Predator",
       "undercoverWord": "Terminator",
       "style": "normal"
     },
@@ -386,22 +141,7 @@
       "style": "normal"
     },
     {
-      "civilianWord": "Cars",
-      "undercoverWord": "Ratatouille",
-      "style": "normal"
-    },
-    {
       "civilianWord": "Ratatouille",
-      "undercoverWord": "Wall-E",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Toy Story",
-      "undercoverWord": "Ratatouille",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Cars",
       "undercoverWord": "Wall-E",
       "style": "normal"
     },
@@ -411,22 +151,7 @@
       "style": "normal"
     },
     {
-      "civilianWord": "Aladdin",
-      "undercoverWord": "Mulan",
-      "style": "normal"
-    },
-    {
       "civilianWord": "Mulan",
-      "undercoverWord": "La Belle et la Bete",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Le Roi Lion",
-      "undercoverWord": "Mulan",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Aladdin",
       "undercoverWord": "La Belle et la Bete",
       "style": "normal"
     },
@@ -436,22 +161,7 @@
       "style": "normal"
     },
     {
-      "civilianWord": "Bienvenue chez les Ch tis",
-      "undercoverWord": "Asterix Mission Cleopatre",
-      "style": "normal"
-    },
-    {
       "civilianWord": "Asterix Mission Cleopatre",
-      "undercoverWord": "Le Diner de cons",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Intouchables",
-      "undercoverWord": "Asterix Mission Cleopatre",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Bienvenue chez les Ch tis",
       "undercoverWord": "Le Diner de cons",
       "style": "normal"
     },
@@ -461,22 +171,7 @@
       "style": "normal"
     },
     {
-      "civilianWord": "La Haine",
-      "undercoverWord": "Les Choristes",
-      "style": "normal"
-    },
-    {
       "civilianWord": "Les Choristes",
-      "undercoverWord": "OSS 117",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Amelie Poulain",
-      "undercoverWord": "Les Choristes",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "La Haine",
       "undercoverWord": "OSS 117",
       "style": "normal"
     },
@@ -486,22 +181,7 @@
       "style": "normal"
     },
     {
-      "civilianWord": "Drame",
-      "undercoverWord": "Thriller",
-      "style": "normal"
-    },
-    {
       "civilianWord": "Thriller",
-      "undercoverWord": "Action",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Comedie",
-      "undercoverWord": "Thriller",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Drame",
       "undercoverWord": "Action",
       "style": "normal"
     },
@@ -511,22 +191,7 @@
       "style": "normal"
     },
     {
-      "civilianWord": "Fantasy",
-      "undercoverWord": "Horreur",
-      "style": "normal"
-    },
-    {
       "civilianWord": "Horreur",
-      "undercoverWord": "Romance",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Science-fiction",
-      "undercoverWord": "Horreur",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Fantasy",
       "undercoverWord": "Romance",
       "style": "normal"
     },
@@ -536,22 +201,7 @@
       "style": "normal"
     },
     {
-      "civilianWord": "Scenario",
-      "undercoverWord": "Montage",
-      "style": "normal"
-    },
-    {
       "civilianWord": "Montage",
-      "undercoverWord": "Cadrage",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Realisation",
-      "undercoverWord": "Montage",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Scenario",
       "undercoverWord": "Cadrage",
       "style": "normal"
     },
@@ -561,22 +211,7 @@
       "style": "normal"
     },
     {
-      "civilianWord": "Realisateur",
-      "undercoverWord": "Producteur",
-      "style": "normal"
-    },
-    {
       "civilianWord": "Producteur",
-      "undercoverWord": "Cascadeur",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Acteur",
-      "undercoverWord": "Producteur",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Realisateur",
       "undercoverWord": "Cascadeur",
       "style": "normal"
     },
@@ -586,22 +221,7 @@
       "style": "normal"
     },
     {
-      "civilianWord": "Micro",
-      "undercoverWord": "Projecteur",
-      "style": "normal"
-    },
-    {
       "civilianWord": "Projecteur",
-      "undercoverWord": "Clap",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Camera",
-      "undercoverWord": "Projecteur",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Micro",
       "undercoverWord": "Clap",
       "style": "normal"
     },
@@ -611,22 +231,7 @@
       "style": "normal"
     },
     {
-      "civilianWord": "Affiche",
-      "undercoverWord": "Avant-premiere",
-      "style": "normal"
-    },
-    {
       "civilianWord": "Avant-premiere",
-      "undercoverWord": "Sortie nationale",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Bande-annonce",
-      "undercoverWord": "Avant-premiere",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Affiche",
       "undercoverWord": "Sortie nationale",
       "style": "normal"
     },
@@ -636,22 +241,7 @@
       "style": "normal"
     },
     {
-      "civilianWord": "Cesar",
-      "undercoverWord": "Palme d or",
-      "style": "normal"
-    },
-    {
       "civilianWord": "Palme d or",
-      "undercoverWord": "Golden Globe",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Oscar",
-      "undercoverWord": "Palme d or",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Cesar",
       "undercoverWord": "Golden Globe",
       "style": "normal"
     },
@@ -661,22 +251,7 @@
       "style": "normal"
     },
     {
-      "civilianWord": "Nachos",
-      "undercoverWord": "Soda",
-      "style": "normal"
-    },
-    {
       "civilianWord": "Soda",
-      "undercoverWord": "Bonbons",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Popcorn",
-      "undercoverWord": "Soda",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Nachos",
       "undercoverWord": "Bonbons",
       "style": "normal"
     },
@@ -686,22 +261,7 @@
       "style": "normal"
     },
     {
-      "civilianWord": "Ecran geant",
-      "undercoverWord": "Siege rouge",
-      "style": "normal"
-    },
-    {
       "civilianWord": "Siege rouge",
-      "undercoverWord": "Projection",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Salle obscure",
-      "undercoverWord": "Siege rouge",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Ecran geant",
       "undercoverWord": "Projection",
       "style": "normal"
     },
@@ -711,22 +271,7 @@
       "style": "normal"
     },
     {
-      "civilianWord": "VO",
-      "undercoverWord": "Sous-titres",
-      "style": "normal"
-    },
-    {
       "civilianWord": "Sous-titres",
-      "undercoverWord": "Doublage",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "VF",
-      "undercoverWord": "Sous-titres",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "VO",
       "undercoverWord": "Doublage",
       "style": "normal"
     },
@@ -736,22 +281,7 @@
       "style": "normal"
     },
     {
-      "civilianWord": "Travelling",
-      "undercoverWord": "Gros plan",
-      "style": "normal"
-    },
-    {
       "civilianWord": "Gros plan",
-      "undercoverWord": "Champ contrechamp",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Plan sequence",
-      "undercoverWord": "Gros plan",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Travelling",
       "undercoverWord": "Champ contrechamp",
       "style": "normal"
     },
@@ -761,22 +291,7 @@
       "style": "normal"
     },
     {
-      "civilianWord": "Cliffhanger",
-      "undercoverWord": "Flashback",
-      "style": "normal"
-    },
-    {
       "civilianWord": "Flashback",
-      "undercoverWord": "Ellipse",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Twist final",
-      "undercoverWord": "Flashback",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Cliffhanger",
       "undercoverWord": "Ellipse",
       "style": "normal"
     },
@@ -786,22 +301,7 @@
       "style": "normal"
     },
     {
-      "civilianWord": "Vilain",
-      "undercoverWord": "Second role",
-      "style": "normal"
-    },
-    {
       "civilianWord": "Second role",
-      "undercoverWord": "Figurant",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Hero",
-      "undercoverWord": "Second role",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Vilain",
       "undercoverWord": "Figurant",
       "style": "normal"
     },
@@ -811,22 +311,7 @@
       "style": "normal"
     },
     {
-      "civilianWord": "Reboot",
-      "undercoverWord": "Suite",
-      "style": "normal"
-    },
-    {
       "civilianWord": "Suite",
-      "undercoverWord": "Prequel",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Remake",
-      "undercoverWord": "Suite",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Reboot",
       "undercoverWord": "Prequel",
       "style": "normal"
     },
@@ -836,22 +321,7 @@
       "style": "normal"
     },
     {
-      "civilianWord": "Trilogie",
-      "undercoverWord": "Spin-off",
-      "style": "normal"
-    },
-    {
       "civilianWord": "Spin-off",
-      "undercoverWord": "Cross-over",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Saga",
-      "undercoverWord": "Spin-off",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Trilogie",
       "undercoverWord": "Cross-over",
       "style": "normal"
     },
@@ -861,22 +331,7 @@
       "style": "normal"
     },
     {
-      "civilianWord": "Disney+",
-      "undercoverWord": "Prime Video",
-      "style": "normal"
-    },
-    {
       "civilianWord": "Prime Video",
-      "undercoverWord": "Canal+",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Netflix",
-      "undercoverWord": "Prime Video",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Disney+",
       "undercoverWord": "Canal+",
       "style": "normal"
     },
@@ -886,22 +341,7 @@
       "style": "normal"
     },
     {
-      "civilianWord": "Mostra de Venise",
-      "undercoverWord": "Berlinale",
-      "style": "normal"
-    },
-    {
       "civilianWord": "Berlinale",
-      "undercoverWord": "Sundance",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Festival de Cannes",
-      "undercoverWord": "Berlinale",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Mostra de Venise",
       "undercoverWord": "Sundance",
       "style": "normal"
     },
@@ -911,22 +351,7 @@
       "style": "normal"
     },
     {
-      "civilianWord": "Buster Keaton",
-      "undercoverWord": "Laurel et Hardy",
-      "style": "normal"
-    },
-    {
       "civilianWord": "Laurel et Hardy",
-      "undercoverWord": "Tati",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Charlie Chaplin",
-      "undercoverWord": "Laurel et Hardy",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Buster Keaton",
       "undercoverWord": "Tati",
       "style": "normal"
     },
@@ -936,22 +361,7 @@
       "style": "normal"
     },
     {
-      "civilianWord": "Nolan",
-      "undercoverWord": "Tarantino",
-      "style": "normal"
-    },
-    {
       "civilianWord": "Tarantino",
-      "undercoverWord": "Scorsese",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Spielberg",
-      "undercoverWord": "Tarantino",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Nolan",
       "undercoverWord": "Scorsese",
       "style": "normal"
     },
@@ -961,22 +371,7 @@
       "style": "normal"
     },
     {
-      "civilianWord": "Hitchcock",
-      "undercoverWord": "Cameron",
-      "style": "normal"
-    },
-    {
       "civilianWord": "Cameron",
-      "undercoverWord": "Ridley Scott",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Kubrick",
-      "undercoverWord": "Cameron",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Hitchcock",
       "undercoverWord": "Ridley Scott",
       "style": "normal"
     },
@@ -986,22 +381,7 @@
       "style": "normal"
     },
     {
-      "civilianWord": "Brad Pitt",
-      "undercoverWord": "Tom Cruise",
-      "style": "normal"
-    },
-    {
       "civilianWord": "Tom Cruise",
-      "undercoverWord": "Denzel Washington",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "DiCaprio",
-      "undercoverWord": "Tom Cruise",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Brad Pitt",
       "undercoverWord": "Denzel Washington",
       "style": "normal"
     },
@@ -1011,22 +391,7 @@
       "style": "normal"
     },
     {
-      "civilianWord": "Natalie Portman",
-      "undercoverWord": "Scarlett Johansson",
-      "style": "normal"
-    },
-    {
       "civilianWord": "Scarlett Johansson",
-      "undercoverWord": "Emma Stone",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Meryl Streep",
-      "undercoverWord": "Scarlett Johansson",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Natalie Portman",
       "undercoverWord": "Emma Stone",
       "style": "normal"
     },
@@ -1036,22 +401,7 @@
       "style": "normal"
     },
     {
-      "civilianWord": "Peplum",
-      "undercoverWord": "Film noir",
-      "style": "normal"
-    },
-    {
       "civilianWord": "Film noir",
-      "undercoverWord": "Biopic",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Western",
-      "undercoverWord": "Film noir",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Peplum",
       "undercoverWord": "Biopic",
       "style": "normal"
     },
@@ -1061,22 +411,7 @@
       "style": "normal"
     },
     {
-      "civilianWord": "Long-metrage",
-      "undercoverWord": "Documentaire",
-      "style": "normal"
-    },
-    {
       "civilianWord": "Documentaire",
-      "undercoverWord": "Animation",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Court-metrage",
-      "undercoverWord": "Documentaire",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Long-metrage",
       "undercoverWord": "Animation",
       "style": "normal"
     },
@@ -1086,22 +421,7 @@
       "style": "normal"
     },
     {
-      "civilianWord": "Critique presse",
-      "undercoverWord": "Note spectateur",
-      "style": "normal"
-    },
-    {
       "civilianWord": "Note spectateur",
-      "undercoverWord": "Flop",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Box-office",
-      "undercoverWord": "Note spectateur",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Critique presse",
       "undercoverWord": "Flop",
       "style": "normal"
     },
@@ -1111,22 +431,7 @@
       "style": "normal"
     },
     {
-      "civilianWord": "Replique culte",
-      "undercoverWord": "Musique culte",
-      "style": "normal"
-    },
-    {
       "civilianWord": "Musique culte",
-      "undercoverWord": "Costume culte",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Scene culte",
-      "undercoverWord": "Musique culte",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Replique culte",
       "undercoverWord": "Costume culte",
       "style": "normal"
     },
@@ -1136,373 +441,8 @@
       "style": "normal"
     },
     {
-      "civilianWord": "Audition",
-      "undercoverWord": "Lecture de table",
-      "style": "normal"
-    },
-    {
       "civilianWord": "Lecture de table",
       "undercoverWord": "Improvisation",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Casting",
-      "undercoverWord": "Lecture de table",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Audition",
-      "undercoverWord": "Improvisation",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Avatar",
-      "undercoverWord": "Star Trek",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Aliens",
-      "undercoverWord": "Dune",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Aliens",
-      "undercoverWord": "Interstellar",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Terminator",
-      "undercoverWord": "Tenet",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Titanic",
-      "undercoverWord": "Jurassic Park",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Titanic",
-      "undercoverWord": "Harry Potter",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Avatar",
-      "undercoverWord": "Seigneur des Anneaux",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Titanic",
-      "undercoverWord": "Rocky",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Blade Runner",
-      "undercoverWord": "Tenet",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Star Wars",
-      "undercoverWord": "Matrix",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Star Wars",
-      "undercoverWord": "Jurassic Park",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Star Trek",
-      "undercoverWord": "King Kong",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Dune",
-      "undercoverWord": "Hobbit",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Blade Runner",
-      "undercoverWord": "La Momie",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Blade Runner",
-      "undercoverWord": "Kingsman",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Star Wars",
-      "undercoverWord": "James Bond",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Inception",
-      "undercoverWord": "King Kong",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Interstellar",
-      "undercoverWord": "Godzilla",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Tenet",
-      "undercoverWord": "Narnia",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Matrix",
-      "undercoverWord": "Indiana Jones",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Matrix",
-      "undercoverWord": "James Bond",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Inception",
-      "undercoverWord": "Jason Bourne",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Jaws",
-      "undercoverWord": "Narnia",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Jurassic Park",
-      "undercoverWord": "Harry Potter",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Godzilla",
-      "undercoverWord": "Mission Impossible",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Jaws",
-      "undercoverWord": "Million Dollar Baby",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Jaws",
-      "undercoverWord": "Casino",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Seigneur des Anneaux",
-      "undercoverWord": "Tomb Raider",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Hobbit",
-      "undercoverWord": "Uncharted",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Narnia",
-      "undercoverWord": "Kingsman",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Harry Potter",
-      "undercoverWord": "Rocky",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "La Momie",
-      "undercoverWord": "Kingsman",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Indiana Jones",
-      "undercoverWord": "James Bond",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Indiana Jones",
-      "undercoverWord": "Rocky",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Tomb Raider",
-      "undercoverWord": "Creed",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Uncharted",
-      "undercoverWord": "Les Affranchis",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "La Momie",
-      "undercoverWord": "Django Unchained",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Jason Bourne",
-      "undercoverWord": "Creed",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Mission Impossible",
-      "undercoverWord": "Raging Bull",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Million Dollar Baby",
-      "undercoverWord": "Casino",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Raging Bull",
-      "undercoverWord": "Seul au monde",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Million Dollar Baby",
-      "undercoverWord": "Chicago",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Scarface",
-      "undercoverWord": "Kill Bill",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Les Affranchis",
-      "undercoverWord": "Reservoir Dogs",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Casino",
-      "undercoverWord": "Philadelphia",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Le Parrain",
-      "undercoverWord": "La La Land",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Le Parrain",
-      "undercoverWord": "Shining",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Scarface",
-      "undercoverWord": "Scream",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Le Parrain",
-      "undercoverWord": "Le Roi Lion",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Django Unchained",
-      "undercoverWord": "Philadelphia",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Pulp Fiction",
-      "undercoverWord": "Forrest Gump",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Pulp Fiction",
-      "undercoverWord": "La La Land",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Kill Bill",
-      "undercoverWord": "Whiplash",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Reservoir Dogs",
-      "undercoverWord": "Halloween",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Django Unchained",
-      "undercoverWord": "Wall-E",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Pulp Fiction",
-      "undercoverWord": "Toy Story",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Green Mile",
-      "undercoverWord": "Whiplash",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Seul au monde",
-      "undercoverWord": "Moulin Rouge",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Philadelphia",
-      "undercoverWord": "Conjuring",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Forrest Gump",
-      "undercoverWord": "Alien",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Forrest Gump",
-      "undercoverWord": "Toy Story",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Green Mile",
-      "undercoverWord": "Cars",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Chicago",
-      "undercoverWord": "Conjuring",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "La La Land",
-      "undercoverWord": "Shining",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Moulin Rouge",
-      "undercoverWord": "Ratatouille",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Chicago",
-      "undercoverWord": "La Belle et la Bete",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Scream",
-      "undercoverWord": "Predator",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Halloween",
-      "undercoverWord": "The Thing",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Conjuring",
-      "undercoverWord": "Wall-E",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Shining",
-      "undercoverWord": "Le Roi Lion",
       "style": "normal"
     }
   ]
