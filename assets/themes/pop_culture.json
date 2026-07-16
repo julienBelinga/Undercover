@@ -6,61 +6,6 @@
   "color": "#7AE582",
   "pairs": [
     {
-      "civilianWord": "Apology video",
-      "undercoverWord": "Monetisation des larmes",
-      "style": "troll"
-    },
-    {
-      "civilianWord": "Thread Twitter",
-      "undercoverWord": "Tribunal sans juge",
-      "style": "soft_joke"
-    },
-    {
-      "civilianWord": "Influenceur voyage",
-      "undercoverWord": "Travail depuis la plage sponsorisee",
-      "style": "soft_joke"
-    },
-    {
-      "civilianWord": "Like et subscribe",
-      "undercoverWord": "Mendicite algorithmique",
-      "style": "troll"
-    },
-    {
-      "civilianWord": "Storytime",
-      "undercoverWord": "Mensonge avec ring light",
-      "style": "troll"
-    },
-    {
-      "civilianWord": "Bad buzz",
-      "undercoverWord": "Stage intensif de silence",
-      "style": "soft_joke"
-    },
-    {
-      "civilianWord": "Tier list",
-      "undercoverWord": "Jugement dernier en PNG",
-      "style": "soft_joke"
-    },
-    {
-      "civilianWord": "Fan theory",
-      "undercoverWord": "These avec trois pixels",
-      "style": "soft_joke"
-    },
-    {
-      "civilianWord": "Spoiler",
-      "undercoverWord": "Crime social mineur",
-      "style": "soft_joke"
-    },
-    {
-      "civilianWord": "TikTok trend",
-      "undercoverWord": "Memoire collective de 48h",
-      "style": "troll"
-    },
-    {
-      "civilianWord": "Green flag",
-      "undercoverWord": "Minimum syndical romantique",
-      "style": "soft_joke"
-    },
-    {
       "civilianWord": "Red flag",
       "undercoverWord": "Gyrophare sentimental",
       "style": "soft_joke"
@@ -71,22 +16,7 @@
       "style": "normal"
     },
     {
-      "civilianWord": "Instagram",
-      "undercoverWord": "YouTube",
-      "style": "normal"
-    },
-    {
       "civilianWord": "YouTube",
-      "undercoverWord": "Twitch",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "TikTok",
-      "undercoverWord": "YouTube",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Instagram",
       "undercoverWord": "Twitch",
       "style": "normal"
     },
@@ -96,22 +26,7 @@
       "style": "normal"
     },
     {
-      "civilianWord": "Disney+",
-      "undercoverWord": "Prime Video",
-      "style": "normal"
-    },
-    {
       "civilianWord": "Prime Video",
-      "undercoverWord": "Crunchyroll",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Netflix",
-      "undercoverWord": "Prime Video",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Disney+",
       "undercoverWord": "Crunchyroll",
       "style": "normal"
     },
@@ -121,22 +36,7 @@
       "style": "normal"
     },
     {
-      "civilianWord": "Template",
-      "undercoverWord": "Reaction GIF",
-      "style": "normal"
-    },
-    {
       "civilianWord": "Reaction GIF",
-      "undercoverWord": "Sticker",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Meme",
-      "undercoverWord": "Reaction GIF",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Template",
       "undercoverWord": "Sticker",
       "style": "normal"
     },
@@ -146,22 +46,7 @@
       "style": "normal"
     },
     {
-      "civilianWord": "Storytime",
-      "undercoverWord": "Trend",
-      "style": "normal"
-    },
-    {
       "civilianWord": "Trend",
-      "undercoverWord": "Challenge",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "POV",
-      "undercoverWord": "Trend",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Storytime",
       "undercoverWord": "Challenge",
       "style": "normal"
     },
@@ -171,22 +56,7 @@
       "style": "normal"
     },
     {
-      "civilianWord": "Follow",
-      "undercoverWord": "Subscribe",
-      "style": "normal"
-    },
-    {
       "civilianWord": "Subscribe",
-      "undercoverWord": "Share",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Like",
-      "undercoverWord": "Subscribe",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Follow",
       "undercoverWord": "Share",
       "style": "normal"
     },
@@ -196,22 +66,7 @@
       "style": "normal"
     },
     {
-      "civilianWord": "Streamer",
-      "undercoverWord": "Youtubeur",
-      "style": "normal"
-    },
-    {
       "civilianWord": "Youtubeur",
-      "undercoverWord": "Tiktokeur",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Influenceur",
-      "undercoverWord": "Youtubeur",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Streamer",
       "undercoverWord": "Tiktokeur",
       "style": "normal"
     },
@@ -221,22 +76,7 @@
       "style": "normal"
     },
     {
-      "civilianWord": "Podcast",
-      "undercoverWord": "Live",
-      "style": "normal"
-    },
-    {
       "civilianWord": "Live",
-      "undercoverWord": "Short",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Vlog",
-      "undercoverWord": "Live",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Podcast",
       "undercoverWord": "Short",
       "style": "normal"
     },
@@ -246,22 +86,7 @@
       "style": "normal"
     },
     {
-      "civilianWord": "Caption",
-      "undercoverWord": "Bio",
-      "style": "normal"
-    },
-    {
       "civilianWord": "Bio",
-      "undercoverWord": "Thread",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Hashtag",
-      "undercoverWord": "Bio",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Caption",
       "undercoverWord": "Thread",
       "style": "normal"
     },
@@ -271,22 +96,7 @@
       "style": "normal"
     },
     {
-      "civilianWord": "DC",
-      "undercoverWord": "Star Wars",
-      "style": "normal"
-    },
-    {
       "civilianWord": "Star Wars",
-      "undercoverWord": "Harry Potter",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Marvel",
-      "undercoverWord": "Star Wars",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "DC",
       "undercoverWord": "Harry Potter",
       "style": "normal"
     },
@@ -296,22 +106,7 @@
       "style": "normal"
     },
     {
-      "civilianWord": "Anime",
-      "undercoverWord": "Cartoon",
-      "style": "normal"
-    },
-    {
       "civilianWord": "Cartoon",
-      "undercoverWord": "Comics",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Manga",
-      "undercoverWord": "Cartoon",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Anime",
       "undercoverWord": "Comics",
       "style": "normal"
     },
@@ -321,22 +116,7 @@
       "style": "normal"
     },
     {
-      "civilianWord": "Rap FR",
-      "undercoverWord": "Pop US",
-      "style": "normal"
-    },
-    {
       "civilianWord": "Pop US",
-      "undercoverWord": "Afrobeats",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "K-pop",
-      "undercoverWord": "Pop US",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Rap FR",
       "undercoverWord": "Afrobeats",
       "style": "normal"
     },
@@ -346,22 +126,7 @@
       "style": "normal"
     },
     {
-      "civilianWord": "Festival",
-      "undercoverWord": "Showcase",
-      "style": "normal"
-    },
-    {
       "civilianWord": "Showcase",
-      "undercoverWord": "Tournee",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Concert",
-      "undercoverWord": "Showcase",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Festival",
       "undercoverWord": "Tournee",
       "style": "normal"
     },
@@ -371,22 +136,7 @@
       "style": "normal"
     },
     {
-      "civilianWord": "Streetwear",
-      "undercoverWord": "Casquette",
-      "style": "normal"
-    },
-    {
       "civilianWord": "Casquette",
-      "undercoverWord": "Hoodie",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Sneakers",
-      "undercoverWord": "Casquette",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Streetwear",
       "undercoverWord": "Hoodie",
       "style": "normal"
     },
@@ -396,22 +146,7 @@
       "style": "normal"
     },
     {
-      "civilianWord": "Adidas",
-      "undercoverWord": "Jordan",
-      "style": "normal"
-    },
-    {
       "civilianWord": "Jordan",
-      "undercoverWord": "New Balance",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Nike",
-      "undercoverWord": "Jordan",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Adidas",
       "undercoverWord": "New Balance",
       "style": "normal"
     },
@@ -421,22 +156,7 @@
       "style": "normal"
     },
     {
-      "civilianWord": "Oppenheimer",
-      "undercoverWord": "Wednesday",
-      "style": "normal"
-    },
-    {
       "civilianWord": "Wednesday",
-      "undercoverWord": "Stranger Things",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Barbie",
-      "undercoverWord": "Wednesday",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Oppenheimer",
       "undercoverWord": "Stranger Things",
       "style": "normal"
     },
@@ -446,22 +166,7 @@
       "style": "normal"
     },
     {
-      "civilianWord": "Casa de Papel",
-      "undercoverWord": "The Boys",
-      "style": "normal"
-    },
-    {
       "civilianWord": "The Boys",
-      "undercoverWord": "Euphoria",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Squid Game",
-      "undercoverWord": "The Boys",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Casa de Papel",
       "undercoverWord": "Euphoria",
       "style": "normal"
     },
@@ -471,22 +176,7 @@
       "style": "normal"
     },
     {
-      "civilianWord": "House of the Dragon",
-      "undercoverWord": "The Witcher",
-      "style": "normal"
-    },
-    {
       "civilianWord": "The Witcher",
-      "undercoverWord": "The Last of Us",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Game of Thrones",
-      "undercoverWord": "The Witcher",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "House of the Dragon",
       "undercoverWord": "The Last of Us",
       "style": "normal"
     },
@@ -496,22 +186,7 @@
       "style": "normal"
     },
     {
-      "civilianWord": "Fortnite",
-      "undercoverWord": "Minecraft",
-      "style": "normal"
-    },
-    {
       "civilianWord": "Minecraft",
-      "undercoverWord": "Roblox",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Among Us",
-      "undercoverWord": "Minecraft",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Fortnite",
       "undercoverWord": "Roblox",
       "style": "normal"
     },
@@ -521,22 +196,7 @@
       "style": "normal"
     },
     {
-      "civilianWord": "Yu-Gi-Oh",
-      "undercoverWord": "Magic",
-      "style": "normal"
-    },
-    {
       "civilianWord": "Magic",
-      "undercoverWord": "Uno",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Pokemon",
-      "undercoverWord": "Magic",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Yu-Gi-Oh",
       "undercoverWord": "Uno",
       "style": "normal"
     },
@@ -546,17 +206,7 @@
       "style": "normal"
     },
     {
-      "civilianWord": "GIF",
-      "undercoverWord": "Sticker",
-      "style": "normal"
-    },
-    {
       "civilianWord": "Sticker",
-      "undercoverWord": "Bitmoji",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "GIF",
       "undercoverWord": "Bitmoji",
       "style": "normal"
     },
@@ -566,22 +216,7 @@
       "style": "normal"
     },
     {
-      "civilianWord": "Green flag",
-      "undercoverWord": "Ick",
-      "style": "normal"
-    },
-    {
       "civilianWord": "Ick",
-      "undercoverWord": "Crush",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Red flag",
-      "undercoverWord": "Ick",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Green flag",
       "undercoverWord": "Crush",
       "style": "normal"
     },
@@ -591,22 +226,7 @@
       "style": "normal"
     },
     {
-      "civilianWord": "Fanbase",
-      "undercoverWord": "Hater",
-      "style": "normal"
-    },
-    {
       "civilianWord": "Hater",
-      "undercoverWord": "Community manager",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Stan",
-      "undercoverWord": "Hater",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Fanbase",
       "undercoverWord": "Community manager",
       "style": "normal"
     },
@@ -616,22 +236,7 @@
       "style": "normal"
     },
     {
-      "civilianWord": "Clash",
-      "undercoverWord": "Thread Twitter",
-      "style": "normal"
-    },
-    {
       "civilianWord": "Thread Twitter",
-      "undercoverWord": "Apology video",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Drama",
-      "undercoverWord": "Thread Twitter",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Clash",
       "undercoverWord": "Apology video",
       "style": "normal"
     },
@@ -641,22 +246,7 @@
       "style": "normal"
     },
     {
-      "civilianWord": "Bad buzz",
-      "undercoverWord": "Reputation",
-      "style": "normal"
-    },
-    {
       "civilianWord": "Reputation",
-      "undercoverWord": "Comeback",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Cancel culture",
-      "undercoverWord": "Reputation",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Bad buzz",
       "undercoverWord": "Comeback",
       "style": "normal"
     },
@@ -666,22 +256,7 @@
       "style": "normal"
     },
     {
-      "civilianWord": "Convention",
-      "undercoverWord": "Comic Con",
-      "style": "normal"
-    },
-    {
       "civilianWord": "Comic Con",
-      "undercoverWord": "Japan Expo",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Cosplay",
-      "undercoverWord": "Comic Con",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Convention",
       "undercoverWord": "Japan Expo",
       "style": "normal"
     },
@@ -691,22 +266,7 @@
       "style": "normal"
     },
     {
-      "civilianWord": "Figurine",
-      "undercoverWord": "Poster",
-      "style": "normal"
-    },
-    {
       "civilianWord": "Poster",
-      "undercoverWord": "Collector",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Goodies",
-      "undercoverWord": "Poster",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Figurine",
       "undercoverWord": "Collector",
       "style": "normal"
     },
@@ -716,22 +276,7 @@
       "style": "normal"
     },
     {
-      "civilianWord": "Leak",
-      "undercoverWord": "Teaser",
-      "style": "normal"
-    },
-    {
       "civilianWord": "Teaser",
-      "undercoverWord": "Trailer",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Spoiler",
-      "undercoverWord": "Teaser",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Leak",
       "undercoverWord": "Trailer",
       "style": "normal"
     },
@@ -741,22 +286,7 @@
       "style": "normal"
     },
     {
-      "civilianWord": "Fan theory",
-      "undercoverWord": "Retcon",
-      "style": "normal"
-    },
-    {
       "civilianWord": "Retcon",
-      "undercoverWord": "Lore",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Canon",
-      "undercoverWord": "Retcon",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Fan theory",
       "undercoverWord": "Lore",
       "style": "normal"
     },
@@ -766,22 +296,7 @@
       "style": "normal"
     },
     {
-      "civilianWord": "Caméo",
-      "undercoverWord": "Multivers",
-      "style": "normal"
-    },
-    {
       "civilianWord": "Multivers",
-      "undercoverWord": "Timeline",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Crossover",
-      "undercoverWord": "Multivers",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Caméo",
       "undercoverWord": "Timeline",
       "style": "normal"
     },
@@ -791,22 +306,7 @@
       "style": "normal"
     },
     {
-      "civilianWord": "OTP",
-      "undercoverWord": "Fanfic",
-      "style": "normal"
-    },
-    {
       "civilianWord": "Fanfic",
-      "undercoverWord": "Headcanon",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Ship",
-      "undercoverWord": "Fanfic",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "OTP",
       "undercoverWord": "Headcanon",
       "style": "normal"
     },
@@ -816,22 +316,7 @@
       "style": "normal"
     },
     {
-      "civilianWord": "Album",
-      "undercoverWord": "Single",
-      "style": "normal"
-    },
-    {
       "civilianWord": "Single",
-      "undercoverWord": "Clip",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Playlist",
-      "undercoverWord": "Single",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Album",
       "undercoverWord": "Clip",
       "style": "normal"
     },
@@ -841,22 +326,7 @@
       "style": "normal"
     },
     {
-      "civilianWord": "Freestyle",
-      "undercoverWord": "Featuring",
-      "style": "normal"
-    },
-    {
       "civilianWord": "Featuring",
-      "undercoverWord": "Remix",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Autotune",
-      "undercoverWord": "Featuring",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Freestyle",
       "undercoverWord": "Remix",
       "style": "normal"
     },
@@ -866,22 +336,7 @@
       "style": "normal"
     },
     {
-      "civilianWord": "CD",
-      "undercoverWord": "Streaming",
-      "style": "normal"
-    },
-    {
       "civilianWord": "Streaming",
-      "undercoverWord": "Radio",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Vinyle",
-      "undercoverWord": "Streaming",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "CD",
       "undercoverWord": "Radio",
       "style": "normal"
     },
@@ -891,22 +346,7 @@
       "style": "normal"
     },
     {
-      "civilianWord": "Viral",
-      "undercoverWord": "Algorithme",
-      "style": "normal"
-    },
-    {
       "civilianWord": "Algorithme",
-      "undercoverWord": "For You Page",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Buzz",
-      "undercoverWord": "Algorithme",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Viral",
       "undercoverWord": "For You Page",
       "style": "normal"
     },
@@ -916,22 +356,7 @@
       "style": "normal"
     },
     {
-      "civilianWord": "Transition",
-      "undercoverWord": "Montage",
-      "style": "normal"
-    },
-    {
       "civilianWord": "Montage",
-      "undercoverWord": "Slow motion",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Filtre",
-      "undercoverWord": "Montage",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Transition",
       "undercoverWord": "Slow motion",
       "style": "normal"
     },
@@ -941,22 +366,7 @@
       "style": "normal"
     },
     {
-      "civilianWord": "Micro cravate",
-      "undercoverWord": "Fond vert",
-      "style": "normal"
-    },
-    {
       "civilianWord": "Fond vert",
-      "undercoverWord": "Setup",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Ring light",
-      "undercoverWord": "Fond vert",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Micro cravate",
       "undercoverWord": "Setup",
       "style": "normal"
     },
@@ -966,22 +376,7 @@
       "style": "normal"
     },
     {
-      "civilianWord": "Haul",
-      "undercoverWord": "Review",
-      "style": "normal"
-    },
-    {
       "civilianWord": "Review",
-      "undercoverWord": "Reaction",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Unboxing",
-      "undercoverWord": "Review",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Haul",
       "undercoverWord": "Reaction",
       "style": "normal"
     },
@@ -991,22 +386,7 @@
       "style": "normal"
     },
     {
-      "civilianWord": "Iceberg",
-      "undercoverWord": "Blind test",
-      "style": "normal"
-    },
-    {
       "civilianWord": "Blind test",
-      "undercoverWord": "Quiz",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Tier list",
-      "undercoverWord": "Blind test",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Iceberg",
       "undercoverWord": "Quiz",
       "style": "normal"
     },
@@ -1016,22 +396,7 @@
       "style": "normal"
     },
     {
-      "civilianWord": "Gen Z",
-      "undercoverWord": "Millennial",
-      "style": "normal"
-    },
-    {
       "civilianWord": "Millennial",
-      "undercoverWord": "Boomer",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Nostalgie",
-      "undercoverWord": "Millennial",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Gen Z",
       "undercoverWord": "Boomer",
       "style": "normal"
     },
@@ -1041,22 +406,7 @@
       "style": "normal"
     },
     {
-      "civilianWord": "Skyblog",
-      "undercoverWord": "Facebook",
-      "style": "normal"
-    },
-    {
       "civilianWord": "Facebook",
-      "undercoverWord": "Snapchat",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "MSN",
-      "undercoverWord": "Facebook",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Skyblog",
       "undercoverWord": "Snapchat",
       "style": "normal"
     },
@@ -1066,22 +416,7 @@
       "style": "normal"
     },
     {
-      "civilianWord": "Rihanna",
-      "undercoverWord": "Taylor Swift",
-      "style": "normal"
-    },
-    {
       "civilianWord": "Taylor Swift",
-      "undercoverWord": "Lady Gaga",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Beyonce",
-      "undercoverWord": "Taylor Swift",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Rihanna",
       "undercoverWord": "Lady Gaga",
       "style": "normal"
     },
@@ -1091,22 +426,7 @@
       "style": "normal"
     },
     {
-      "civilianWord": "Mister V",
-      "undercoverWord": "Gotaga",
-      "style": "normal"
-    },
-    {
       "civilianWord": "Gotaga",
-      "undercoverWord": "Kameto",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Squeezie",
-      "undercoverWord": "Gotaga",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Mister V",
       "undercoverWord": "Kameto",
       "style": "normal"
     },
@@ -1116,22 +436,7 @@
       "style": "normal"
     },
     {
-      "civilianWord": "Grogu",
-      "undercoverWord": "Mandalorian",
-      "style": "normal"
-    },
-    {
       "civilianWord": "Mandalorian",
-      "undercoverWord": "Dark Vador",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Baby Yoda",
-      "undercoverWord": "Mandalorian",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Grogu",
       "undercoverWord": "Dark Vador",
       "style": "normal"
     },
@@ -1141,22 +446,7 @@
       "style": "normal"
     },
     {
-      "civilianWord": "Ed Sheeran",
-      "undercoverWord": "Rupert Grint",
-      "style": "normal"
-    },
-    {
       "civilianWord": "Rupert Grint",
-      "undercoverWord": "Ginger multiverse",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Ron Weasley",
-      "undercoverWord": "Rupert Grint",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Ed Sheeran",
       "undercoverWord": "Ginger multiverse",
       "style": "normal"
     },
@@ -1166,343 +456,8 @@
       "style": "normal"
     },
     {
-      "civilianWord": "Poubelle",
-      "undercoverWord": "Meme manga",
-      "style": "normal"
-    },
-    {
       "civilianWord": "Meme manga",
       "undercoverWord": "Debat impossible",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Sakura",
-      "undercoverWord": "Meme manga",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Poubelle",
-      "undercoverWord": "Debat impossible",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Instagram",
-      "undercoverWord": "Disney+",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "YouTube",
-      "undercoverWord": "Prime Video",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "YouTube",
-      "undercoverWord": "Reaction GIF",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Twitch",
-      "undercoverWord": "Sticker",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Twitch",
-      "undercoverWord": "Challenge",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "TikTok",
-      "undercoverWord": "POV",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "TikTok",
-      "undercoverWord": "Like",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Instagram",
-      "undercoverWord": "Follow",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Twitch",
-      "undercoverWord": "Short",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "TikTok",
-      "undercoverWord": "Hashtag",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Netflix",
-      "undercoverWord": "Meme",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Netflix",
-      "undercoverWord": "POV",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Disney+",
-      "undercoverWord": "Storytime",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Prime Video",
-      "undercoverWord": "Subscribe",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Crunchyroll",
-      "undercoverWord": "Tiktokeur",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Crunchyroll",
-      "undercoverWord": "Short",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Netflix",
-      "undercoverWord": "Vlog",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Crunchyroll",
-      "undercoverWord": "Comics",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Reaction GIF",
-      "undercoverWord": "Trend",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Meme",
-      "undercoverWord": "Influenceur",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Meme",
-      "undercoverWord": "Vlog",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Template",
-      "undercoverWord": "Podcast",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Template",
-      "undercoverWord": "Caption",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Challenge",
-      "undercoverWord": "Share",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "POV",
-      "undercoverWord": "Like",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Trend",
-      "undercoverWord": "Live",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Challenge",
-      "undercoverWord": "Thread",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Follow",
-      "undercoverWord": "Streamer",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Subscribe",
-      "undercoverWord": "Youtubeur",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Share",
-      "undercoverWord": "Short",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Share",
-      "undercoverWord": "Thread",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Like",
-      "undercoverWord": "Hashtag",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Influenceur",
-      "undercoverWord": "Vlog",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Influenceur",
-      "undercoverWord": "Hashtag",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Streamer",
-      "undercoverWord": "Caption",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Youtubeur",
-      "undercoverWord": "Star Wars",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Tiktokeur",
-      "undercoverWord": "Comics",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Tiktokeur",
-      "undercoverWord": "Afrobeats",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Live",
-      "undercoverWord": "Bio",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Podcast",
-      "undercoverWord": "Rap FR",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Thread",
-      "undercoverWord": "Harry Potter",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Bio",
-      "undercoverWord": "Pop US",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "DC",
-      "undercoverWord": "Anime",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Star Wars",
-      "undercoverWord": "Cartoon",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Harry Potter",
-      "undercoverWord": "Afrobeats",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Harry Potter",
-      "undercoverWord": "Tournee",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Marvel",
-      "undercoverWord": "Concert",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Marvel",
-      "undercoverWord": "Sneakers",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "DC",
-      "undercoverWord": "Streetwear",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Marvel",
-      "undercoverWord": "Squid Game",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Comics",
-      "undercoverWord": "Afrobeats",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Manga",
-      "undercoverWord": "K-pop",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Manga",
-      "undercoverWord": "Concert",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Anime",
-      "undercoverWord": "Festival",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Cartoon",
-      "undercoverWord": "Casquette",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Manga",
-      "undercoverWord": "Barbie",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Rap FR",
-      "undercoverWord": "Festival",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Pop US",
-      "undercoverWord": "Showcase",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "K-pop",
-      "undercoverWord": "Nike",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "K-pop",
-      "undercoverWord": "Barbie",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Tournee",
-      "undercoverWord": "Hoodie",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Concert",
-      "undercoverWord": "Sneakers",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Showcase",
-      "undercoverWord": "Wednesday",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Tournee",
-      "undercoverWord": "Euphoria",
       "style": "normal"
     }
   ]

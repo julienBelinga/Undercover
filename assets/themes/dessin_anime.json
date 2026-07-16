@@ -11,39 +11,9 @@
       "style": "troll"
     },
     {
-      "civilianWord": "Rapido",
-      "undercoverWord": "Razmo",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Bob l eponge",
-      "undercoverWord": "Employe du mois sous-payé",
-      "style": "troll"
-    },
-    {
-      "civilianWord": "Patrick",
-      "undercoverWord": "QI en etoile de mer",
-      "style": "troll"
-    },
-    {
-      "civilianWord": "Carlo",
-      "undercoverWord": "Burn-out sous marin",
-      "style": "soft_joke"
-    },
-    {
       "civilianWord": "Dora",
       "undercoverWord": "GPS qui demande la route",
       "style": "troll"
-    },
-    {
-      "civilianWord": "Tchoupi",
-      "undercoverWord": "Probleme minuscule maximal",
-      "style": "soft_joke"
-    },
-    {
-      "civilianWord": "Chipeur",
-      "undercoverWord": "Voleur avec prevention orale",
-      "style": "soft_joke"
     },
     {
       "civilianWord": "Crocodile Famille Pirate",
@@ -51,42 +21,12 @@
       "style": "troll"
     },
     {
-      "civilianWord": "Bourriquet",
-      "undercoverWord": "Depression merchandising",
-      "style": "troll"
-    },
-    {
-      "civilianWord": "Olaf",
-      "undercoverWord": "Bonhomme de neige trop confiant",
-      "style": "soft_joke"
-    },
-    {
-      "civilianWord": "Flash McQueen",
-      "undercoverWord": "Assurance auto en sueur",
-      "style": "soft_joke"
-    },
-    {
       "civilianWord": "Bob l eponge",
       "undercoverWord": "Patrick",
       "style": "normal"
     },
     {
-      "civilianWord": "Patrick",
-      "undercoverWord": "Carlo",
-      "style": "normal"
-    },
-    {
       "civilianWord": "Carlo",
-      "undercoverWord": "Mr Krabs",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Bob l eponge",
-      "undercoverWord": "Carlo",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Patrick",
       "undercoverWord": "Mr Krabs",
       "style": "normal"
     },
@@ -96,22 +36,7 @@
       "style": "normal"
     },
     {
-      "civilianWord": "Plancton",
-      "undercoverWord": "Gary",
-      "style": "normal"
-    },
-    {
       "civilianWord": "Gary",
-      "undercoverWord": "Madame Puff",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Sandy",
-      "undercoverWord": "Gary",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Plancton",
       "undercoverWord": "Madame Puff",
       "style": "normal"
     },
@@ -121,22 +46,7 @@
       "style": "normal"
     },
     {
-      "civilianWord": "Jerry",
-      "undercoverWord": "Titi",
-      "style": "normal"
-    },
-    {
       "civilianWord": "Titi",
-      "undercoverWord": "Grosminet",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Tom",
-      "undercoverWord": "Titi",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Jerry",
       "undercoverWord": "Grosminet",
       "style": "normal"
     },
@@ -146,22 +56,7 @@
       "style": "normal"
     },
     {
-      "civilianWord": "Daffy Duck",
-      "undercoverWord": "Porky Pig",
-      "style": "normal"
-    },
-    {
       "civilianWord": "Porky Pig",
-      "undercoverWord": "Elmer",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Bugs Bunny",
-      "undercoverWord": "Porky Pig",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Daffy Duck",
       "undercoverWord": "Elmer",
       "style": "normal"
     },
@@ -171,22 +66,7 @@
       "style": "normal"
     },
     {
-      "civilianWord": "Sammy",
-      "undercoverWord": "Vera",
-      "style": "normal"
-    },
-    {
       "civilianWord": "Vera",
-      "undercoverWord": "Daphné",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Scooby-Doo",
-      "undercoverWord": "Vera",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Sammy",
       "undercoverWord": "Daphné",
       "style": "normal"
     },
@@ -201,32 +81,12 @@
       "style": "normal"
     },
     {
-      "civilianWord": "Daphné",
-      "undercoverWord": "Mystery Machine",
-      "style": "normal"
-    },
-    {
       "civilianWord": "Les Simpson",
       "undercoverWord": "Homer",
       "style": "normal"
     },
     {
-      "civilianWord": "Homer",
-      "undercoverWord": "Marge",
-      "style": "normal"
-    },
-    {
       "civilianWord": "Marge",
-      "undercoverWord": "Bart",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Les Simpson",
-      "undercoverWord": "Marge",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Homer",
       "undercoverWord": "Bart",
       "style": "normal"
     },
@@ -236,22 +96,7 @@
       "style": "normal"
     },
     {
-      "civilianWord": "Maggie",
-      "undercoverWord": "Moe",
-      "style": "normal"
-    },
-    {
       "civilianWord": "Moe",
-      "undercoverWord": "Flanders",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Lisa",
-      "undercoverWord": "Moe",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Maggie",
       "undercoverWord": "Flanders",
       "style": "normal"
     },
@@ -261,22 +106,7 @@
       "style": "normal"
     },
     {
-      "civilianWord": "Cartman",
-      "undercoverWord": "Kenny",
-      "style": "normal"
-    },
-    {
       "civilianWord": "Kenny",
-      "undercoverWord": "Stan",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "South Park",
-      "undercoverWord": "Kenny",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Cartman",
       "undercoverWord": "Stan",
       "style": "normal"
     },
@@ -286,22 +116,7 @@
       "style": "normal"
     },
     {
-      "civilianWord": "Morty",
-      "undercoverWord": "Summer",
-      "style": "normal"
-    },
-    {
       "civilianWord": "Summer",
-      "undercoverWord": "Beth",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Rick",
-      "undercoverWord": "Summer",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Morty",
       "undercoverWord": "Beth",
       "style": "normal"
     },
@@ -311,22 +126,7 @@
       "style": "normal"
     },
     {
-      "civilianWord": "Minnie",
-      "undercoverWord": "Donald",
-      "style": "normal"
-    },
-    {
       "civilianWord": "Donald",
-      "undercoverWord": "Dingo",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Mickey",
-      "undercoverWord": "Donald",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Minnie",
       "undercoverWord": "Dingo",
       "style": "normal"
     },
@@ -336,22 +136,7 @@
       "style": "normal"
     },
     {
-      "civilianWord": "Riri",
-      "undercoverWord": "Fifi",
-      "style": "normal"
-    },
-    {
       "civilianWord": "Fifi",
-      "undercoverWord": "Loulou",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Picsou",
-      "undercoverWord": "Fifi",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Riri",
       "undercoverWord": "Loulou",
       "style": "normal"
     },
@@ -361,22 +146,7 @@
       "style": "normal"
     },
     {
-      "civilianWord": "Tigrou",
-      "undercoverWord": "Porcinet",
-      "style": "normal"
-    },
-    {
       "civilianWord": "Porcinet",
-      "undercoverWord": "Bourriquet",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Winnie",
-      "undercoverWord": "Porcinet",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Tigrou",
       "undercoverWord": "Bourriquet",
       "style": "normal"
     },
@@ -386,22 +156,7 @@
       "style": "normal"
     },
     {
-      "civilianWord": "Ane",
-      "undercoverWord": "Fiona",
-      "style": "normal"
-    },
-    {
       "civilianWord": "Fiona",
-      "undercoverWord": "Chat Potte",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Shrek",
-      "undercoverWord": "Fiona",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Ane",
       "undercoverWord": "Chat Potte",
       "style": "normal"
     },
@@ -411,22 +166,7 @@
       "style": "normal"
     },
     {
-      "civilianWord": "Minion",
-      "undercoverWord": "Vector",
-      "style": "normal"
-    },
-    {
       "civilianWord": "Vector",
-      "undercoverWord": "Agnes",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Gru",
-      "undercoverWord": "Vector",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Minion",
       "undercoverWord": "Agnes",
       "style": "normal"
     },
@@ -436,22 +176,7 @@
       "style": "normal"
     },
     {
-      "civilianWord": "Minions",
-      "undercoverWord": "Les Indestructibles",
-      "style": "normal"
-    },
-    {
       "civilianWord": "Les Indestructibles",
-      "undercoverWord": "Megamind",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Moi moche et mechant",
-      "undercoverWord": "Les Indestructibles",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Minions",
       "undercoverWord": "Megamind",
       "style": "normal"
     },
@@ -461,17 +186,7 @@
       "style": "normal"
     },
     {
-      "civilianWord": "Elastigirl",
-      "undercoverWord": "Violette",
-      "style": "normal"
-    },
-    {
       "civilianWord": "Violette",
-      "undercoverWord": "Dash",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Elastigirl",
       "undercoverWord": "Dash",
       "style": "normal"
     },
@@ -481,22 +196,7 @@
       "style": "normal"
     },
     {
-      "civilianWord": "Woody",
-      "undercoverWord": "Buzz",
-      "style": "normal"
-    },
-    {
       "civilianWord": "Buzz",
-      "undercoverWord": "Jessie",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Toy Story",
-      "undercoverWord": "Buzz",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Woody",
       "undercoverWord": "Jessie",
       "style": "normal"
     },
@@ -506,22 +206,7 @@
       "style": "normal"
     },
     {
-      "civilianWord": "Remy",
-      "undercoverWord": "Linguini",
-      "style": "normal"
-    },
-    {
       "civilianWord": "Linguini",
-      "undercoverWord": "Colette",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Ratatouille",
-      "undercoverWord": "Linguini",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Remy",
       "undercoverWord": "Colette",
       "style": "normal"
     },
@@ -531,22 +216,7 @@
       "style": "normal"
     },
     {
-      "civilianWord": "Flash McQueen",
-      "undercoverWord": "Martin",
-      "style": "normal"
-    },
-    {
       "civilianWord": "Martin",
-      "undercoverWord": "Sally",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Cars",
-      "undercoverWord": "Martin",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Flash McQueen",
       "undercoverWord": "Sally",
       "style": "normal"
     },
@@ -556,22 +226,7 @@
       "style": "normal"
     },
     {
-      "civilianWord": "Dory",
-      "undercoverWord": "Marin",
-      "style": "normal"
-    },
-    {
       "civilianWord": "Marin",
-      "undercoverWord": "Crush",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Nemo",
-      "undercoverWord": "Marin",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Dory",
       "undercoverWord": "Crush",
       "style": "normal"
     },
@@ -581,22 +236,7 @@
       "style": "normal"
     },
     {
-      "civilianWord": "Sully",
-      "undercoverWord": "Bob Razowski",
-      "style": "normal"
-    },
-    {
       "civilianWord": "Bob Razowski",
-      "undercoverWord": "Boo",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Monstres et Cie",
-      "undercoverWord": "Bob Razowski",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Sully",
       "undercoverWord": "Boo",
       "style": "normal"
     },
@@ -606,22 +246,7 @@
       "style": "normal"
     },
     {
-      "civilianWord": "Elsa",
-      "undercoverWord": "Anna",
-      "style": "normal"
-    },
-    {
       "civilianWord": "Anna",
-      "undercoverWord": "Olaf",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "La Reine des Neiges",
-      "undercoverWord": "Anna",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Elsa",
       "undercoverWord": "Olaf",
       "style": "normal"
     },
@@ -631,22 +256,7 @@
       "style": "normal"
     },
     {
-      "civilianWord": "Maui",
-      "undercoverWord": "Hei Hei",
-      "style": "normal"
-    },
-    {
       "civilianWord": "Hei Hei",
-      "undercoverWord": "Te Fiti",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Vaiana",
-      "undercoverWord": "Hei Hei",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Maui",
       "undercoverWord": "Te Fiti",
       "style": "normal"
     },
@@ -656,22 +266,7 @@
       "style": "normal"
     },
     {
-      "civilianWord": "Mushu",
-      "undercoverWord": "Shang",
-      "style": "normal"
-    },
-    {
       "civilianWord": "Shang",
-      "undercoverWord": "Cri-Kee",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Mulan",
-      "undercoverWord": "Shang",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Mushu",
       "undercoverWord": "Cri-Kee",
       "style": "normal"
     },
@@ -681,22 +276,7 @@
       "style": "normal"
     },
     {
-      "civilianWord": "Jasmine",
-      "undercoverWord": "Genie",
-      "style": "normal"
-    },
-    {
       "civilianWord": "Genie",
-      "undercoverWord": "Jafar",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Aladdin",
-      "undercoverWord": "Genie",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Jasmine",
       "undercoverWord": "Jafar",
       "style": "normal"
     },
@@ -706,22 +286,7 @@
       "style": "normal"
     },
     {
-      "civilianWord": "Simba",
-      "undercoverWord": "Nala",
-      "style": "normal"
-    },
-    {
       "civilianWord": "Nala",
-      "undercoverWord": "Scar",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Le Roi Lion",
-      "undercoverWord": "Nala",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Simba",
       "undercoverWord": "Scar",
       "style": "normal"
     },
@@ -731,22 +296,7 @@
       "style": "normal"
     },
     {
-      "civilianWord": "Pumbaa",
-      "undercoverWord": "Zazu",
-      "style": "normal"
-    },
-    {
       "civilianWord": "Zazu",
-      "undercoverWord": "Rafiki",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Timon",
-      "undercoverWord": "Zazu",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Pumbaa",
       "undercoverWord": "Rafiki",
       "style": "normal"
     },
@@ -756,22 +306,7 @@
       "style": "normal"
     },
     {
-      "civilianWord": "Sam",
-      "undercoverWord": "Clover",
-      "style": "normal"
-    },
-    {
       "civilianWord": "Clover",
-      "undercoverWord": "Alex",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Totally Spies",
-      "undercoverWord": "Clover",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Sam",
       "undercoverWord": "Alex",
       "style": "normal"
     },
@@ -781,22 +316,7 @@
       "style": "normal"
     },
     {
-      "civilianWord": "Diana",
-      "undercoverWord": "Java",
-      "style": "normal"
-    },
-    {
       "civilianWord": "Java",
-      "undercoverWord": "MOM",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Martin Mystere",
-      "undercoverWord": "Java",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Diana",
       "undercoverWord": "MOM",
       "style": "normal"
     },
@@ -806,22 +326,7 @@
       "style": "normal"
     },
     {
-      "civilianWord": "Odd",
-      "undercoverWord": "Ulrich",
-      "style": "normal"
-    },
-    {
       "civilianWord": "Ulrich",
-      "undercoverWord": "Yumi",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Code Lyoko",
-      "undercoverWord": "Ulrich",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Odd",
       "undercoverWord": "Yumi",
       "style": "normal"
     },
@@ -831,22 +336,7 @@
       "style": "normal"
     },
     {
-      "civilianWord": "Jeremy",
-      "undercoverWord": "XANA",
-      "style": "normal"
-    },
-    {
       "civilianWord": "XANA",
-      "undercoverWord": "Lyoko",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Aelita",
-      "undercoverWord": "XANA",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Jeremy",
       "undercoverWord": "Lyoko",
       "style": "normal"
     },
@@ -856,22 +346,7 @@
       "style": "normal"
     },
     {
-      "civilianWord": "Jack",
-      "undercoverWord": "Joey",
-      "style": "normal"
-    },
-    {
       "civilianWord": "Joey",
-      "undercoverWord": "Dee Dee",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Oggy",
-      "undercoverWord": "Joey",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Jack",
       "undercoverWord": "Dee Dee",
       "style": "normal"
     },
@@ -881,22 +356,7 @@
       "style": "normal"
     },
     {
-      "civilianWord": "Casse-Bonbon",
-      "undercoverWord": "La Binocle",
-      "style": "normal"
-    },
-    {
       "civilianWord": "La Binocle",
-      "undercoverWord": "Couette-Couette",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Les Razmoket",
-      "undercoverWord": "La Binocle",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Casse-Bonbon",
       "undercoverWord": "Couette-Couette",
       "style": "normal"
     },
@@ -906,28 +366,13 @@
       "style": "normal"
     },
     {
-      "civilianWord": "Victor Mac Bernik",
-      "undercoverWord": "Lucile",
-      "style": "normal"
-    },
-    {
       "civilianWord": "Lucile",
       "undercoverWord": "Scampi",
       "style": "normal"
     },
     {
-      "civilianWord": "La Famille Pirate",
-      "undercoverWord": "Lucile",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Victor Mac Bernik",
-      "undercoverWord": "Scampi",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Razmo",
-      "undercoverWord": "Ramzy",
+      "civilianWord": "Rapido",
+      "undercoverWord": "Razmo",
       "style": "normal"
     },
     {
@@ -936,27 +381,7 @@
       "style": "normal"
     },
     {
-      "civilianWord": "Razmo",
-      "undercoverWord": "Ratz",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Crocodile One Piece",
-      "undercoverWord": "Captain Crochet",
-      "style": "normal"
-    },
-    {
       "civilianWord": "Captain Crochet",
-      "undercoverWord": "Capitaine Flam",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Crocodile Famille Pirate",
-      "undercoverWord": "Captain Crochet",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Crocodile One Piece",
       "undercoverWord": "Capitaine Flam",
       "style": "normal"
     },
@@ -966,22 +391,7 @@
       "style": "normal"
     },
     {
-      "civilianWord": "Petit Ours Brun",
-      "undercoverWord": "Tchoupi",
-      "style": "normal"
-    },
-    {
       "civilianWord": "Tchoupi",
-      "undercoverWord": "Oui-Oui",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Franklin",
-      "undercoverWord": "Tchoupi",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Petit Ours Brun",
       "undercoverWord": "Oui-Oui",
       "style": "normal"
     },
@@ -991,22 +401,7 @@
       "style": "normal"
     },
     {
-      "civilianWord": "Babouche",
-      "undercoverWord": "Chipeur",
-      "style": "normal"
-    },
-    {
       "civilianWord": "Chipeur",
-      "undercoverWord": "Diego",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Dora",
-      "undercoverWord": "Chipeur",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Babouche",
       "undercoverWord": "Diego",
       "style": "normal"
     },
@@ -1016,22 +411,7 @@
       "style": "normal"
     },
     {
-      "civilianWord": "Gwen",
-      "undercoverWord": "Kevin",
-      "style": "normal"
-    },
-    {
       "civilianWord": "Kevin",
-      "undercoverWord": "Vilgax",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Ben 10",
-      "undercoverWord": "Kevin",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Gwen",
       "undercoverWord": "Vilgax",
       "style": "normal"
     },
@@ -1041,22 +421,7 @@
       "style": "normal"
     },
     {
-      "civilianWord": "Katara",
-      "undercoverWord": "Sokka",
-      "style": "normal"
-    },
-    {
       "civilianWord": "Sokka",
-      "undercoverWord": "Zuko",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Avatar Aang",
-      "undercoverWord": "Sokka",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Katara",
       "undercoverWord": "Zuko",
       "style": "normal"
     },
@@ -1066,22 +431,7 @@
       "style": "normal"
     },
     {
-      "civilianWord": "Toph",
-      "undercoverWord": "Azula",
-      "style": "normal"
-    },
-    {
       "civilianWord": "Azula",
-      "undercoverWord": "Iroh",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Korra",
-      "undercoverWord": "Azula",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Toph",
       "undercoverWord": "Iroh",
       "style": "normal"
     },
@@ -1091,22 +441,7 @@
       "style": "normal"
     },
     {
-      "civilianWord": "Finn",
-      "undercoverWord": "Jake",
-      "style": "normal"
-    },
-    {
       "civilianWord": "Jake",
-      "undercoverWord": "Princesse Chewing-gum",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Adventure Time",
-      "undercoverWord": "Jake",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Finn",
       "undercoverWord": "Princesse Chewing-gum",
       "style": "normal"
     },
@@ -1116,22 +451,7 @@
       "style": "normal"
     },
     {
-      "civilianWord": "Mordecai",
-      "undercoverWord": "Rigby",
-      "style": "normal"
-    },
-    {
       "civilianWord": "Rigby",
-      "undercoverWord": "Benson",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Regular Show",
-      "undercoverWord": "Rigby",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Mordecai",
       "undercoverWord": "Benson",
       "style": "normal"
     },
@@ -1141,368 +461,8 @@
       "style": "normal"
     },
     {
-      "civilianWord": "Garnet",
-      "undercoverWord": "Amethyst",
-      "style": "normal"
-    },
-    {
       "civilianWord": "Amethyst",
       "undercoverWord": "Pearl",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Steven Universe",
-      "undercoverWord": "Amethyst",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Garnet",
-      "undercoverWord": "Pearl",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Patrick",
-      "undercoverWord": "Plancton",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Carlo",
-      "undercoverWord": "Gary",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Mr Krabs",
-      "undercoverWord": "Grosminet",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Mr Krabs",
-      "undercoverWord": "Elmer",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Bob l eponge",
-      "undercoverWord": "Bugs Bunny",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Bob l eponge",
-      "undercoverWord": "Scooby-Doo",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Mr Krabs",
-      "undercoverWord": "Bart",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Madame Puff",
-      "undercoverWord": "Grosminet",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Sandy",
-      "undercoverWord": "Tom",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Sandy",
-      "undercoverWord": "Bugs Bunny",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Plancton",
-      "undercoverWord": "Daffy Duck",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Gary",
-      "undercoverWord": "Vera",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Madame Puff",
-      "undercoverWord": "Mystery Machine",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Madame Puff",
-      "undercoverWord": "Bart",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Sandy",
-      "undercoverWord": "Les Simpson",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Jerry",
-      "undercoverWord": "Daffy Duck",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Titi",
-      "undercoverWord": "Porky Pig",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Grosminet",
-      "undercoverWord": "Daphné",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Tom",
-      "undercoverWord": "Fred",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Tom",
-      "undercoverWord": "Les Simpson",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Jerry",
-      "undercoverWord": "Homer",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Titi",
-      "undercoverWord": "Moe",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Bugs Bunny",
-      "undercoverWord": "Scooby-Doo",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Porky Pig",
-      "undercoverWord": "Marge",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Elmer",
-      "undercoverWord": "Flanders",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Elmer",
-      "undercoverWord": "Stan",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Scooby-Doo",
-      "undercoverWord": "Lisa",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Sammy",
-      "undercoverWord": "Cartman",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Sammy",
-      "undercoverWord": "Morty",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Mystery Machine",
-      "undercoverWord": "Bart",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Fred",
-      "undercoverWord": "Les Simpson",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Fred",
-      "undercoverWord": "Lisa",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Mystery Machine",
-      "undercoverWord": "Beth",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Fred",
-      "undercoverWord": "Mickey",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Homer",
-      "undercoverWord": "Maggie",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Marge",
-      "undercoverWord": "Moe",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Flanders",
-      "undercoverWord": "Stan",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Lisa",
-      "undercoverWord": "South Park",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Maggie",
-      "undercoverWord": "Morty",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Flanders",
-      "undercoverWord": "Loulou",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Kenny",
-      "undercoverWord": "Summer",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Kenny",
-      "undercoverWord": "Donald",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Stan",
-      "undercoverWord": "Dingo",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "South Park",
-      "undercoverWord": "Picsou",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "South Park",
-      "undercoverWord": "Winnie",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Cartman",
-      "undercoverWord": "Tigrou",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Beth",
-      "undercoverWord": "Dingo",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Rick",
-      "undercoverWord": "Mickey",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Rick",
-      "undercoverWord": "Picsou",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Summer",
-      "undercoverWord": "Porcinet",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Beth",
-      "undercoverWord": "Chat Potte",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Rick",
-      "undercoverWord": "Gru",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Minnie",
-      "undercoverWord": "Riri",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Donald",
-      "undercoverWord": "Fifi",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Dingo",
-      "undercoverWord": "Bourriquet",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Mickey",
-      "undercoverWord": "Shrek",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Minnie",
-      "undercoverWord": "Minion",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Loulou",
-      "undercoverWord": "Bourriquet",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Picsou",
-      "undercoverWord": "Winnie",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Riri",
-      "undercoverWord": "Ane",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Fifi",
-      "undercoverWord": "Vector",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Loulou",
-      "undercoverWord": "Megamind",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Tigrou",
-      "undercoverWord": "Ane",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Porcinet",
-      "undercoverWord": "Fiona",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Winnie",
-      "undercoverWord": "Moi moche et mechant",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Chat Potte",
-      "undercoverWord": "Agnes",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Shrek",
-      "undercoverWord": "Gru",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Shrek",
-      "undercoverWord": "Moi moche et mechant",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Fiona",
-      "undercoverWord": "Violette",
       "style": "normal"
     }
   ]

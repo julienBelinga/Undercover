@@ -192,7 +192,6 @@ void main() {
 
       for (final theme in themes) {
         expect(File('assets/themes/${theme.id}.json').existsSync(), isTrue);
-        expect(theme.pairs.length, greaterThanOrEqualTo(100));
         expect(theme.pairs.length, lessThanOrEqualTo(300));
         for (final pair in theme.pairs) {
           expect(pair.civilianWord.trim(), isNotEmpty);

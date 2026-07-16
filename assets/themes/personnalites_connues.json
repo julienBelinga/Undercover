@@ -6,28 +6,8 @@
   "color": "#F7B2BD",
   "pairs": [
     {
-      "civilianWord": "Elon Musk",
-      "undercoverWord": "Tweet avec budget spatial",
-      "style": "soft_joke"
-    },
-    {
       "civilianWord": "Ronaldo celebration",
       "undercoverWord": "Siuuu collectif",
-      "style": "soft_joke"
-    },
-    {
-      "civilianWord": "Mbappe sourire",
-      "undercoverWord": "Contrat qui clignote",
-      "style": "soft_joke"
-    },
-    {
-      "civilianWord": "Kanye West",
-      "undercoverWord": "Micro sans supervision",
-      "style": "soft_joke"
-    },
-    {
-      "civilianWord": "Gordon Ramsay",
-      "undercoverWord": "Cauchemar en tablier",
       "style": "soft_joke"
     },
     {
@@ -36,22 +16,7 @@
       "style": "normal"
     },
     {
-      "civilianWord": "Erling Haaland",
-      "undercoverWord": "Cristiano Ronaldo",
-      "style": "normal"
-    },
-    {
       "civilianWord": "Cristiano Ronaldo",
-      "undercoverWord": "Lionel Messi",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Kylian Mbappe",
-      "undercoverWord": "Cristiano Ronaldo",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Erling Haaland",
       "undercoverWord": "Lionel Messi",
       "style": "normal"
     },
@@ -61,22 +26,7 @@
       "style": "normal"
     },
     {
-      "civilianWord": "Ronaldinho",
-      "undercoverWord": "Neymar",
-      "style": "normal"
-    },
-    {
       "civilianWord": "Neymar",
-      "undercoverWord": "Karim Benzema",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Zinedine Zidane",
-      "undercoverWord": "Neymar",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Ronaldinho",
       "undercoverWord": "Karim Benzema",
       "style": "normal"
     },
@@ -86,22 +36,7 @@
       "style": "normal"
     },
     {
-      "civilianWord": "LeBron James",
-      "undercoverWord": "Kobe Bryant",
-      "style": "normal"
-    },
-    {
       "civilianWord": "Kobe Bryant",
-      "undercoverWord": "Stephen Curry",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Michael Jordan",
-      "undercoverWord": "Kobe Bryant",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "LeBron James",
       "undercoverWord": "Stephen Curry",
       "style": "normal"
     },
@@ -111,22 +46,7 @@
       "style": "normal"
     },
     {
-      "civilianWord": "Rafael Nadal",
-      "undercoverWord": "Roger Federer",
-      "style": "normal"
-    },
-    {
       "civilianWord": "Roger Federer",
-      "undercoverWord": "Novak Djokovic",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Serena Williams",
-      "undercoverWord": "Roger Federer",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Rafael Nadal",
       "undercoverWord": "Novak Djokovic",
       "style": "normal"
     },
@@ -136,22 +56,7 @@
       "style": "normal"
     },
     {
-      "civilianWord": "Teddy Riner",
-      "undercoverWord": "Simone Biles",
-      "style": "normal"
-    },
-    {
       "civilianWord": "Simone Biles",
-      "undercoverWord": "Tony Parker",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Usain Bolt",
-      "undercoverWord": "Simone Biles",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Teddy Riner",
       "undercoverWord": "Tony Parker",
       "style": "normal"
     },
@@ -161,22 +66,7 @@
       "style": "normal"
     },
     {
-      "civilianWord": "Rihanna",
-      "undercoverWord": "Adele",
-      "style": "normal"
-    },
-    {
       "civilianWord": "Adele",
-      "undercoverWord": "Taylor Swift",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Beyonce",
-      "undercoverWord": "Adele",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Rihanna",
       "undercoverWord": "Taylor Swift",
       "style": "normal"
     },
@@ -186,22 +76,7 @@
       "style": "normal"
     },
     {
-      "civilianWord": "Kanye West",
-      "undercoverWord": "Jay-Z",
-      "style": "normal"
-    },
-    {
       "civilianWord": "Jay-Z",
-      "undercoverWord": "Eminem",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Drake",
-      "undercoverWord": "Jay-Z",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Kanye West",
       "undercoverWord": "Eminem",
       "style": "normal"
     },
@@ -211,22 +86,7 @@
       "style": "normal"
     },
     {
-      "civilianWord": "Stromae",
-      "undercoverWord": "Orelsan",
-      "style": "normal"
-    },
-    {
       "civilianWord": "Orelsan",
-      "undercoverWord": "Damso",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Aya Nakamura",
-      "undercoverWord": "Orelsan",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Stromae",
       "undercoverWord": "Damso",
       "style": "normal"
     },
@@ -236,22 +96,7 @@
       "style": "normal"
     },
     {
-      "civilianWord": "Ninho",
-      "undercoverWord": "SCH",
-      "style": "normal"
-    },
-    {
       "civilianWord": "SCH",
-      "undercoverWord": "PNL",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Booba",
-      "undercoverWord": "SCH",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Ninho",
       "undercoverWord": "PNL",
       "style": "normal"
     },
@@ -261,22 +106,7 @@
       "style": "normal"
     },
     {
-      "civilianWord": "David Guetta",
-      "undercoverWord": "DJ Snake",
-      "style": "normal"
-    },
-    {
       "civilianWord": "DJ Snake",
-      "undercoverWord": "Martin Solveig",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Daft Punk",
-      "undercoverWord": "DJ Snake",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "David Guetta",
       "undercoverWord": "Martin Solveig",
       "style": "normal"
     },
@@ -286,22 +116,7 @@
       "style": "normal"
     },
     {
-      "civilianWord": "Brad Pitt",
-      "undercoverWord": "Tom Cruise",
-      "style": "normal"
-    },
-    {
       "civilianWord": "Tom Cruise",
-      "undercoverWord": "Will Smith",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Leonardo DiCaprio",
-      "undercoverWord": "Tom Cruise",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Brad Pitt",
       "undercoverWord": "Will Smith",
       "style": "normal"
     },
@@ -311,22 +126,7 @@
       "style": "normal"
     },
     {
-      "civilianWord": "Morgan Freeman",
-      "undercoverWord": "Samuel L Jackson",
-      "style": "normal"
-    },
-    {
       "civilianWord": "Samuel L Jackson",
-      "undercoverWord": "Jamie Foxx",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Denzel Washington",
-      "undercoverWord": "Samuel L Jackson",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Morgan Freeman",
       "undercoverWord": "Jamie Foxx",
       "style": "normal"
     },
@@ -336,22 +136,7 @@
       "style": "normal"
     },
     {
-      "civilianWord": "Timothee Chalamet",
-      "undercoverWord": "Ryan Gosling",
-      "style": "normal"
-    },
-    {
       "civilianWord": "Ryan Gosling",
-      "undercoverWord": "Margot Robbie",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Zendaya",
-      "undercoverWord": "Ryan Gosling",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Timothee Chalamet",
       "undercoverWord": "Margot Robbie",
       "style": "normal"
     },
@@ -361,22 +146,7 @@
       "style": "normal"
     },
     {
-      "civilianWord": "Omar Sy",
-      "undercoverWord": "Jean Dujardin",
-      "style": "normal"
-    },
-    {
       "civilianWord": "Jean Dujardin",
-      "undercoverWord": "Leila Bekhti",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Marion Cotillard",
-      "undercoverWord": "Jean Dujardin",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Omar Sy",
       "undercoverWord": "Leila Bekhti",
       "style": "normal"
     },
@@ -386,22 +156,7 @@
       "style": "normal"
     },
     {
-      "civilianWord": "Kev Adams",
-      "undercoverWord": "Gad Elmaleh",
-      "style": "normal"
-    },
-    {
       "civilianWord": "Gad Elmaleh",
-      "undercoverWord": "Florence Foresti",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Jamel Debbouze",
-      "undercoverWord": "Gad Elmaleh",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Kev Adams",
       "undercoverWord": "Florence Foresti",
       "style": "normal"
     },
@@ -411,22 +166,7 @@
       "style": "normal"
     },
     {
-      "civilianWord": "Cyprien",
-      "undercoverWord": "Norman",
-      "style": "normal"
-    },
-    {
       "civilianWord": "Norman",
-      "undercoverWord": "Mister V",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Squeezie",
-      "undercoverWord": "Norman",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Cyprien",
       "undercoverWord": "Mister V",
       "style": "normal"
     },
@@ -436,22 +176,7 @@
       "style": "normal"
     },
     {
-      "civilianWord": "Michou",
-      "undercoverWord": "Mastu",
-      "style": "normal"
-    },
-    {
       "civilianWord": "Mastu",
-      "undercoverWord": "AmineMaTue",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Inoxtag",
-      "undercoverWord": "Mastu",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Michou",
       "undercoverWord": "AmineMaTue",
       "style": "normal"
     },
@@ -461,22 +186,7 @@
       "style": "normal"
     },
     {
-      "civilianWord": "Kameto",
-      "undercoverWord": "ZeratoR",
-      "style": "normal"
-    },
-    {
       "civilianWord": "ZeratoR",
-      "undercoverWord": "Domingo",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Gotaga",
-      "undercoverWord": "ZeratoR",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Kameto",
       "undercoverWord": "Domingo",
       "style": "normal"
     },
@@ -486,22 +196,7 @@
       "style": "normal"
     },
     {
-      "civilianWord": "Mark Zuckerberg",
-      "undercoverWord": "Bill Gates",
-      "style": "normal"
-    },
-    {
       "civilianWord": "Bill Gates",
-      "undercoverWord": "Jeff Bezos",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Elon Musk",
-      "undercoverWord": "Bill Gates",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Mark Zuckerberg",
       "undercoverWord": "Jeff Bezos",
       "style": "normal"
     },
@@ -511,22 +206,7 @@
       "style": "normal"
     },
     {
-      "civilianWord": "Tim Cook",
-      "undercoverWord": "Sundar Pichai",
-      "style": "normal"
-    },
-    {
       "civilianWord": "Sundar Pichai",
-      "undercoverWord": "Satya Nadella",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Steve Jobs",
-      "undercoverWord": "Sundar Pichai",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Tim Cook",
       "undercoverWord": "Satya Nadella",
       "style": "normal"
     },
@@ -536,22 +216,7 @@
       "style": "normal"
     },
     {
-      "civilianWord": "Emmanuel Macron",
-      "undercoverWord": "Joe Biden",
-      "style": "normal"
-    },
-    {
       "civilianWord": "Joe Biden",
-      "undercoverWord": "Angela Merkel",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Barack Obama",
-      "undercoverWord": "Joe Biden",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Emmanuel Macron",
       "undercoverWord": "Angela Merkel",
       "style": "normal"
     },
@@ -561,22 +226,7 @@
       "style": "normal"
     },
     {
-      "civilianWord": "Martin Luther King",
-      "undercoverWord": "Gandhi",
-      "style": "normal"
-    },
-    {
       "civilianWord": "Gandhi",
-      "undercoverWord": "Malala",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Nelson Mandela",
-      "undercoverWord": "Gandhi",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Martin Luther King",
       "undercoverWord": "Malala",
       "style": "normal"
     },
@@ -586,22 +236,7 @@
       "style": "normal"
     },
     {
-      "civilianWord": "Marie Curie",
-      "undercoverWord": "Isaac Newton",
-      "style": "normal"
-    },
-    {
       "civilianWord": "Isaac Newton",
-      "undercoverWord": "Nikola Tesla",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Albert Einstein",
-      "undercoverWord": "Isaac Newton",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Marie Curie",
       "undercoverWord": "Nikola Tesla",
       "style": "normal"
     },
@@ -611,22 +246,7 @@
       "style": "normal"
     },
     {
-      "civilianWord": "Picasso",
-      "undercoverWord": "Van Gogh",
-      "style": "normal"
-    },
-    {
       "civilianWord": "Van Gogh",
-      "undercoverWord": "Frida Kahlo",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Leonard de Vinci",
-      "undercoverWord": "Van Gogh",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Picasso",
       "undercoverWord": "Frida Kahlo",
       "style": "normal"
     },
@@ -636,22 +256,7 @@
       "style": "normal"
     },
     {
-      "civilianWord": "Victor Hugo",
-      "undercoverWord": "Shakespeare",
-      "style": "normal"
-    },
-    {
       "civilianWord": "Shakespeare",
-      "undercoverWord": "Jules Verne",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Moliere",
-      "undercoverWord": "Shakespeare",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Victor Hugo",
       "undercoverWord": "Jules Verne",
       "style": "normal"
     },
@@ -661,22 +266,7 @@
       "style": "normal"
     },
     {
-      "civilianWord": "Nabilla",
-      "undercoverWord": "Kim Kardashian",
-      "style": "normal"
-    },
-    {
       "civilianWord": "Kim Kardashian",
-      "undercoverWord": "Kris Jenner",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Cristina Cordula",
-      "undercoverWord": "Kim Kardashian",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Nabilla",
       "undercoverWord": "Kris Jenner",
       "style": "normal"
     },
@@ -686,22 +276,7 @@
       "style": "normal"
     },
     {
-      "civilianWord": "Philippe Etchebest",
-      "undercoverWord": "Cyril Lignac",
-      "style": "normal"
-    },
-    {
       "civilianWord": "Cyril Lignac",
-      "undercoverWord": "Mercotte",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Gordon Ramsay",
-      "undercoverWord": "Cyril Lignac",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Philippe Etchebest",
       "undercoverWord": "Mercotte",
       "style": "normal"
     },
@@ -711,22 +286,7 @@
       "style": "normal"
     },
     {
-      "civilianWord": "Mike Horn",
-      "undercoverWord": "Nicolas Hulot",
-      "style": "normal"
-    },
-    {
       "civilianWord": "Nicolas Hulot",
-      "undercoverWord": "Yann Arthus-Bertrand",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Bear Grylls",
-      "undercoverWord": "Nicolas Hulot",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Mike Horn",
       "undercoverWord": "Yann Arthus-Bertrand",
       "style": "normal"
     },
@@ -736,22 +296,7 @@
       "style": "normal"
     },
     {
-      "civilianWord": "Ellen DeGeneres",
-      "undercoverWord": "Jimmy Fallon",
-      "style": "normal"
-    },
-    {
       "civilianWord": "Jimmy Fallon",
-      "undercoverWord": "Stephen Colbert",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Oprah Winfrey",
-      "undercoverWord": "Jimmy Fallon",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Ellen DeGeneres",
       "undercoverWord": "Stephen Colbert",
       "style": "normal"
     },
@@ -761,22 +306,7 @@
       "style": "normal"
     },
     {
-      "civilianWord": "Jane Goodall",
-      "undercoverWord": "David Attenborough",
-      "style": "normal"
-    },
-    {
       "civilianWord": "David Attenborough",
-      "undercoverWord": "Hubert Reeves",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Greta Thunberg",
-      "undercoverWord": "David Attenborough",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Jane Goodall",
       "undercoverWord": "Hubert Reeves",
       "style": "normal"
     },
@@ -786,22 +316,7 @@
       "style": "normal"
     },
     {
-      "civilianWord": "JR",
-      "undercoverWord": "Keith Haring",
-      "style": "normal"
-    },
-    {
       "civilianWord": "Keith Haring",
-      "undercoverWord": "Basquiat",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Banksy",
-      "undercoverWord": "Keith Haring",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "JR",
       "undercoverWord": "Basquiat",
       "style": "normal"
     },
@@ -811,22 +326,7 @@
       "style": "normal"
     },
     {
-      "civilianWord": "Prince",
-      "undercoverWord": "Madonna",
-      "style": "normal"
-    },
-    {
       "civilianWord": "Madonna",
-      "undercoverWord": "Whitney Houston",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Michael Jackson",
-      "undercoverWord": "Madonna",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Prince",
       "undercoverWord": "Whitney Houston",
       "style": "normal"
     },
@@ -836,22 +336,7 @@
       "style": "normal"
     },
     {
-      "civilianWord": "Freddie Mercury",
-      "undercoverWord": "David Bowie",
-      "style": "normal"
-    },
-    {
       "civilianWord": "David Bowie",
-      "undercoverWord": "John Lennon",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Elvis Presley",
-      "undercoverWord": "David Bowie",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Freddie Mercury",
       "undercoverWord": "John Lennon",
       "style": "normal"
     },
@@ -861,22 +346,7 @@
       "style": "normal"
     },
     {
-      "civilianWord": "Billie Eilish",
-      "undercoverWord": "Dua Lipa",
-      "style": "normal"
-    },
-    {
       "civilianWord": "Dua Lipa",
-      "undercoverWord": "Lady Gaga",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Ariana Grande",
-      "undercoverWord": "Dua Lipa",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Billie Eilish",
       "undercoverWord": "Lady Gaga",
       "style": "normal"
     },
@@ -886,22 +356,7 @@
       "style": "normal"
     },
     {
-      "civilianWord": "Bruno Mars",
-      "undercoverWord": "Justin Bieber",
-      "style": "normal"
-    },
-    {
       "civilianWord": "Justin Bieber",
-      "undercoverWord": "Ed Sheeran",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "The Weeknd",
-      "undercoverWord": "Justin Bieber",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Bruno Mars",
       "undercoverWord": "Ed Sheeran",
       "style": "normal"
     },
@@ -911,22 +366,7 @@
       "style": "normal"
     },
     {
-      "civilianWord": "Robert Downey Jr",
-      "undercoverWord": "Chris Evans",
-      "style": "normal"
-    },
-    {
       "civilianWord": "Chris Evans",
-      "undercoverWord": "Chris Hemsworth",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Hugh Jackman",
-      "undercoverWord": "Chris Evans",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Robert Downey Jr",
       "undercoverWord": "Chris Hemsworth",
       "style": "normal"
     },
@@ -936,22 +376,7 @@
       "style": "normal"
     },
     {
-      "civilianWord": "Jason Momoa",
-      "undercoverWord": "Gal Gadot",
-      "style": "normal"
-    },
-    {
       "civilianWord": "Gal Gadot",
-      "undercoverWord": "Ben Affleck",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Henry Cavill",
-      "undercoverWord": "Gal Gadot",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Jason Momoa",
       "undercoverWord": "Ben Affleck",
       "style": "normal"
     },
@@ -961,22 +386,7 @@
       "style": "normal"
     },
     {
-      "civilianWord": "Sofia Coppola",
-      "undercoverWord": "Kathryn Bigelow",
-      "style": "normal"
-    },
-    {
       "civilianWord": "Kathryn Bigelow",
-      "undercoverWord": "Ava DuVernay",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Greta Gerwig",
-      "undercoverWord": "Kathryn Bigelow",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Sofia Coppola",
       "undercoverWord": "Ava DuVernay",
       "style": "normal"
     },
@@ -986,22 +396,7 @@
       "style": "normal"
     },
     {
-      "civilianWord": "Alain Ducasse",
-      "undercoverWord": "Paul Bocuse",
-      "style": "normal"
-    },
-    {
       "civilianWord": "Paul Bocuse",
-      "undercoverWord": "Joel Robuchon",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Anne-Sophie Pic",
-      "undercoverWord": "Paul Bocuse",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Alain Ducasse",
       "undercoverWord": "Joel Robuchon",
       "style": "normal"
     },
@@ -1011,22 +406,7 @@
       "style": "normal"
     },
     {
-      "civilianWord": "Karl Lagerfeld",
-      "undercoverWord": "Coco Chanel",
-      "style": "normal"
-    },
-    {
       "civilianWord": "Coco Chanel",
-      "undercoverWord": "Yves Saint Laurent",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Jean-Paul Gaultier",
-      "undercoverWord": "Coco Chanel",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Karl Lagerfeld",
       "undercoverWord": "Yves Saint Laurent",
       "style": "normal"
     },
@@ -1036,22 +416,7 @@
       "style": "normal"
     },
     {
-      "civilianWord": "Haaland robot",
-      "undercoverWord": "Messi dribble",
-      "style": "normal"
-    },
-    {
       "civilianWord": "Messi dribble",
-      "undercoverWord": "Ronaldo celebration",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Mbappe sourire",
-      "undercoverWord": "Messi dribble",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Haaland robot",
       "undercoverWord": "Ronaldo celebration",
       "style": "normal"
     },
@@ -1061,22 +426,7 @@
       "style": "normal"
     },
     {
-      "civilianWord": "Youtubeur",
-      "undercoverWord": "Acteur",
-      "style": "normal"
-    },
-    {
       "civilianWord": "Acteur",
-      "undercoverWord": "Chanteur",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Streamer",
-      "undercoverWord": "Acteur",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Youtubeur",
       "undercoverWord": "Chanteur",
       "style": "normal"
     },
@@ -1086,22 +436,7 @@
       "style": "normal"
     },
     {
-      "civilianWord": "Journaliste",
-      "undercoverWord": "Animateur",
-      "style": "normal"
-    },
-    {
       "civilianWord": "Animateur",
-      "undercoverWord": "Humoriste",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Influenceur",
-      "undercoverWord": "Animateur",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Journaliste",
       "undercoverWord": "Humoriste",
       "style": "normal"
     },
@@ -1111,22 +446,7 @@
       "style": "normal"
     },
     {
-      "civilianWord": "Oscar",
-      "undercoverWord": "Ballon d Or",
-      "style": "normal"
-    },
-    {
       "civilianWord": "Ballon d Or",
-      "undercoverWord": "Grammy",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Prix Nobel",
-      "undercoverWord": "Ballon d Or",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Oscar",
       "undercoverWord": "Grammy",
       "style": "normal"
     },
@@ -1136,373 +456,8 @@
       "style": "normal"
     },
     {
-      "civilianWord": "Interview",
-      "undercoverWord": "Conference",
-      "style": "normal"
-    },
-    {
       "civilianWord": "Conference",
       "undercoverWord": "Autographe",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Tapis rouge",
-      "undercoverWord": "Conference",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Interview",
-      "undercoverWord": "Autographe",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Erling Haaland",
-      "undercoverWord": "Ronaldinho",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Cristiano Ronaldo",
-      "undercoverWord": "Neymar",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Cristiano Ronaldo",
-      "undercoverWord": "Kobe Bryant",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Lionel Messi",
-      "undercoverWord": "Stephen Curry",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Lionel Messi",
-      "undercoverWord": "Novak Djokovic",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Kylian Mbappe",
-      "undercoverWord": "Serena Williams",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Kylian Mbappe",
-      "undercoverWord": "Usain Bolt",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Erling Haaland",
-      "undercoverWord": "Teddy Riner",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Lionel Messi",
-      "undercoverWord": "Eminem",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Kylian Mbappe",
-      "undercoverWord": "Aya Nakamura",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Karim Benzema",
-      "undercoverWord": "Stephen Curry",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Zinedine Zidane",
-      "undercoverWord": "Michael Jordan",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Zinedine Zidane",
-      "undercoverWord": "Serena Williams",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Ronaldinho",
-      "undercoverWord": "Rafael Nadal",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Neymar",
-      "undercoverWord": "Simone Biles",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Karim Benzema",
-      "undercoverWord": "Taylor Swift",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Karim Benzema",
-      "undercoverWord": "Eminem",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Zinedine Zidane",
-      "undercoverWord": "Drake",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "LeBron James",
-      "undercoverWord": "Rafael Nadal",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Kobe Bryant",
-      "undercoverWord": "Roger Federer",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Stephen Curry",
-      "undercoverWord": "Tony Parker",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Michael Jordan",
-      "undercoverWord": "Beyonce",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Michael Jordan",
-      "undercoverWord": "Drake",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "LeBron James",
-      "undercoverWord": "Kanye West",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Novak Djokovic",
-      "undercoverWord": "Tony Parker",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Serena Williams",
-      "undercoverWord": "Usain Bolt",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Roger Federer",
-      "undercoverWord": "Jay-Z",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Novak Djokovic",
-      "undercoverWord": "Damso",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Teddy Riner",
-      "undercoverWord": "Rihanna",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Simone Biles",
-      "undercoverWord": "Adele",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Tony Parker",
-      "undercoverWord": "Eminem",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Usain Bolt",
-      "undercoverWord": "Aya Nakamura",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Beyonce",
-      "undercoverWord": "Drake",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Beyonce",
-      "undercoverWord": "Aya Nakamura",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Rihanna",
-      "undercoverWord": "Stromae",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Adele",
-      "undercoverWord": "SCH",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Taylor Swift",
-      "undercoverWord": "Martin Solveig",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Taylor Swift",
-      "undercoverWord": "Will Smith",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Jay-Z",
-      "undercoverWord": "Orelsan",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Damso",
-      "undercoverWord": "PNL",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Stromae",
-      "undercoverWord": "David Guetta",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Orelsan",
-      "undercoverWord": "Tom Cruise",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Damso",
-      "undercoverWord": "Jamie Foxx",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Ninho",
-      "undercoverWord": "David Guetta",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "SCH",
-      "undercoverWord": "DJ Snake",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "PNL",
-      "undercoverWord": "Will Smith",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "PNL",
-      "undercoverWord": "Jamie Foxx",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Booba",
-      "undercoverWord": "Denzel Washington",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Booba",
-      "undercoverWord": "Zendaya",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Ninho",
-      "undercoverWord": "Timothee Chalamet",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Booba",
-      "undercoverWord": "Squeezie",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Martin Solveig",
-      "undercoverWord": "Will Smith",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Daft Punk",
-      "undercoverWord": "Leonardo DiCaprio",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Daft Punk",
-      "undercoverWord": "Denzel Washington",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "DJ Snake",
-      "undercoverWord": "Ryan Gosling",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Martin Solveig",
-      "undercoverWord": "Leila Bekhti",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Daft Punk",
-      "undercoverWord": "Jamel Debbouze",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Brad Pitt",
-      "undercoverWord": "Morgan Freeman",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Tom Cruise",
-      "undercoverWord": "Samuel L Jackson",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Leonardo DiCaprio",
-      "undercoverWord": "Marion Cotillard",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Leonardo DiCaprio",
-      "undercoverWord": "Jamel Debbouze",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Brad Pitt",
-      "undercoverWord": "Kev Adams",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Jamie Foxx",
-      "undercoverWord": "Margot Robbie",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Denzel Washington",
-      "undercoverWord": "Zendaya",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Morgan Freeman",
-      "undercoverWord": "Omar Sy",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Samuel L Jackson",
-      "undercoverWord": "Gad Elmaleh",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Timothee Chalamet",
-      "undercoverWord": "Omar Sy",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Ryan Gosling",
-      "undercoverWord": "Jean Dujardin",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Margot Robbie",
-      "undercoverWord": "Florence Foresti",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Margot Robbie",
-      "undercoverWord": "Mister V",
       "style": "normal"
     }
   ]

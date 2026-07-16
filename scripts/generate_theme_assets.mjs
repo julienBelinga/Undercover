@@ -4,7 +4,10 @@ import { join } from 'node:path';
 const outputDir = join(process.cwd(), 'assets', 'themes');
 mkdirSync(outputDir, { recursive: true });
 
-const targetPairCount = 300;
+const maxPairCount = 300;
+const maxWordUses = 2;
+const maxRepeatedWordRatio = 0.3;
+const maxJokeRatio = 0.05;
 
 const themeOrder = [
   'general',
@@ -81,12 +84,7 @@ const themes = {
       ['Reveil', 'Alarme', 'Retard', 'Excuse'],
     ],
     jokes: [
-      ['Lundi matin', 'Punition collective', 'soft_joke'],
-      ['Mot de passe', 'Post-it sur l ecran', 'soft_joke'],
-      ['Wifi public', 'Rien du tout', 'soft_joke'],
-      ['Reunion rapide', 'Mensonge organise', 'soft_joke'],
       ['Regime demain', 'Pizza ce soir', 'soft_joke'],
-      ['Photo de profil', 'Mensonge HD', 'soft_joke'],
     ],
   },
   manga: {
@@ -315,11 +313,7 @@ const themes = {
       ['Nutella', 'Confiture', 'Beurre de cacahuete', 'Compote'],
     ],
     jokes: [
-      ['Pates au beurre', 'Chef etoile flemme', 'soft_joke'],
       ['Air fryer', 'Four TikTok', 'soft_joke'],
-      ['Riz colle', 'Beton maison', 'soft_joke'],
-      ['Salade sans sauce', 'Punition verte', 'soft_joke'],
-      ['Restes du frigo', 'Top Chef de survie', 'soft_joke'],
     ],
   },
   super_heros: {
@@ -480,18 +474,7 @@ const themes = {
       ['Crash Bandicoot', 'Spyro', 'Rayman', 'Ratchet'],
     ],
     jokes: [
-      ['Campeur', 'Meuble de jardin en ligne', 'troll'],
-      ['Noob', 'Tutoriel vivant', 'troll'],
-      ['Rage quit', 'Therapie non remboursee', 'troll'],
-      ['Battle pass', 'Facture mensuelle de pixels', 'troll'],
-      ['PNJ', 'Humain sans mise a jour', 'soft_joke'],
-      ['Smurf', 'Lachete en basse elo', 'troll'],
-      ['Loot box', 'Casino pour skins', 'troll'],
       ['Manette drift', 'Fantome dans le joystick', 'soft_joke'],
-      ['FIFA annuel', 'Mise a jour a 80 euros', 'troll'],
-      ['Dark Souls', 'Simulation de souffrance', 'soft_joke'],
-      ['Among Us', 'Mensonge avec jambes', 'soft_joke'],
-      ['Minecraft dirt house', 'Architecture de panique', 'soft_joke'],
     ],
   },
   sorcier_fantasy: {
@@ -616,11 +599,7 @@ const themes = {
       ['Casting', 'Audition', 'Lecture de table', 'Improvisation'],
     ],
     jokes: [
-      ['Film de 3 heures', 'Test de vessie', 'soft_joke'],
-      ['Popcorn petit', 'Credit immobilier sucre', 'soft_joke'],
       ['Twist final', 'Mensonge avec budget', 'soft_joke'],
-      ['Bande-annonce', 'Film entier en deux minutes', 'soft_joke'],
-      ['Remake inutile', 'Nostalgie facturee', 'soft_joke'],
     ],
   },
   personnalites_connues: {
@@ -677,11 +656,7 @@ const themes = {
       ['Tapis rouge', 'Interview', 'Conference', 'Autographe'],
     ],
     jokes: [
-      ['Elon Musk', 'Tweet avec budget spatial', 'soft_joke'],
       ['Ronaldo celebration', 'Siuuu collectif', 'soft_joke'],
-      ['Mbappe sourire', 'Contrat qui clignote', 'soft_joke'],
-      ['Kanye West', 'Micro sans supervision', 'soft_joke'],
-      ['Gordon Ramsay', 'Cauchemar en tablier', 'soft_joke'],
     ],
   },
   dessin_anime: {
@@ -740,16 +715,8 @@ const themes = {
     jokes: [
       ['Rapido', 'Ramzy', 'troll'],
       ['Rapido', 'Razmo', 'normal'],
-      ['Bob l eponge', 'Employe du mois sous-payé', 'troll'],
-      ['Patrick', 'QI en etoile de mer', 'troll'],
-      ['Carlo', 'Burn-out sous marin', 'soft_joke'],
       ['Dora', 'GPS qui demande la route', 'troll'],
-      ['Tchoupi', 'Probleme minuscule maximal', 'soft_joke'],
-      ['Chipeur', 'Voleur avec prevention orale', 'soft_joke'],
       ['Crocodile Famille Pirate', 'Crocodile One Piece', 'troll'],
-      ['Bourriquet', 'Depression merchandising', 'troll'],
-      ['Olaf', 'Bonhomme de neige trop confiant', 'soft_joke'],
-      ['Flash McQueen', 'Assurance auto en sueur', 'soft_joke'],
     ],
   },
   pop_culture: {
@@ -806,17 +773,6 @@ const themes = {
       ['Sakura', 'Poubelle', 'Meme manga', 'Debat impossible'],
     ],
     jokes: [
-      ['Apology video', 'Monetisation des larmes', 'troll'],
-      ['Thread Twitter', 'Tribunal sans juge', 'soft_joke'],
-      ['Influenceur voyage', 'Travail depuis la plage sponsorisee', 'soft_joke'],
-      ['Like et subscribe', 'Mendicite algorithmique', 'troll'],
-      ['Storytime', 'Mensonge avec ring light', 'troll'],
-      ['Bad buzz', 'Stage intensif de silence', 'soft_joke'],
-      ['Tier list', 'Jugement dernier en PNG', 'soft_joke'],
-      ['Fan theory', 'These avec trois pixels', 'soft_joke'],
-      ['Spoiler', 'Crime social mineur', 'soft_joke'],
-      ['TikTok trend', 'Memoire collective de 48h', 'troll'],
-      ['Green flag', 'Minimum syndical romantique', 'soft_joke'],
       ['Red flag', 'Gyrophare sentimental', 'soft_joke'],
     ],
   },
@@ -834,28 +790,44 @@ function addPair(
   pairs,
   seen,
   wordUses,
+  graph,
   civilianWord,
   undercoverWord,
   style = 'normal',
-  options = {},
 ) {
   if (!civilianWord || !undercoverWord || civilianWord === undercoverWord) return;
   const civilianKey = normalizeWord(civilianWord);
   const undercoverKey = normalizeWord(undercoverWord);
-  const maxUses = options.maxUses ?? 5;
-  if (
-    !options.force &&
-    ((wordUses.get(civilianKey) ?? 0) >= maxUses ||
-      (wordUses.get(undercoverKey) ?? 0) >= maxUses)
-  ) {
+  if ((wordUses.get(civilianKey) ?? 0) >= maxWordUses) return;
+  if ((wordUses.get(undercoverKey) ?? 0) >= maxWordUses) return;
+
+  const civilianNeighbors = graph.get(civilianKey) ?? new Set();
+  const undercoverNeighbors = graph.get(undercoverKey) ?? new Set();
+  for (const neighbor of civilianNeighbors) {
+    if (undercoverNeighbors.has(neighbor)) return;
+  }
+
+  const projectedUses = new Map(wordUses);
+  projectedUses.set(civilianKey, (projectedUses.get(civilianKey) ?? 0) + 1);
+  projectedUses.set(undercoverKey, (projectedUses.get(undercoverKey) ?? 0) + 1);
+  const projectedUniqueWords = projectedUses.size;
+  const projectedRepeatedWords = [...projectedUses.values()].filter(
+    (count) => count > 1,
+  ).length;
+  if (projectedRepeatedWords / projectedUniqueWords > maxRepeatedWordRatio) {
     return;
   }
+
   const key = `${normalizeWord(civilianWord)}::${normalizeWord(undercoverWord)}`;
   const reverseKey = `${normalizeWord(undercoverWord)}::${normalizeWord(civilianWord)}`;
   if (seen.has(key) || seen.has(reverseKey)) return;
   seen.add(key);
   wordUses.set(civilianKey, (wordUses.get(civilianKey) ?? 0) + 1);
   wordUses.set(undercoverKey, (wordUses.get(undercoverKey) ?? 0) + 1);
+  if (!graph.has(civilianKey)) graph.set(civilianKey, new Set());
+  if (!graph.has(undercoverKey)) graph.set(undercoverKey, new Set());
+  graph.get(civilianKey).add(undercoverKey);
+  graph.get(undercoverKey).add(civilianKey);
   pairs.push({ civilianWord, undercoverWord, style });
 }
 
@@ -863,92 +835,36 @@ function buildTheme(theme) {
   const pairs = [];
   const seen = new Set();
   const wordUses = new Map();
+  const graph = new Map();
 
   for (const [civilianWord, undercoverWord, style] of theme.curatedPairs ?? []) {
     addPair(
       pairs,
       seen,
       wordUses,
+      graph,
       civilianWord,
       undercoverWord,
       style ?? 'normal',
-      { force: true },
     );
   }
 
   for (const [civilianWord, undercoverWord, style] of theme.jokes ?? []) {
-    addPair(pairs, seen, wordUses, civilianWord, undercoverWord, style, {
-      maxUses: 3,
-    });
+    addPair(pairs, seen, wordUses, graph, civilianWord, undercoverWord, style);
   }
 
   const addInternalPairs = () => {
     for (const group of theme.groups) {
-      for (let i = 0; i < group.length - 1; i += 1) {
-        addPair(pairs, seen, wordUses, group[i], group[i + 1], 'normal', {
-          maxUses: 4,
-        });
-      }
-      if (group.length > 3) {
-        addPair(pairs, seen, wordUses, group[0], group[2], 'normal', {
-          maxUses: 4,
-        });
-        addPair(pairs, seen, wordUses, group[1], group[3], 'normal', {
-          maxUses: 4,
-        });
+      for (let i = 0; i < group.length - 1; i += 2) {
+        addPair(pairs, seen, wordUses, graph, group[i], group[i + 1]);
       }
     }
   };
 
-  const addCrossPairs = () => {
-    for (const maxUses of [5, 6, 7, 8, 10]) {
-      for (let i = 0; i < theme.groups.length; i += 1) {
-        for (let j = i + 1; j < theme.groups.length; j += 1) {
-          const left = theme.groups[i];
-          const right = theme.groups[j];
-          const slot = (i + j) % Math.min(left.length, right.length);
-          const alignedSlot = theme.preferCrossThemePairs ? 0 : slot;
-          addPair(
-            pairs,
-            seen,
-            wordUses,
-            left[alignedSlot % left.length],
-            right[alignedSlot % right.length],
-            'normal',
-            { maxUses },
-          );
-          if (!theme.preferCrossThemePairs) {
-            addPair(
-              pairs,
-              seen,
-              wordUses,
-              left[(alignedSlot + 1) % left.length],
-              right[(alignedSlot + 1) % right.length],
-              'normal',
-              { maxUses },
-            );
-          }
-          if (pairs.length >= targetPairCount) break;
-        }
-        if (pairs.length >= targetPairCount) break;
-      }
-      if (pairs.length >= targetPairCount) break;
-    }
-  };
+  addInternalPairs();
 
-  if (theme.preferCrossThemePairs) {
-    addCrossPairs();
-    addInternalPairs();
-  } else if (theme.disableAutoCross) {
-    addInternalPairs();
-  } else {
-    addInternalPairs();
-    addCrossPairs();
-  }
-
-  if (pairs.length < targetPairCount) {
-    throw new Error(`${theme.id} only generated ${pairs.length} pairs`);
-  }
+  const pairsWithCappedJokes = capJokes(pairs);
+  const balancedPairs = trimRepeatedWords(pairsWithCappedJokes);
 
   return {
     id: theme.id,
@@ -956,14 +872,64 @@ function buildTheme(theme) {
     description: theme.description,
     icon: theme.icon,
     color: theme.color,
-    pairs: pairs.slice(0, targetPairCount),
+    pairs: balancedPairs.slice(0, maxPairCount),
   };
 }
 
+function capJokes(pairs) {
+  const normalPairs = pairs.filter((pair) => pair.style === 'normal');
+  const jokePairs = pairs.filter((pair) => pair.style !== 'normal');
+  const maxJokes = Math.floor(
+    (normalPairs.length * maxJokeRatio) / (1 - maxJokeRatio),
+  );
+  const allowedJokes = new Set(jokePairs.slice(0, maxJokes));
+  return pairs.filter((pair) => pair.style === 'normal' || allowedJokes.has(pair));
+}
+
+function trimRepeatedWords(pairs) {
+  const balancedPairs = [...pairs];
+  while (repeatedWordRatio(balancedPairs) > maxRepeatedWordRatio) {
+    const uses = wordUseCounts(balancedPairs);
+    const removableIndex = balancedPairs.findLastIndex(
+      (pair) =>
+        pair.style === 'normal' &&
+        (uses.get(normalizeWord(pair.civilianWord)) ?? 0) > 1 &&
+        (uses.get(normalizeWord(pair.undercoverWord)) ?? 0) > 1,
+    );
+    if (removableIndex === -1) break;
+    balancedPairs.splice(removableIndex, 1);
+  }
+  return balancedPairs;
+}
+
+function wordUseCounts(pairs) {
+  const uses = new Map();
+  for (const pair of pairs) {
+    for (const word of [pair.civilianWord, pair.undercoverWord]) {
+      const key = normalizeWord(word);
+      uses.set(key, (uses.get(key) ?? 0) + 1);
+    }
+  }
+  return uses;
+}
+
+function repeatedWordRatio(pairs) {
+  const uses = wordUseCounts(pairs);
+  const repeatedWords = [...uses.values()].filter((count) => count > 1).length;
+  return repeatedWords / uses.size;
+}
+
 let globalJokes = 0;
+let globalPairCount = 0;
 for (const id of themeOrder) {
   const theme = buildTheme(themes[id]);
-  globalJokes += theme.pairs.filter((pair) => pair.style !== 'normal').length;
+  const themeJokes = theme.pairs.filter((pair) => pair.style !== 'normal').length;
+  const themeJokeRatio = themeJokes / theme.pairs.length;
+  if (themeJokeRatio > maxJokeRatio) {
+    throw new Error(`${id} joke ratio must stay at or below 5%`);
+  }
+  globalJokes += themeJokes;
+  globalPairCount += theme.pairs.length;
   writeFileSync(
     join(outputDir, `${id}.json`),
     `${JSON.stringify(theme, null, 2)}\n`,
@@ -971,10 +937,9 @@ for (const id of themeOrder) {
   console.log(`${id}: ${theme.pairs.length} pairs`);
 }
 
-const globalPairCount = themeOrder.length * targetPairCount;
 const jokeRatio = globalJokes / globalPairCount;
 console.log(`jokes: ${globalJokes}/${globalPairCount} (${(jokeRatio * 100).toFixed(2)}%)`);
 
-if (jokeRatio >= 0.2) {
-  throw new Error('Joke ratio must stay below 20%');
+if (jokeRatio > maxJokeRatio) {
+  throw new Error('Joke ratio must stay at or below 5%');
 }

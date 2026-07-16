@@ -26,67 +26,12 @@
       "style": "troll"
     },
     {
-      "civilianWord": "Draco Malefoy",
-      "undercoverWord": "Blond privilege",
-      "style": "troll"
-    },
-    {
-      "civilianWord": "Balai magique",
-      "undercoverWord": "Uber sans siege",
-      "style": "soft_joke"
-    },
-    {
-      "civilianWord": "Gollum",
-      "undercoverWord": "Influenceur bague",
-      "style": "troll"
-    },
-    {
-      "civilianWord": "Bran Stark",
-      "undercoverWord": "Camera de surveillance medievale",
-      "style": "troll"
-    },
-    {
-      "civilianWord": "Dumbledore",
-      "undercoverWord": "RH toxique de Poudlard",
-      "style": "troll"
-    },
-    {
-      "civilianWord": "Legolas",
-      "undercoverWord": "Shampoing elfique",
-      "style": "soft_joke"
-    },
-    {
-      "civilianWord": "Hagrid",
-      "undercoverWord": "SPA des monstres dangereux",
-      "style": "soft_joke"
-    },
-    {
-      "civilianWord": "Quidditch",
-      "undercoverWord": "Sport ou les regles trichent",
-      "style": "troll"
-    },
-    {
       "civilianWord": "Harry Potter",
       "undercoverWord": "Ron Weasley",
       "style": "normal"
     },
     {
-      "civilianWord": "Ron Weasley",
-      "undercoverWord": "Hermione Granger",
-      "style": "normal"
-    },
-    {
       "civilianWord": "Hermione Granger",
-      "undercoverWord": "Draco Malefoy",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Harry Potter",
-      "undercoverWord": "Hermione Granger",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Ron Weasley",
       "undercoverWord": "Draco Malefoy",
       "style": "normal"
     },
@@ -96,22 +41,7 @@
       "style": "normal"
     },
     {
-      "civilianWord": "Voldemort",
-      "undercoverWord": "Severus Rogue",
-      "style": "normal"
-    },
-    {
       "civilianWord": "Severus Rogue",
-      "undercoverWord": "Hagrid",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Dumbledore",
-      "undercoverWord": "Severus Rogue",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Voldemort",
       "undercoverWord": "Hagrid",
       "style": "normal"
     },
@@ -121,22 +51,7 @@
       "style": "normal"
     },
     {
-      "civilianWord": "Remus Lupin",
-      "undercoverWord": "Bellatrix",
-      "style": "normal"
-    },
-    {
       "civilianWord": "Bellatrix",
-      "undercoverWord": "Lucius Malefoy",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Sirius Black",
-      "undercoverWord": "Bellatrix",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Remus Lupin",
       "undercoverWord": "Lucius Malefoy",
       "style": "normal"
     },
@@ -146,22 +61,7 @@
       "style": "normal"
     },
     {
-      "civilianWord": "Serpentard",
-      "undercoverWord": "Serdaigle",
-      "style": "normal"
-    },
-    {
       "civilianWord": "Serdaigle",
-      "undercoverWord": "Poufsouffle",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Gryffondor",
-      "undercoverWord": "Serdaigle",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Serpentard",
       "undercoverWord": "Poufsouffle",
       "style": "normal"
     },
@@ -171,22 +71,7 @@
       "style": "normal"
     },
     {
-      "civilianWord": "Beauxbatons",
-      "undercoverWord": "Durmstrang",
-      "style": "normal"
-    },
-    {
       "civilianWord": "Durmstrang",
-      "undercoverWord": "Ministere de la Magie",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Poudlard",
-      "undercoverWord": "Durmstrang",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Beauxbatons",
       "undercoverWord": "Ministere de la Magie",
       "style": "normal"
     },
@@ -196,22 +81,7 @@
       "style": "normal"
     },
     {
-      "civilianWord": "Balai",
-      "undercoverWord": "Cape invisibilite",
-      "style": "normal"
-    },
-    {
       "civilianWord": "Cape invisibilite",
-      "undercoverWord": "Carte du Maraudeur",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Baguette",
-      "undercoverWord": "Cape invisibilite",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Balai",
       "undercoverWord": "Carte du Maraudeur",
       "style": "normal"
     },
@@ -221,22 +91,7 @@
       "style": "normal"
     },
     {
-      "civilianWord": "Vif d or",
-      "undercoverWord": "Cognard",
-      "style": "normal"
-    },
-    {
       "civilianWord": "Cognard",
-      "undercoverWord": "Souafle",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Quidditch",
-      "undercoverWord": "Cognard",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Vif d or",
       "undercoverWord": "Souafle",
       "style": "normal"
     },
@@ -246,22 +101,7 @@
       "style": "normal"
     },
     {
-      "civilianWord": "Expelliarmus",
-      "undercoverWord": "Avada Kedavra",
-      "style": "normal"
-    },
-    {
       "civilianWord": "Avada Kedavra",
-      "undercoverWord": "Wingardium Leviosa",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Expecto Patronum",
-      "undercoverWord": "Avada Kedavra",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Expelliarmus",
       "undercoverWord": "Wingardium Leviosa",
       "style": "normal"
     },
@@ -271,22 +111,7 @@
       "style": "normal"
     },
     {
-      "civilianWord": "Reliques de la Mort",
-      "undercoverWord": "Pierre philosophale",
-      "style": "normal"
-    },
-    {
       "civilianWord": "Pierre philosophale",
-      "undercoverWord": "Retourneur de temps",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Horcruxe",
-      "undercoverWord": "Pierre philosophale",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Reliques de la Mort",
       "undercoverWord": "Retourneur de temps",
       "style": "normal"
     },
@@ -296,22 +121,7 @@
       "style": "normal"
     },
     {
-      "civilianWord": "Elfe",
-      "undercoverWord": "Nain",
-      "style": "normal"
-    },
-    {
       "civilianWord": "Nain",
-      "undercoverWord": "Orc",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Hobbit",
-      "undercoverWord": "Nain",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Elfe",
       "undercoverWord": "Orc",
       "style": "normal"
     },
@@ -321,22 +131,7 @@
       "style": "normal"
     },
     {
-      "civilianWord": "Sam",
-      "undercoverWord": "Gandalf",
-      "style": "normal"
-    },
-    {
       "civilianWord": "Gandalf",
-      "undercoverWord": "Aragorn",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Frodon",
-      "undercoverWord": "Gandalf",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Sam",
       "undercoverWord": "Aragorn",
       "style": "normal"
     },
@@ -346,22 +141,7 @@
       "style": "normal"
     },
     {
-      "civilianWord": "Gimli",
-      "undercoverWord": "Boromir",
-      "style": "normal"
-    },
-    {
       "civilianWord": "Boromir",
-      "undercoverWord": "Gollum",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Legolas",
-      "undercoverWord": "Boromir",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Gimli",
       "undercoverWord": "Gollum",
       "style": "normal"
     },
@@ -371,22 +151,7 @@
       "style": "normal"
     },
     {
-      "civilianWord": "Saroumane",
-      "undercoverWord": "Nazgul",
-      "style": "normal"
-    },
-    {
       "civilianWord": "Nazgul",
-      "undercoverWord": "Balrog",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Sauron",
-      "undercoverWord": "Nazgul",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Saroumane",
       "undercoverWord": "Balrog",
       "style": "normal"
     },
@@ -396,22 +161,7 @@
       "style": "normal"
     },
     {
-      "civilianWord": "Mordor",
-      "undercoverWord": "Comte",
-      "style": "normal"
-    },
-    {
       "civilianWord": "Comte",
-      "undercoverWord": "Gondor",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Anneau unique",
-      "undercoverWord": "Comte",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Mordor",
       "undercoverWord": "Gondor",
       "style": "normal"
     },
@@ -421,22 +171,7 @@
       "style": "normal"
     },
     {
-      "civilianWord": "Fondcombe",
-      "undercoverWord": "Moria",
-      "style": "normal"
-    },
-    {
       "civilianWord": "Moria",
-      "undercoverWord": "Isengard",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Rohan",
-      "undercoverWord": "Moria",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Fondcombe",
       "undercoverWord": "Isengard",
       "style": "normal"
     },
@@ -446,22 +181,7 @@
       "style": "normal"
     },
     {
-      "civilianWord": "Thorin",
-      "undercoverWord": "Smaug",
-      "style": "normal"
-    },
-    {
       "civilianWord": "Smaug",
-      "undercoverWord": "Bard",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Bilbon",
-      "undercoverWord": "Smaug",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Thorin",
       "undercoverWord": "Bard",
       "style": "normal"
     },
@@ -471,22 +191,7 @@
       "style": "normal"
     },
     {
-      "civilianWord": "Jon Snow",
-      "undercoverWord": "Arya Stark",
-      "style": "normal"
-    },
-    {
       "civilianWord": "Arya Stark",
-      "undercoverWord": "Tyrion",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Daenerys",
-      "undercoverWord": "Arya Stark",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Jon Snow",
       "undercoverWord": "Tyrion",
       "style": "normal"
     },
@@ -496,22 +201,7 @@
       "style": "normal"
     },
     {
-      "civilianWord": "Jaime",
-      "undercoverWord": "Sansa",
-      "style": "normal"
-    },
-    {
       "civilianWord": "Sansa",
-      "undercoverWord": "Bran",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Cersei",
-      "undercoverWord": "Sansa",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Jaime",
       "undercoverWord": "Bran",
       "style": "normal"
     },
@@ -521,22 +211,7 @@
       "style": "normal"
     },
     {
-      "civilianWord": "Loup-garou",
-      "undercoverWord": "Vampire",
-      "style": "normal"
-    },
-    {
       "civilianWord": "Vampire",
-      "undercoverWord": "Fantome",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Dragon",
-      "undercoverWord": "Vampire",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Loup-garou",
       "undercoverWord": "Fantome",
       "style": "normal"
     },
@@ -546,22 +221,7 @@
       "style": "normal"
     },
     {
-      "civilianWord": "Mage",
-      "undercoverWord": "Druide",
-      "style": "normal"
-    },
-    {
       "civilianWord": "Druide",
-      "undercoverWord": "Necromancien",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Sorcier",
-      "undercoverWord": "Druide",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Mage",
       "undercoverWord": "Necromancien",
       "style": "normal"
     },
@@ -571,22 +231,7 @@
       "style": "normal"
     },
     {
-      "civilianWord": "Sortilege",
-      "undercoverWord": "Malefice",
-      "style": "normal"
-    },
-    {
       "civilianWord": "Malefice",
-      "undercoverWord": "Enchantement",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Potion",
-      "undercoverWord": "Malefice",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Sortilege",
       "undercoverWord": "Enchantement",
       "style": "normal"
     },
@@ -596,22 +241,7 @@
       "style": "normal"
     },
     {
-      "civilianWord": "Parchemin",
-      "undercoverWord": "Rune",
-      "style": "normal"
-    },
-    {
       "civilianWord": "Rune",
-      "undercoverWord": "Relique",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Grimoire",
-      "undercoverWord": "Rune",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Parchemin",
       "undercoverWord": "Relique",
       "style": "normal"
     },
@@ -621,22 +251,7 @@
       "style": "normal"
     },
     {
-      "civilianWord": "Quete",
-      "undercoverWord": "Guilde",
-      "style": "normal"
-    },
-    {
       "civilianWord": "Guilde",
-      "undercoverWord": "Taverne",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Donjon",
-      "undercoverWord": "Guilde",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Quete",
       "undercoverWord": "Taverne",
       "style": "normal"
     },
@@ -646,22 +261,7 @@
       "style": "normal"
     },
     {
-      "civilianWord": "Arc",
-      "undercoverWord": "Dague",
-      "style": "normal"
-    },
-    {
       "civilianWord": "Dague",
-      "undercoverWord": "Hache",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Epee",
-      "undercoverWord": "Dague",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Arc",
       "undercoverWord": "Hache",
       "style": "normal"
     },
@@ -671,22 +271,7 @@
       "style": "normal"
     },
     {
-      "civilianWord": "Bouclier",
-      "undercoverWord": "Casque",
-      "style": "normal"
-    },
-    {
       "civilianWord": "Casque",
-      "undercoverWord": "Cape",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Armure",
-      "undercoverWord": "Casque",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Bouclier",
       "undercoverWord": "Cape",
       "style": "normal"
     },
@@ -696,22 +281,7 @@
       "style": "normal"
     },
     {
-      "civilianWord": "Experience",
-      "undercoverWord": "Niveau",
-      "style": "normal"
-    },
-    {
       "civilianWord": "Niveau",
-      "undercoverWord": "Competence",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Mana",
-      "undercoverWord": "Niveau",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Experience",
       "undercoverWord": "Competence",
       "style": "normal"
     },
@@ -721,22 +291,7 @@
       "style": "normal"
     },
     {
-      "civilianWord": "Griffon",
-      "undercoverWord": "Phoenix",
-      "style": "normal"
-    },
-    {
       "civilianWord": "Phoenix",
-      "undercoverWord": "Basilic",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Licorne",
-      "undercoverWord": "Phoenix",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Griffon",
       "undercoverWord": "Basilic",
       "style": "normal"
     },
@@ -746,22 +301,7 @@
       "style": "normal"
     },
     {
-      "civilianWord": "Dragon noir",
-      "undercoverWord": "Dragon blanc",
-      "style": "normal"
-    },
-    {
       "civilianWord": "Dragon blanc",
-      "undercoverWord": "Wyverne",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Dragon rouge",
-      "undercoverWord": "Dragon blanc",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Dragon noir",
       "undercoverWord": "Wyverne",
       "style": "normal"
     },
@@ -771,18 +311,8 @@
       "style": "normal"
     },
     {
-      "civilianWord": "Poudlard",
-      "undercoverWord": "Terre du Milieu",
-      "style": "normal"
-    },
-    {
       "civilianWord": "Terre du Milieu",
       "undercoverWord": "Westeros",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Narnia",
-      "undercoverWord": "Terre du Milieu",
       "style": "normal"
     },
     {
@@ -791,22 +321,7 @@
       "style": "normal"
     },
     {
-      "civilianWord": "Sorciere blanche",
-      "undercoverWord": "Caspian",
-      "style": "normal"
-    },
-    {
       "civilianWord": "Caspian",
-      "undercoverWord": "Edmund",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Aslan",
-      "undercoverWord": "Caspian",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Sorciere blanche",
       "undercoverWord": "Edmund",
       "style": "normal"
     },
@@ -816,22 +331,7 @@
       "style": "normal"
     },
     {
-      "civilianWord": "Morgane",
-      "undercoverWord": "Arthur",
-      "style": "normal"
-    },
-    {
       "civilianWord": "Arthur",
-      "undercoverWord": "Lancelot",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Merlin",
-      "undercoverWord": "Arthur",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Morgane",
       "undercoverWord": "Lancelot",
       "style": "normal"
     },
@@ -841,22 +341,7 @@
       "style": "normal"
     },
     {
-      "civilianWord": "Graal",
-      "undercoverWord": "Table ronde",
-      "style": "normal"
-    },
-    {
       "civilianWord": "Table ronde",
-      "undercoverWord": "Avalon",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Excalibur",
-      "undercoverWord": "Table ronde",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Graal",
       "undercoverWord": "Avalon",
       "style": "normal"
     },
@@ -866,22 +351,7 @@
       "style": "normal"
     },
     {
-      "civilianWord": "Yennefer",
-      "undercoverWord": "Ciri",
-      "style": "normal"
-    },
-    {
       "civilianWord": "Ciri",
-      "undercoverWord": "Jaskier",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Geralt de Riv",
-      "undercoverWord": "Ciri",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Yennefer",
       "undercoverWord": "Jaskier",
       "style": "normal"
     },
@@ -891,22 +361,7 @@
       "style": "normal"
     },
     {
-      "civilianWord": "Chasseur",
-      "undercoverWord": "Contrat",
-      "style": "normal"
-    },
-    {
       "civilianWord": "Contrat",
-      "undercoverWord": "Potion de sorceleur",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Monstre",
-      "undercoverWord": "Contrat",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Chasseur",
       "undercoverWord": "Potion de sorceleur",
       "style": "normal"
     },
@@ -916,22 +371,7 @@
       "style": "normal"
     },
     {
-      "civilianWord": "Paladin",
-      "undercoverWord": "Voleur",
-      "style": "normal"
-    },
-    {
       "civilianWord": "Voleur",
-      "undercoverWord": "Ranger",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Barde",
-      "undercoverWord": "Voleur",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Paladin",
       "undercoverWord": "Ranger",
       "style": "normal"
     },
@@ -941,22 +381,7 @@
       "style": "normal"
     },
     {
-      "civilianWord": "Barbare",
-      "undercoverWord": "Ensorceleur",
-      "style": "normal"
-    },
-    {
       "civilianWord": "Ensorceleur",
-      "undercoverWord": "Warlock",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Clerc",
-      "undercoverWord": "Ensorceleur",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Barbare",
       "undercoverWord": "Warlock",
       "style": "normal"
     },
@@ -966,22 +391,7 @@
       "style": "normal"
     },
     {
-      "civilianWord": "Initiative",
-      "undercoverWord": "Jet critique",
-      "style": "normal"
-    },
-    {
       "civilianWord": "Jet critique",
-      "undercoverWord": "Echec critique",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "D20",
-      "undercoverWord": "Jet critique",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Initiative",
       "undercoverWord": "Echec critique",
       "style": "normal"
     },
@@ -991,22 +401,7 @@
       "style": "normal"
     },
     {
-      "civilianWord": "One-shot",
-      "undercoverWord": "Maître du jeu",
-      "style": "normal"
-    },
-    {
       "civilianWord": "Maître du jeu",
-      "undercoverWord": "Fiche perso",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Campagne",
-      "undercoverWord": "Maître du jeu",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "One-shot",
       "undercoverWord": "Fiche perso",
       "style": "normal"
     },
@@ -1016,22 +411,7 @@
       "style": "normal"
     },
     {
-      "civilianWord": "Dimension",
-      "undercoverWord": "Prophétie",
-      "style": "normal"
-    },
-    {
       "civilianWord": "Prophétie",
-      "undercoverWord": "Malédiction",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Portail",
-      "undercoverWord": "Prophétie",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Dimension",
       "undercoverWord": "Malédiction",
       "style": "normal"
     },
@@ -1041,22 +421,7 @@
       "style": "normal"
     },
     {
-      "civilianWord": "Reine",
-      "undercoverWord": "Prince",
-      "style": "normal"
-    },
-    {
       "civilianWord": "Prince",
-      "undercoverWord": "Chevalier",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Roi",
-      "undercoverWord": "Prince",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Reine",
       "undercoverWord": "Chevalier",
       "style": "normal"
     },
@@ -1066,22 +431,7 @@
       "style": "normal"
     },
     {
-      "civilianWord": "Chateau",
-      "undercoverWord": "Foret enchantee",
-      "style": "normal"
-    },
-    {
       "civilianWord": "Foret enchantee",
-      "undercoverWord": "Marais maudit",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Tour sombre",
-      "undercoverWord": "Foret enchantee",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Chateau",
       "undercoverWord": "Marais maudit",
       "style": "normal"
     },
@@ -1091,22 +441,7 @@
       "style": "normal"
     },
     {
-      "civilianWord": "Chouette",
-      "undercoverWord": "Crapaud",
-      "style": "normal"
-    },
-    {
       "civilianWord": "Crapaud",
-      "undercoverWord": "Chat noir",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Familier",
-      "undercoverWord": "Crapaud",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Chouette",
       "undercoverWord": "Chat noir",
       "style": "normal"
     },
@@ -1116,22 +451,7 @@
       "style": "normal"
     },
     {
-      "civilianWord": "Saule cogneur",
-      "undercoverWord": "Detraqueur",
-      "style": "normal"
-    },
-    {
       "civilianWord": "Detraqueur",
-      "undercoverWord": "Hippogriffe",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Mandragore",
-      "undercoverWord": "Detraqueur",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Saule cogneur",
       "undercoverWord": "Hippogriffe",
       "style": "normal"
     },
@@ -1141,22 +461,7 @@
       "style": "normal"
     },
     {
-      "civilianWord": "Ent",
-      "undercoverWord": "Uruk-hai",
-      "style": "normal"
-    },
-    {
       "civilianWord": "Uruk-hai",
-      "undercoverWord": "Gobelin",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Troll des cavernes",
-      "undercoverWord": "Uruk-hai",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Ent",
       "undercoverWord": "Gobelin",
       "style": "normal"
     },
@@ -1166,343 +471,8 @@
       "style": "normal"
     },
     {
-      "civilianWord": "Amulette",
-      "undercoverWord": "Talisman",
-      "style": "normal"
-    },
-    {
       "civilianWord": "Talisman",
       "undercoverWord": "Couronne",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Anneau",
-      "undercoverWord": "Talisman",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Amulette",
-      "undercoverWord": "Couronne",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Ron Weasley",
-      "undercoverWord": "Voldemort",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Hermione Granger",
-      "undercoverWord": "Severus Rogue",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Hermione Granger",
-      "undercoverWord": "Bellatrix",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Draco Malefoy",
-      "undercoverWord": "Lucius Malefoy",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Draco Malefoy",
-      "undercoverWord": "Poufsouffle",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Harry Potter",
-      "undercoverWord": "Gryffondor",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Harry Potter",
-      "undercoverWord": "Poudlard",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Harry Potter",
-      "undercoverWord": "Expecto Patronum",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Hagrid",
-      "undercoverWord": "Lucius Malefoy",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Dumbledore",
-      "undercoverWord": "Sirius Black",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Dumbledore",
-      "undercoverWord": "Gryffondor",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Severus Rogue",
-      "undercoverWord": "Durmstrang",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Hagrid",
-      "undercoverWord": "Carte du Maraudeur",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Remus Lupin",
-      "undercoverWord": "Serpentard",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Bellatrix",
-      "undercoverWord": "Serdaigle",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Lucius Malefoy",
-      "undercoverWord": "Ministere de la Magie",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Sirius Black",
-      "undercoverWord": "Baguette",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Sirius Black",
-      "undercoverWord": "Quidditch",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Remus Lupin",
-      "undercoverWord": "Vif d or",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Poufsouffle",
-      "undercoverWord": "Ministere de la Magie",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Gryffondor",
-      "undercoverWord": "Baguette",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Serpentard",
-      "undercoverWord": "Balai",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Serdaigle",
-      "undercoverWord": "Cognard",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Poufsouffle",
-      "undercoverWord": "Wingardium Leviosa",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Beauxbatons",
-      "undercoverWord": "Balai",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Durmstrang",
-      "undercoverWord": "Cape invisibilite",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Ministere de la Magie",
-      "undercoverWord": "Souafle",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Beauxbatons",
-      "undercoverWord": "Reliques de la Mort",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Carte du Maraudeur",
-      "undercoverWord": "Souafle",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Baguette",
-      "undercoverWord": "Quidditch",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Cape invisibilite",
-      "undercoverWord": "Pierre philosophale",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Carte du Maraudeur",
-      "undercoverWord": "Orc",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Vif d or",
-      "undercoverWord": "Expelliarmus",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Cognard",
-      "undercoverWord": "Avada Kedavra",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Souafle",
-      "undercoverWord": "Retourneur de temps",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Wingardium Leviosa",
-      "undercoverWord": "Retourneur de temps",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Expecto Patronum",
-      "undercoverWord": "Horcruxe",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Expecto Patronum",
-      "undercoverWord": "Hobbit",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Expelliarmus",
-      "undercoverWord": "Elfe",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Avada Kedavra",
-      "undercoverWord": "Gandalf",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Wingardium Leviosa",
-      "undercoverWord": "Gollum",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Reliques de la Mort",
-      "undercoverWord": "Elfe",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Pierre philosophale",
-      "undercoverWord": "Nain",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Retourneur de temps",
-      "undercoverWord": "Aragorn",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Horcruxe",
-      "undercoverWord": "Legolas",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Horcruxe",
-      "undercoverWord": "Sauron",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Orc",
-      "undercoverWord": "Aragorn",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Hobbit",
-      "undercoverWord": "Frodon",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Hobbit",
-      "undercoverWord": "Legolas",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Nain",
-      "undercoverWord": "Nazgul",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Orc",
-      "undercoverWord": "Gondor",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Sam",
-      "undercoverWord": "Gimli",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Aragorn",
-      "undercoverWord": "Balrog",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Frodon",
-      "undercoverWord": "Anneau unique",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Sam",
-      "undercoverWord": "Fondcombe",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Gollum",
-      "undercoverWord": "Balrog",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Gimli",
-      "undercoverWord": "Mordor",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Boromir",
-      "undercoverWord": "Moria",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Boromir",
-      "undercoverWord": "Smaug",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Saroumane",
-      "undercoverWord": "Mordor",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Nazgul",
-      "undercoverWord": "Comte",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Balrog",
-      "undercoverWord": "Isengard",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Sauron",
-      "undercoverWord": "Bilbon",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Sauron",
-      "undercoverWord": "Daenerys",
       "style": "normal"
     }
   ]
