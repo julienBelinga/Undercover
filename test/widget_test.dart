@@ -186,13 +186,14 @@ void main() {
   group('GameContentService', () {
     final contentService = GameContentService(assetBundle: _FileAssetBundle());
 
-    test('loads expected JSON themes with 300 valid pairs each', () async {
+    test('loads expected JSON themes with valid pairs', () async {
       final themes = await contentService.themes();
       expect(themes.map((theme) => theme.id), GameContentService.themeIds);
 
       for (final theme in themes) {
         expect(File('assets/themes/${theme.id}.json').existsSync(), isTrue);
-        expect(theme.pairs.length, 300);
+        expect(theme.pairs.length, greaterThanOrEqualTo(100));
+        expect(theme.pairs.length, lessThanOrEqualTo(300));
         for (final pair in theme.pairs) {
           expect(pair.civilianWord.trim(), isNotEmpty);
           expect(pair.undercoverWord.trim(), isNotEmpty);
@@ -202,18 +203,12 @@ void main() {
 
     test('keeps pairs unique and joke ratio below limits', () async {
       final themes = await contentService.themes();
-      final broadThemeIds = {
-        'general',
-        'cuisine',
-        'cinema',
-        'personnalites_connues',
-      };
       var totalPairs = 0;
       var jokePairs = 0;
 
       for (final theme in themes) {
         final seen = <String>{};
-        var broadThemeJokes = 0;
+        var themeJokes = 0;
         for (final pair in theme.pairs) {
           final key =
               '${pair.civilianWord.trim().toLowerCase()}::'
@@ -222,15 +217,73 @@ void main() {
           totalPairs++;
           if (pair.style != WordPairStyle.normal) {
             jokePairs++;
-            broadThemeJokes++;
+            themeJokes++;
           }
         }
-        if (broadThemeIds.contains(theme.id)) {
-          expect(broadThemeJokes / theme.pairs.length, lessThan(0.05));
-        }
+        expect(
+          themeJokes / theme.pairs.length,
+          lessThanOrEqualTo(0.05),
+          reason: '${theme.id} has too many joke pairs',
+        );
       }
 
-      expect(jokePairs / totalPairs, lessThan(0.2));
+      expect(jokePairs / totalPairs, lessThanOrEqualTo(0.05));
+    });
+
+    test('limits word repetition and avoids pair triangles', () async {
+      final themes = await contentService.themes();
+
+      String normalize(String value) {
+        return value
+            .toLowerCase()
+            .replaceAll(RegExp('[éèêë]'), 'e')
+            .replaceAll(RegExp('[àâä]'), 'a')
+            .replaceAll(RegExp('[îï]'), 'i')
+            .replaceAll(RegExp('[ôö]'), 'o')
+            .replaceAll(RegExp('[ùûü]'), 'u')
+            .trim();
+      }
+
+      for (final theme in themes) {
+        final uses = <String, int>{};
+        final graph = <String, Set<String>>{};
+
+        for (final pair in theme.pairs) {
+          final civilian = normalize(pair.civilianWord);
+          final undercover = normalize(pair.undercoverWord);
+          uses[civilian] = (uses[civilian] ?? 0) + 1;
+          uses[undercover] = (uses[undercover] ?? 0) + 1;
+          graph.putIfAbsent(civilian, () => <String>{}).add(undercover);
+          graph.putIfAbsent(undercover, () => <String>{}).add(civilian);
+        }
+
+        expect(
+          uses.values.every((count) => count <= 2),
+          isTrue,
+          reason: '${theme.id} repeats a word more than once',
+        );
+
+        final repeatedWords = uses.values.where((count) => count > 1).length;
+        expect(
+          repeatedWords / uses.length,
+          lessThanOrEqualTo(0.3),
+          reason: '${theme.id} repeats too many words',
+        );
+
+        for (final entry in graph.entries) {
+          final firstWord = entry.key;
+          for (final secondWord in entry.value) {
+            final sharedNeighbors = entry.value.where(
+              (neighbor) => graph[secondWord]?.contains(neighbor) ?? false,
+            );
+            expect(
+              sharedNeighbors,
+              isEmpty,
+              reason: '${theme.id} has a triangle around $firstWord',
+            );
+          }
+        }
+      }
     });
   });
 

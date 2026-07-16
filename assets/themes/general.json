@@ -16,47 +16,12 @@
       "style": "soft_joke"
     },
     {
-      "civilianWord": "Wifi public",
-      "undercoverWord": "Rien du tout",
-      "style": "soft_joke"
-    },
-    {
-      "civilianWord": "Reunion rapide",
-      "undercoverWord": "Mensonge organise",
-      "style": "soft_joke"
-    },
-    {
-      "civilianWord": "Regime demain",
-      "undercoverWord": "Pizza ce soir",
-      "style": "soft_joke"
-    },
-    {
-      "civilianWord": "Photo de profil",
-      "undercoverWord": "Mensonge HD",
-      "style": "soft_joke"
-    },
-    {
       "civilianWord": "Pizza",
       "undercoverWord": "Burger",
       "style": "normal"
     },
     {
-      "civilianWord": "Burger",
-      "undercoverWord": "Tacos",
-      "style": "normal"
-    },
-    {
       "civilianWord": "Tacos",
-      "undercoverWord": "Kebab",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Pizza",
-      "undercoverWord": "Tacos",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Burger",
       "undercoverWord": "Kebab",
       "style": "normal"
     },
@@ -66,22 +31,7 @@
       "style": "normal"
     },
     {
-      "civilianWord": "Theatre",
-      "undercoverWord": "Concert",
-      "style": "normal"
-    },
-    {
       "civilianWord": "Concert",
-      "undercoverWord": "Spectacle",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Cinema",
-      "undercoverWord": "Concert",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Theatre",
       "undercoverWord": "Spectacle",
       "style": "normal"
     },
@@ -91,22 +41,7 @@
       "style": "normal"
     },
     {
-      "civilianWord": "Piscine",
-      "undercoverWord": "Lac",
-      "style": "normal"
-    },
-    {
       "civilianWord": "Lac",
-      "undercoverWord": "Riviere",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Plage",
-      "undercoverWord": "Lac",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Piscine",
       "undercoverWord": "Riviere",
       "style": "normal"
     },
@@ -116,22 +51,7 @@
       "style": "normal"
     },
     {
-      "civilianWord": "Metro",
-      "undercoverWord": "Tramway",
-      "style": "normal"
-    },
-    {
       "civilianWord": "Tramway",
-      "undercoverWord": "Bus",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Train",
-      "undercoverWord": "Tramway",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Metro",
       "undercoverWord": "Bus",
       "style": "normal"
     },
@@ -141,22 +61,7 @@
       "style": "normal"
     },
     {
-      "civilianWord": "Chien",
-      "undercoverWord": "Lapin",
-      "style": "normal"
-    },
-    {
       "civilianWord": "Lapin",
-      "undercoverWord": "Hamster",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Chat",
-      "undercoverWord": "Lapin",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Chien",
       "undercoverWord": "Hamster",
       "style": "normal"
     },
@@ -166,22 +71,7 @@
       "style": "normal"
     },
     {
-      "civilianWord": "The",
-      "undercoverWord": "Chocolat chaud",
-      "style": "normal"
-    },
-    {
       "civilianWord": "Chocolat chaud",
-      "undercoverWord": "Jus",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Cafe",
-      "undercoverWord": "Chocolat chaud",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "The",
       "undercoverWord": "Jus",
       "style": "normal"
     },
@@ -191,22 +81,7 @@
       "style": "normal"
     },
     {
-      "civilianWord": "Ordinateur",
-      "undercoverWord": "Tablette",
-      "style": "normal"
-    },
-    {
       "civilianWord": "Tablette",
-      "undercoverWord": "Console",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Telephone",
-      "undercoverWord": "Tablette",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Ordinateur",
       "undercoverWord": "Console",
       "style": "normal"
     },
@@ -216,22 +91,7 @@
       "style": "normal"
     },
     {
-      "civilianWord": "College",
-      "undercoverWord": "Lycee",
-      "style": "normal"
-    },
-    {
       "civilianWord": "Lycee",
-      "undercoverWord": "Universite",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Ecole",
-      "undercoverWord": "Lycee",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "College",
       "undercoverWord": "Universite",
       "style": "normal"
     },
@@ -241,22 +101,7 @@
       "style": "normal"
     },
     {
-      "civilianWord": "Patisserie",
-      "undercoverWord": "Epicerie",
-      "style": "normal"
-    },
-    {
       "civilianWord": "Epicerie",
-      "undercoverWord": "Supermarche",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Boulangerie",
-      "undercoverWord": "Epicerie",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Patisserie",
       "undercoverWord": "Supermarche",
       "style": "normal"
     },
@@ -266,22 +111,7 @@
       "style": "normal"
     },
     {
-      "civilianWord": "Basket",
-      "undercoverWord": "Tennis",
-      "style": "normal"
-    },
-    {
       "civilianWord": "Tennis",
-      "undercoverWord": "Rugby",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Foot",
-      "undercoverWord": "Tennis",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Basket",
       "undercoverWord": "Rugby",
       "style": "normal"
     },
@@ -291,22 +121,7 @@
       "style": "normal"
     },
     {
-      "civilianWord": "Lyon",
-      "undercoverWord": "Marseille",
-      "style": "normal"
-    },
-    {
       "civilianWord": "Marseille",
-      "undercoverWord": "Bordeaux",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Paris",
-      "undercoverWord": "Marseille",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Lyon",
       "undercoverWord": "Bordeaux",
       "style": "normal"
     },
@@ -316,22 +131,7 @@
       "style": "normal"
     },
     {
-      "civilianWord": "Colline",
-      "undercoverWord": "Foret",
-      "style": "normal"
-    },
-    {
       "civilianWord": "Foret",
-      "undercoverWord": "Campagne",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Montagne",
-      "undercoverWord": "Foret",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Colline",
       "undercoverWord": "Campagne",
       "style": "normal"
     },
@@ -341,22 +141,7 @@
       "style": "normal"
     },
     {
-      "civilianWord": "Magazine",
-      "undercoverWord": "Journal",
-      "style": "normal"
-    },
-    {
       "civilianWord": "Journal",
-      "undercoverWord": "BD",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Livre",
-      "undercoverWord": "Journal",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Magazine",
       "undercoverWord": "BD",
       "style": "normal"
     },
@@ -366,22 +151,7 @@
       "style": "normal"
     },
     {
-      "civilianWord": "Crayon",
-      "undercoverWord": "Feutre",
-      "style": "normal"
-    },
-    {
       "civilianWord": "Feutre",
-      "undercoverWord": "Marqueur",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Stylo",
-      "undercoverWord": "Feutre",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Crayon",
       "undercoverWord": "Marqueur",
       "style": "normal"
     },
@@ -391,22 +161,7 @@
       "style": "normal"
     },
     {
-      "civilianWord": "Fauteuil",
-      "undercoverWord": "Chaise",
-      "style": "normal"
-    },
-    {
       "civilianWord": "Chaise",
-      "undercoverWord": "Tabouret",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Canape",
-      "undercoverWord": "Chaise",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Fauteuil",
       "undercoverWord": "Tabouret",
       "style": "normal"
     },
@@ -416,22 +171,7 @@
       "style": "normal"
     },
     {
-      "civilianWord": "Moto",
-      "undercoverWord": "Velo",
-      "style": "normal"
-    },
-    {
       "civilianWord": "Velo",
-      "undercoverWord": "Trottinette",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Voiture",
-      "undercoverWord": "Velo",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Moto",
       "undercoverWord": "Trottinette",
       "style": "normal"
     },
@@ -441,22 +181,7 @@
       "style": "normal"
     },
     {
-      "civilianWord": "Helicoptere",
-      "undercoverWord": "Fusee",
-      "style": "normal"
-    },
-    {
       "civilianWord": "Fusee",
-      "undercoverWord": "Montgolfiere",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Avion",
-      "undercoverWord": "Fusee",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Helicoptere",
       "undercoverWord": "Montgolfiere",
       "style": "normal"
     },
@@ -466,22 +191,7 @@
       "style": "normal"
     },
     {
-      "civilianWord": "Lune",
-      "undercoverWord": "Etoile",
-      "style": "normal"
-    },
-    {
       "civilianWord": "Etoile",
-      "undercoverWord": "Planete",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Soleil",
-      "undercoverWord": "Etoile",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Lune",
       "undercoverWord": "Planete",
       "style": "normal"
     },
@@ -491,22 +201,7 @@
       "style": "normal"
     },
     {
-      "civilianWord": "Ete",
-      "undercoverWord": "Printemps",
-      "style": "normal"
-    },
-    {
       "civilianWord": "Printemps",
-      "undercoverWord": "Automne",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Hiver",
-      "undercoverWord": "Printemps",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Ete",
       "undercoverWord": "Automne",
       "style": "normal"
     },
@@ -516,22 +211,7 @@
       "style": "normal"
     },
     {
-      "civilianWord": "Neige",
-      "undercoverWord": "Orage",
-      "style": "normal"
-    },
-    {
       "civilianWord": "Orage",
-      "undercoverWord": "Brouillard",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Pluie",
-      "undercoverWord": "Orage",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Neige",
       "undercoverWord": "Brouillard",
       "style": "normal"
     },
@@ -541,22 +221,7 @@
       "style": "normal"
     },
     {
-      "civilianWord": "Ocean",
-      "undercoverWord": "Vague",
-      "style": "normal"
-    },
-    {
       "civilianWord": "Vague",
-      "undercoverWord": "Maree",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Mer",
-      "undercoverWord": "Vague",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Ocean",
       "undercoverWord": "Maree",
       "style": "normal"
     },
@@ -566,22 +231,7 @@
       "style": "normal"
     },
     {
-      "civilianWord": "Appartement",
-      "undercoverWord": "Maison",
-      "style": "normal"
-    },
-    {
       "civilianWord": "Maison",
-      "undercoverWord": "Villa",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Hotel",
-      "undercoverWord": "Maison",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Appartement",
       "undercoverWord": "Villa",
       "style": "normal"
     },
@@ -591,22 +241,7 @@
       "style": "normal"
     },
     {
-      "civilianWord": "Poste",
-      "undercoverWord": "Mairie",
-      "style": "normal"
-    },
-    {
       "civilianWord": "Mairie",
-      "undercoverWord": "Prefecture",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Banque",
-      "undercoverWord": "Mairie",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Poste",
       "undercoverWord": "Prefecture",
       "style": "normal"
     },
@@ -616,22 +251,7 @@
       "style": "normal"
     },
     {
-      "civilianWord": "Dentiste",
-      "undercoverWord": "Pharmacien",
-      "style": "normal"
-    },
-    {
       "civilianWord": "Pharmacien",
-      "undercoverWord": "Infirmier",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Medecin",
-      "undercoverWord": "Pharmacien",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Dentiste",
       "undercoverWord": "Infirmier",
       "style": "normal"
     },
@@ -641,22 +261,7 @@
       "style": "normal"
     },
     {
-      "civilianWord": "Pompier",
-      "undercoverWord": "Ambulance",
-      "style": "normal"
-    },
-    {
       "civilianWord": "Ambulance",
-      "undercoverWord": "Urgence",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Police",
-      "undercoverWord": "Ambulance",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Pompier",
       "undercoverWord": "Urgence",
       "style": "normal"
     },
@@ -666,22 +271,7 @@
       "style": "normal"
     },
     {
-      "civilianWord": "Plan",
-      "undercoverWord": "GPS",
-      "style": "normal"
-    },
-    {
       "civilianWord": "GPS",
-      "undercoverWord": "Boussole",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Carte",
-      "undercoverWord": "GPS",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Plan",
       "undercoverWord": "Boussole",
       "style": "normal"
     },
@@ -691,22 +281,7 @@
       "style": "normal"
     },
     {
-      "civilianWord": "T-shirt",
-      "undercoverWord": "Pull",
-      "style": "normal"
-    },
-    {
       "civilianWord": "Pull",
-      "undercoverWord": "Veste",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Chemise",
-      "undercoverWord": "Pull",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "T-shirt",
       "undercoverWord": "Veste",
       "style": "normal"
     },
@@ -716,17 +291,7 @@
       "style": "normal"
     },
     {
-      "civilianWord": "Chaussure",
-      "undercoverWord": "Botte",
-      "style": "normal"
-    },
-    {
       "civilianWord": "Botte",
-      "undercoverWord": "Sandale",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Chaussure",
       "undercoverWord": "Sandale",
       "style": "normal"
     },
@@ -736,22 +301,7 @@
       "style": "normal"
     },
     {
-      "civilianWord": "Bracelet",
-      "undercoverWord": "Collier",
-      "style": "normal"
-    },
-    {
       "civilianWord": "Collier",
-      "undercoverWord": "Bague",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Montre",
-      "undercoverWord": "Collier",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Bracelet",
       "undercoverWord": "Bague",
       "style": "normal"
     },
@@ -761,22 +311,7 @@
       "style": "normal"
     },
     {
-      "civilianWord": "Sac",
-      "undercoverWord": "Cartable",
-      "style": "normal"
-    },
-    {
       "civilianWord": "Cartable",
-      "undercoverWord": "Sacoche",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Valise",
-      "undercoverWord": "Cartable",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Sac",
       "undercoverWord": "Sacoche",
       "style": "normal"
     },
@@ -786,22 +321,7 @@
       "style": "normal"
     },
     {
-      "civilianWord": "Balcon",
-      "undercoverWord": "Terrasse",
-      "style": "normal"
-    },
-    {
       "civilianWord": "Terrasse",
-      "undercoverWord": "Veranda",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Jardin",
-      "undercoverWord": "Terrasse",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Balcon",
       "undercoverWord": "Veranda",
       "style": "normal"
     },
@@ -811,22 +331,7 @@
       "style": "normal"
     },
     {
-      "civilianWord": "Salon",
-      "undercoverWord": "Chambre",
-      "style": "normal"
-    },
-    {
       "civilianWord": "Chambre",
-      "undercoverWord": "Salle de bain",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Cuisine",
-      "undercoverWord": "Chambre",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Salon",
       "undercoverWord": "Salle de bain",
       "style": "normal"
     },
@@ -836,22 +341,7 @@
       "style": "normal"
     },
     {
-      "civilianWord": "Couteau",
-      "undercoverWord": "Cuillere",
-      "style": "normal"
-    },
-    {
       "civilianWord": "Cuillere",
-      "undercoverWord": "Assiette",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Fourchette",
-      "undercoverWord": "Cuillere",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Couteau",
       "undercoverWord": "Assiette",
       "style": "normal"
     },
@@ -861,22 +351,7 @@
       "style": "normal"
     },
     {
-      "civilianWord": "Poivre",
-      "undercoverWord": "Sucre",
-      "style": "normal"
-    },
-    {
       "civilianWord": "Sucre",
-      "undercoverWord": "Farine",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Sel",
-      "undercoverWord": "Sucre",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Poivre",
       "undercoverWord": "Farine",
       "style": "normal"
     },
@@ -886,22 +361,7 @@
       "style": "normal"
     },
     {
-      "civilianWord": "Citron",
-      "undercoverWord": "Pomme",
-      "style": "normal"
-    },
-    {
       "civilianWord": "Pomme",
-      "undercoverWord": "Poire",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Orange",
-      "undercoverWord": "Pomme",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Citron",
       "undercoverWord": "Poire",
       "style": "normal"
     },
@@ -911,22 +371,7 @@
       "style": "normal"
     },
     {
-      "civilianWord": "Bleu",
-      "undercoverWord": "Vert",
-      "style": "normal"
-    },
-    {
       "civilianWord": "Vert",
-      "undercoverWord": "Jaune",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Rouge",
-      "undercoverWord": "Vert",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Bleu",
       "undercoverWord": "Jaune",
       "style": "normal"
     },
@@ -936,22 +381,7 @@
       "style": "normal"
     },
     {
-      "civilianWord": "Midi",
-      "undercoverWord": "Soir",
-      "style": "normal"
-    },
-    {
       "civilianWord": "Soir",
-      "undercoverWord": "Nuit",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Matin",
-      "undercoverWord": "Soir",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Midi",
       "undercoverWord": "Nuit",
       "style": "normal"
     },
@@ -961,22 +391,7 @@
       "style": "normal"
     },
     {
-      "civilianWord": "Samedi",
-      "undercoverWord": "Vendredi",
-      "style": "normal"
-    },
-    {
       "civilianWord": "Vendredi",
-      "undercoverWord": "Lundi",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Dimanche",
-      "undercoverWord": "Vendredi",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Samedi",
       "undercoverWord": "Lundi",
       "style": "normal"
     },
@@ -986,22 +401,7 @@
       "style": "normal"
     },
     {
-      "civilianWord": "Mariage",
-      "undercoverWord": "Fete",
-      "style": "normal"
-    },
-    {
       "civilianWord": "Fete",
-      "undercoverWord": "Soiree",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Anniversaire",
-      "undercoverWord": "Fete",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Mariage",
       "undercoverWord": "Soiree",
       "style": "normal"
     },
@@ -1011,22 +411,7 @@
       "style": "normal"
     },
     {
-      "civilianWord": "Video",
-      "undercoverWord": "Selfie",
-      "style": "normal"
-    },
-    {
       "civilianWord": "Selfie",
-      "undercoverWord": "Story",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Photo",
-      "undercoverWord": "Selfie",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Video",
       "undercoverWord": "Story",
       "style": "normal"
     },
@@ -1036,22 +421,7 @@
       "style": "normal"
     },
     {
-      "civilianWord": "Wifi",
-      "undercoverWord": "Bluetooth",
-      "style": "normal"
-    },
-    {
       "civilianWord": "Bluetooth",
-      "undercoverWord": "Reseau",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Internet",
-      "undercoverWord": "Bluetooth",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Wifi",
       "undercoverWord": "Reseau",
       "style": "normal"
     },
@@ -1061,22 +431,7 @@
       "style": "normal"
     },
     {
-      "civilianWord": "Recu",
-      "undercoverWord": "Ticket",
-      "style": "normal"
-    },
-    {
       "civilianWord": "Ticket",
-      "undercoverWord": "Devis",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Facture",
-      "undercoverWord": "Ticket",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Recu",
       "undercoverWord": "Devis",
       "style": "normal"
     },
@@ -1086,22 +441,7 @@
       "style": "normal"
     },
     {
-      "civilianWord": "Week-end",
-      "undercoverWord": "Conge",
-      "style": "normal"
-    },
-    {
       "civilianWord": "Conge",
-      "undercoverWord": "Repos",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Vacances",
-      "undercoverWord": "Conge",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Week-end",
       "undercoverWord": "Repos",
       "style": "normal"
     },
@@ -1111,22 +451,7 @@
       "style": "normal"
     },
     {
-      "civilianWord": "Reunion",
-      "undercoverWord": "Dossier",
-      "style": "normal"
-    },
-    {
       "civilianWord": "Dossier",
-      "undercoverWord": "Projet",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Bureau",
-      "undercoverWord": "Dossier",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Reunion",
       "undercoverWord": "Projet",
       "style": "normal"
     },
@@ -1136,22 +461,7 @@
       "style": "normal"
     },
     {
-      "civilianWord": "Reponse",
-      "undercoverWord": "Indice",
-      "style": "normal"
-    },
-    {
       "civilianWord": "Indice",
-      "undercoverWord": "Solution",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Question",
-      "undercoverWord": "Indice",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Reponse",
       "undercoverWord": "Solution",
       "style": "normal"
     },
@@ -1161,22 +471,7 @@
       "style": "normal"
     },
     {
-      "civilianWord": "Hasard",
-      "undercoverWord": "Destin",
-      "style": "normal"
-    },
-    {
       "civilianWord": "Destin",
-      "undercoverWord": "Coïncidence",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Chance",
-      "undercoverWord": "Destin",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Hasard",
       "undercoverWord": "Coïncidence",
       "style": "normal"
     },
@@ -1186,22 +481,7 @@
       "style": "normal"
     },
     {
-      "civilianWord": "Bruit",
-      "undercoverWord": "Musique",
-      "style": "normal"
-    },
-    {
       "civilianWord": "Musique",
-      "undercoverWord": "Conversation",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Silence",
-      "undercoverWord": "Musique",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Bruit",
       "undercoverWord": "Conversation",
       "style": "normal"
     },
@@ -1211,22 +491,7 @@
       "style": "normal"
     },
     {
-      "civilianWord": "Frein",
-      "undercoverWord": "Virage",
-      "style": "normal"
-    },
-    {
       "civilianWord": "Virage",
-      "undercoverWord": "Route",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Vitesse",
-      "undercoverWord": "Virage",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Frein",
       "undercoverWord": "Route",
       "style": "normal"
     },
@@ -1236,22 +501,7 @@
       "style": "normal"
     },
     {
-      "civilianWord": "Souvenir",
-      "undercoverWord": "Reve",
-      "style": "normal"
-    },
-    {
       "civilianWord": "Reve",
-      "undercoverWord": "Idee",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Memoire",
-      "undercoverWord": "Reve",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Souvenir",
       "undercoverWord": "Idee",
       "style": "normal"
     },
@@ -1261,22 +511,7 @@
       "style": "normal"
     },
     {
-      "civilianWord": "Souris",
-      "undercoverWord": "Ecran",
-      "style": "normal"
-    },
-    {
       "civilianWord": "Ecran",
-      "undercoverWord": "Imprimante",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Clavier",
-      "undercoverWord": "Ecran",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Souris",
       "undercoverWord": "Imprimante",
       "style": "normal"
     },
@@ -1286,22 +521,7 @@
       "style": "normal"
     },
     {
-      "civilianWord": "Siege qui bouge",
-      "undercoverWord": "Popcorn renverse",
-      "style": "normal"
-    },
-    {
       "civilianWord": "Popcorn renverse",
-      "undercoverWord": "Film trop long",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Cinema 4DX",
-      "undercoverWord": "Popcorn renverse",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Siege qui bouge",
       "undercoverWord": "Film trop long",
       "style": "normal"
     },
@@ -1311,198 +531,8 @@
       "style": "normal"
     },
     {
-      "civilianWord": "Alarme",
-      "undercoverWord": "Retard",
-      "style": "normal"
-    },
-    {
       "civilianWord": "Retard",
       "undercoverWord": "Excuse",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Reveil",
-      "undercoverWord": "Retard",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Alarme",
-      "undercoverWord": "Excuse",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Burger",
-      "undercoverWord": "Theatre",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Tacos",
-      "undercoverWord": "Concert",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Tacos",
-      "undercoverWord": "Lac",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Kebab",
-      "undercoverWord": "Riviere",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Kebab",
-      "undercoverWord": "Bus",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Pizza",
-      "undercoverWord": "Train",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Pizza",
-      "undercoverWord": "Chat",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Burger",
-      "undercoverWord": "Chien",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Kebab",
-      "undercoverWord": "Console",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Pizza",
-      "undercoverWord": "Ecole",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Spectacle",
-      "undercoverWord": "Riviere",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Cinema",
-      "undercoverWord": "Plage",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Cinema",
-      "undercoverWord": "Train",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Theatre",
-      "undercoverWord": "Metro",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Concert",
-      "undercoverWord": "Lapin",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Spectacle",
-      "undercoverWord": "Jus",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Spectacle",
-      "undercoverWord": "Console",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Cinema",
-      "undercoverWord": "Telephone",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Piscine",
-      "undercoverWord": "Metro",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Lac",
-      "undercoverWord": "Tramway",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Riviere",
-      "undercoverWord": "Hamster",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Plage",
-      "undercoverWord": "Cafe",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Plage",
-      "undercoverWord": "Telephone",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Piscine",
-      "undercoverWord": "Ordinateur",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Bus",
-      "undercoverWord": "Hamster",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Train",
-      "undercoverWord": "Chat",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Tramway",
-      "undercoverWord": "Tablette",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Bus",
-      "undercoverWord": "Universite",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Chien",
-      "undercoverWord": "The",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Lapin",
-      "undercoverWord": "Chocolat chaud",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Hamster",
-      "undercoverWord": "Console",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Chat",
-      "undercoverWord": "Ecole",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Cafe",
-      "undercoverWord": "Telephone",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Cafe",
-      "undercoverWord": "Ecole",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "The",
-      "undercoverWord": "College",
       "style": "normal"
     }
   ]

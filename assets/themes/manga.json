@@ -11,11 +11,6 @@
       "style": "normal"
     },
     {
-      "civilianWord": "Genos",
-      "undercoverWord": "Dr Gero",
-      "style": "normal"
-    },
-    {
       "civilianWord": "Doflamingo",
       "undercoverWord": "Kankuro",
       "style": "normal"
@@ -341,11 +336,6 @@
       "style": "normal"
     },
     {
-      "civilianWord": "Meruem",
-      "undercoverWord": "Cell",
-      "style": "normal"
-    },
-    {
       "civilianWord": "Biscuit",
       "undercoverWord": "Tsunade",
       "style": "normal"
@@ -376,11 +366,6 @@
       "style": "normal"
     },
     {
-      "civilianWord": "Dimple",
-      "undercoverWord": "Kurama",
-      "style": "normal"
-    },
-    {
       "civilianWord": "Reigen",
       "undercoverWord": "Hercule Satan",
       "style": "normal"
@@ -401,11 +386,6 @@
       "style": "normal"
     },
     {
-      "civilianWord": "Rize",
-      "undercoverWord": "Makima",
-      "style": "normal"
-    },
-    {
       "civilianWord": "Rei",
       "undercoverWord": "Mikasa",
       "style": "normal"
@@ -413,11 +393,6 @@
     {
       "civilianWord": "Asuka",
       "undercoverWord": "Nobara",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Tetsuo",
-      "undercoverWord": "Mob",
       "style": "normal"
     },
     {
@@ -556,23 +531,8 @@
       "style": "soft_joke"
     },
     {
-      "civilianWord": "Naruto",
-      "undercoverWord": "Sasuke",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Sasuke",
-      "undercoverWord": "Sakura",
-      "style": "normal"
-    },
-    {
       "civilianWord": "Sakura",
       "undercoverWord": "Kakashi",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Naruto",
-      "undercoverWord": "Sakura",
       "style": "normal"
     },
     {
@@ -581,22 +541,7 @@
       "style": "normal"
     },
     {
-      "civilianWord": "Zoro",
-      "undercoverWord": "Sanji",
-      "style": "normal"
-    },
-    {
       "civilianWord": "Sanji",
-      "undercoverWord": "Nami",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Luffy",
-      "undercoverWord": "Sanji",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Zoro",
       "undercoverWord": "Nami",
       "style": "normal"
     },
@@ -606,22 +551,7 @@
       "style": "normal"
     },
     {
-      "civilianWord": "Vegeta",
-      "undercoverWord": "Gohan",
-      "style": "normal"
-    },
-    {
       "civilianWord": "Gohan",
-      "undercoverWord": "Piccolo",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Goku",
-      "undercoverWord": "Gohan",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Vegeta",
       "undercoverWord": "Piccolo",
       "style": "normal"
     },
@@ -631,53 +561,8 @@
       "style": "normal"
     },
     {
-      "civilianWord": "Rukia",
-      "undercoverWord": "Byakuya",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Byakuya",
-      "undercoverWord": "Aizen",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Ichigo",
-      "undercoverWord": "Byakuya",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Rukia",
-      "undercoverWord": "Aizen",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Eren",
-      "undercoverWord": "Mikasa",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Mikasa",
-      "undercoverWord": "Armin",
-      "style": "normal"
-    },
-    {
       "civilianWord": "Armin",
       "undercoverWord": "Levi",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Eren",
-      "undercoverWord": "Armin",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Deku",
-      "undercoverWord": "Bakugo",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Bakugo",
-      "undercoverWord": "Todoroki",
       "style": "normal"
     },
     {
@@ -686,28 +571,8 @@
       "style": "normal"
     },
     {
-      "civilianWord": "Deku",
-      "undercoverWord": "Todoroki",
-      "style": "normal"
-    },
-    {
       "civilianWord": "Tanjiro",
       "undercoverWord": "Nezuko",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Nezuko",
-      "undercoverWord": "Zenitsu",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Zenitsu",
-      "undercoverWord": "Inosuke",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Nezuko",
-      "undercoverWord": "Inosuke",
       "style": "normal"
     },
     {
@@ -716,43 +581,8 @@
       "style": "normal"
     },
     {
-      "civilianWord": "L",
-      "undercoverWord": "Ryuk",
-      "style": "normal"
-    },
-    {
       "civilianWord": "Ryuk",
       "undercoverWord": "Misa",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Light Yagami",
-      "undercoverWord": "Ryuk",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "L",
-      "undercoverWord": "Misa",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Gon",
-      "undercoverWord": "Killua",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Killua",
-      "undercoverWord": "Kurapika",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Kurapika",
-      "undercoverWord": "Hisoka",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Gon",
-      "undercoverWord": "Kurapika",
       "style": "normal"
     },
     {
@@ -761,22 +591,7 @@
       "style": "normal"
     },
     {
-      "civilianWord": "Alphonse Elric",
-      "undercoverWord": "Roy Mustang",
-      "style": "normal"
-    },
-    {
       "civilianWord": "Roy Mustang",
-      "undercoverWord": "Scar",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Edward Elric",
-      "undercoverWord": "Roy Mustang",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Alphonse Elric",
       "undercoverWord": "Scar",
       "style": "normal"
     },
@@ -786,18 +601,8 @@
       "style": "normal"
     },
     {
-      "civilianWord": "Genos",
-      "undercoverWord": "Tatsumaki",
-      "style": "normal"
-    },
-    {
       "civilianWord": "Tatsumaki",
       "undercoverWord": "Garou",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Saitama",
-      "undercoverWord": "Tatsumaki",
       "style": "normal"
     },
     {
@@ -806,22 +611,7 @@
       "style": "normal"
     },
     {
-      "civilianWord": "Grey",
-      "undercoverWord": "Lucy",
-      "style": "normal"
-    },
-    {
       "civilianWord": "Lucy",
-      "undercoverWord": "Erza",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Natsu",
-      "undercoverWord": "Lucy",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Grey",
       "undercoverWord": "Erza",
       "style": "normal"
     },
@@ -831,22 +621,7 @@
       "style": "normal"
     },
     {
-      "civilianWord": "Kaiba",
-      "undercoverWord": "Exodia",
-      "style": "normal"
-    },
-    {
       "civilianWord": "Exodia",
-      "undercoverWord": "Magicien Sombre",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Yugi",
-      "undercoverWord": "Exodia",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Kaiba",
       "undercoverWord": "Magicien Sombre",
       "style": "normal"
     },
@@ -856,22 +631,7 @@
       "style": "normal"
     },
     {
-      "civilianWord": "Shiryu",
-      "undercoverWord": "Hyoga",
-      "style": "normal"
-    },
-    {
       "civilianWord": "Hyoga",
-      "undercoverWord": "Ikki",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Seiya",
-      "undercoverWord": "Hyoga",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Shiryu",
       "undercoverWord": "Ikki",
       "style": "normal"
     },
@@ -881,73 +641,13 @@
       "style": "normal"
     },
     {
-      "civilianWord": "Dio",
-      "undercoverWord": "Joseph Joestar",
-      "style": "normal"
-    },
-    {
       "civilianWord": "Joseph Joestar",
       "undercoverWord": "Giorno",
       "style": "normal"
     },
     {
-      "civilianWord": "Jotaro",
-      "undercoverWord": "Joseph Joestar",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Dio",
-      "undercoverWord": "Giorno",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Denji",
-      "undercoverWord": "Power",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Power",
-      "undercoverWord": "Aki",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Aki",
-      "undercoverWord": "Makima",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Denji",
-      "undercoverWord": "Aki",
-      "style": "normal"
-    },
-    {
       "civilianWord": "Yuji Itadori",
       "undercoverWord": "Megumi",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Megumi",
-      "undercoverWord": "Nobara",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Nobara",
-      "undercoverWord": "Gojo",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Megumi",
-      "undercoverWord": "Gojo",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Mob",
-      "undercoverWord": "Reigen",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Reigen",
-      "undercoverWord": "Dimple",
       "style": "normal"
     },
     {
@@ -961,22 +661,7 @@
       "style": "normal"
     },
     {
-      "civilianWord": "Touka",
-      "undercoverWord": "Amon",
-      "style": "normal"
-    },
-    {
       "civilianWord": "Amon",
-      "undercoverWord": "Rize",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Kaneki",
-      "undercoverWord": "Amon",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Touka",
       "undercoverWord": "Rize",
       "style": "normal"
     },
@@ -986,22 +671,7 @@
       "style": "normal"
     },
     {
-      "civilianWord": "Rei",
-      "undercoverWord": "Asuka",
-      "style": "normal"
-    },
-    {
       "civilianWord": "Asuka",
-      "undercoverWord": "Eva-01",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Shinji",
-      "undercoverWord": "Asuka",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Rei",
       "undercoverWord": "Eva-01",
       "style": "normal"
     },
@@ -1011,22 +681,7 @@
       "style": "normal"
     },
     {
-      "civilianWord": "Kaneda",
-      "undercoverWord": "Tetsuo",
-      "style": "normal"
-    },
-    {
       "civilianWord": "Tetsuo",
-      "undercoverWord": "Neo Tokyo",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Akira",
-      "undercoverWord": "Tetsuo",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Kaneda",
       "undercoverWord": "Neo Tokyo",
       "style": "normal"
     },
@@ -1036,43 +691,8 @@
       "style": "normal"
     },
     {
-      "civilianWord": "Chihiro",
-      "undercoverWord": "Haku",
-      "style": "normal"
-    },
-    {
       "civilianWord": "Haku",
       "undercoverWord": "No-Face",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Totoro",
-      "undercoverWord": "Haku",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Chihiro",
-      "undercoverWord": "No-Face",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Dracaufeu",
-      "undercoverWord": "Pikachu",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Pikachu",
-      "undercoverWord": "Mewtwo",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Mewtwo",
-      "undercoverWord": "Evoli",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Pikachu",
-      "undercoverWord": "Evoli",
       "style": "normal"
     },
     {
@@ -1081,43 +701,8 @@
       "style": "normal"
     },
     {
-      "civilianWord": "Reptincel",
-      "undercoverWord": "Dracaufeu",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Reptincel",
-      "undercoverWord": "Mega Dracaufeu",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Byakugan",
-      "undercoverWord": "Rinnegan",
-      "style": "normal"
-    },
-    {
       "civilianWord": "Rinnegan",
       "undercoverWord": "Mangekyo",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Sharingan",
-      "undercoverWord": "Rinnegan",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Byakugan",
-      "undercoverWord": "Mangekyo",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Haki",
-      "undercoverWord": "Fruit du demon",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Fruit du demon",
-      "undercoverWord": "Gear 5",
       "style": "normal"
     },
     {
@@ -1126,33 +711,8 @@
       "style": "normal"
     },
     {
-      "civilianWord": "Haki",
-      "undercoverWord": "Gear 5",
-      "style": "normal"
-    },
-    {
       "civilianWord": "Bankai",
       "undercoverWord": "Zanpakuto",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Zanpakuto",
-      "undercoverWord": "Shinigami",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Shinigami",
-      "undercoverWord": "Hollow",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Bankai",
-      "undercoverWord": "Shinigami",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Zanpakuto",
-      "undercoverWord": "Hollow",
       "style": "normal"
     },
     {
@@ -1161,103 +721,8 @@
       "style": "normal"
     },
     {
-      "civilianWord": "Titan Colossal",
-      "undercoverWord": "Titan Cuirasse",
-      "style": "normal"
-    },
-    {
       "civilianWord": "Titan Cuirasse",
       "undercoverWord": "Titan Feminin",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Titan Assaillant",
-      "undercoverWord": "Titan Cuirasse",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Titan Colossal",
-      "undercoverWord": "Titan Feminin",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Kamehameha",
-      "undercoverWord": "Genkidama",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Genkidama",
-      "undercoverWord": "Ultra Instinct",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Ultra Instinct",
-      "undercoverWord": "Super Saiyan",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Kamehameha",
-      "undercoverWord": "Ultra Instinct",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Genkidama",
-      "undercoverWord": "Super Saiyan",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Demon Slayer",
-      "undercoverWord": "Pilier",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Pilier",
-      "undercoverWord": "Souffle de l eau",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Souffle de l eau",
-      "undercoverWord": "Lame du nichirin",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Demon Slayer",
-      "undercoverWord": "Souffle de l eau",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Pilier",
-      "undercoverWord": "Lame du nichirin",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Chunin",
-      "undercoverWord": "Hokage",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Hokage",
-      "undercoverWord": "Akatsuki",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Akatsuki",
-      "undercoverWord": "Bijuu",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Hokage",
-      "undercoverWord": "Bijuu",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Dragon Ball",
-      "undercoverWord": "Bleach",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "One Piece",
-      "undercoverWord": "Dragon Ball",
       "style": "normal"
     },
     {
@@ -1266,67 +731,12 @@
       "style": "normal"
     },
     {
-      "civilianWord": "Anime",
-      "undercoverWord": "Scan",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Manga papier",
-      "undercoverWord": "Scan",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Anime",
-      "undercoverWord": "Episode filler",
-      "style": "normal"
-    },
-    {
       "civilianWord": "Opening",
       "undercoverWord": "Ending",
       "style": "normal"
     },
     {
-      "civilianWord": "Ending",
-      "undercoverWord": "OST",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "OST",
-      "undercoverWord": "AMV",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Opening",
-      "undercoverWord": "OST",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Ending",
-      "undercoverWord": "AMV",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Sensei",
-      "undercoverWord": "Rival",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Rival",
-      "undercoverWord": "Tournoi",
-      "style": "normal"
-    },
-    {
       "civilianWord": "Tournoi",
-      "undercoverWord": "Entrainement",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Sensei",
-      "undercoverWord": "Tournoi",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Rival",
       "undercoverWord": "Entrainement",
       "style": "normal"
     },
@@ -1336,53 +746,8 @@
       "style": "normal"
     },
     {
-      "civilianWord": "Flashback",
-      "undercoverWord": "Power-up",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Power-up",
-      "undercoverWord": "Plot armor",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Arc long",
-      "undercoverWord": "Power-up",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Flashback",
-      "undercoverWord": "Plot armor",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Crocodile One Piece",
-      "undercoverWord": "Doflamingo",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Doflamingo",
-      "undercoverWord": "Kaido",
-      "style": "normal"
-    },
-    {
       "civilianWord": "Kaido",
       "undercoverWord": "Big Mom",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Crocodile One Piece",
-      "undercoverWord": "Kaido",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Freezer",
-      "undercoverWord": "Cell",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Cell",
-      "undercoverWord": "Buu",
       "style": "normal"
     },
     {
@@ -1391,57 +756,12 @@
       "style": "normal"
     },
     {
-      "civilianWord": "Freezer",
-      "undercoverWord": "Buu",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Madara",
-      "undercoverWord": "Obito",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Obito",
-      "undercoverWord": "Pain",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Pain",
-      "undercoverWord": "Orochimaru",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Madara",
-      "undercoverWord": "Pain",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Obito",
-      "undercoverWord": "Orochimaru",
-      "style": "normal"
-    },
-    {
       "civilianWord": "Shanks",
       "undercoverWord": "Mihawk",
       "style": "normal"
     },
     {
-      "civilianWord": "Mihawk",
-      "undercoverWord": "Barbe Blanche",
-      "style": "normal"
-    },
-    {
       "civilianWord": "Barbe Blanche",
-      "undercoverWord": "Roger",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Shanks",
-      "undercoverWord": "Barbe Blanche",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Mihawk",
       "undercoverWord": "Roger",
       "style": "normal"
     },
@@ -1451,58 +771,8 @@
       "style": "normal"
     },
     {
-      "civilianWord": "Kisame",
-      "undercoverWord": "Deidara",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Deidara",
-      "undercoverWord": "Sasori",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Itachi",
-      "undercoverWord": "Deidara",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Kisame",
-      "undercoverWord": "Sasori",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Netero",
-      "undercoverWord": "Meruem",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Chrollo",
-      "undercoverWord": "Biscuit",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Netero",
-      "undercoverWord": "Chrollo",
-      "style": "normal"
-    },
-    {
       "civilianWord": "Toji",
       "undercoverWord": "Sukuna",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Sukuna",
-      "undercoverWord": "Mahito",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Mahito",
-      "undercoverWord": "Geto",
-      "style": "normal"
-    },
-    {
-      "civilianWord": "Toji",
-      "undercoverWord": "Mahito",
       "style": "normal"
     }
   ]
