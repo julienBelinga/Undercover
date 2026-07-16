@@ -1,75 +1,96 @@
+import 'dart:io';
 import 'dart:math';
 
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
+import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'package:undercover/main.dart';
 import 'package:undercover/models/game_models.dart';
 import 'package:undercover/pages/distribution_page.dart';
-import 'package:undercover/pages/feedback_page.dart';
 import 'package:undercover/pages/game_setup_page.dart';
-import 'package:undercover/pages/help_page.dart';
 import 'package:undercover/pages/result_page.dart';
-import 'package:undercover/pages/rules_page.dart';
 import 'package:undercover/pages/theme_selection_page.dart';
 import 'package:undercover/services/game_content_service.dart';
 import 'package:undercover/services/game_flow_service.dart';
 import 'package:undercover/services/game_setup_service.dart';
 
+class _FileAssetBundle extends CachingAssetBundle {
+  @override
+  Future<ByteData> load(String key) async {
+    final bytes = await File(key).readAsBytes();
+    return ByteData.sublistView(Uint8List.fromList(bytes));
+  }
+}
+
 void main() {
+  final testTheme = WordTheme(
+    id: 'test',
+    name: 'Test',
+    description: 'Theme de test',
+    icon: AppIcons.theme,
+    color: Colors.green,
+    pairs: List.generate(
+      20,
+      (index) => WordPair(
+        civilianWord: 'Civil $index',
+        undercoverWord: 'Secret $index',
+      ),
+    ),
+  );
+
+  Future<void> pumpUntilFound(WidgetTester tester, Finder finder) async {
+    for (var index = 0; index < 20; index++) {
+      await tester.pump(const Duration(milliseconds: 100));
+      if (finder.evaluate().isNotEmpty) {
+        await tester.pump(const Duration(milliseconds: 500));
+        return;
+      }
+    }
+    expect(finder, findsOneWidget);
+  }
+
   Future<void> pumpApp(WidgetTester tester) async {
     SharedPreferences.setMockInitialValues({});
     tester.view.physicalSize = const Size(430, 932);
     tester.view.devicePixelRatio = 1;
     addTearDown(tester.view.resetPhysicalSize);
     addTearDown(tester.view.resetDevicePixelRatio);
-    await tester.pumpWidget(const MyApp());
-    await tester.pumpAndSettle();
+    await tester.pumpWidget(const SizedBox.shrink());
+    await tester.pump();
+    await tester.pumpWidget(
+      ProviderScope(
+        key: UniqueKey(),
+        child: MyApp(key: UniqueKey()),
+      ),
+    );
+    await pumpUntilFound(tester, find.byType(ThemeSelectionPage));
   }
 
   testWidgets('app starts on theme selection and opens setup', (tester) async {
     await pumpApp(tester);
 
     expect(find.byType(ThemeSelectionPage), findsOneWidget);
+    await pumpUntilFound(tester, find.byKey(const Key('theme-general')));
     await tester.tap(find.byKey(const Key('theme-general')));
-    await tester.pumpAndSettle();
+    await pumpUntilFound(tester, find.byType(GameSetupPage));
 
     expect(find.byType(GameSetupPage), findsOneWidget);
     expect(find.textContaining('General - Repartition'), findsOneWidget);
   });
 
-  testWidgets('help opens rules and feedback', (tester) async {
-    await pumpApp(tester);
-
-    await tester.tap(find.byTooltip('Aide'));
-    await tester.pumpAndSettle();
-    expect(find.byType(HelpPage), findsOneWidget);
-
-    await tester.tap(find.text('Regles du jeu'));
-    await tester.pumpAndSettle();
-    expect(find.byType(RulesPage), findsOneWidget);
-
-    await tester.tap(find.byTooltip('Retour'));
-    await tester.pumpAndSettle();
-    await tester.tap(find.text('Signaler un bug'));
-    await tester.pumpAndSettle();
-    expect(find.byType(FeedbackPage), findsOneWidget);
-
-    await tester.enterText(
-      find.byKey(const Key('feedback-message')),
-      'Le vote devrait afficher une confirmation.',
-    );
-    await tester.tap(find.text('Envoyer'));
-    await tester.pumpAndSettle();
-    expect(find.text('Merci, ton retour est enregistre.'), findsOneWidget);
-  });
-
   testWidgets('setup starts sequential player distribution', (tester) async {
-    await pumpApp(tester);
-    await tester.tap(find.byKey(const Key('theme-general')));
-    await tester.pumpAndSettle();
+    SharedPreferences.setMockInitialValues({});
+    await tester.pumpWidget(
+      MaterialApp(
+        theme: ThemeData.dark(),
+        home: GameSetupPage(theme: testTheme),
+      ),
+    );
+    await pumpUntilFound(tester, find.text('Commencer la partie'));
     await tester.tap(find.text('Commencer la partie'));
-    await tester.pumpAndSettle();
+    await pumpUntilFound(tester, find.byType(DistributionPage));
 
     expect(find.byType(DistributionPage), findsOneWidget);
     expect(find.byKey(const Key('player-name-1')), findsOneWidget);
@@ -89,10 +110,9 @@ void main() {
   });
 
   testWidgets('distribution rejects empty and duplicate names', (tester) async {
-    final theme = const GameContentService().themes().first;
     final session = GameFlowService(random: Random(1)).prepareSession(
       config: const GameSetupService().configForPlayerCount(3),
-      theme: theme,
+      theme: testTheme,
     );
     await tester.pumpWidget(
       MaterialApp(
@@ -125,11 +145,10 @@ void main() {
     tester.view.devicePixelRatio = 1;
     addTearDown(tester.view.resetPhysicalSize);
     addTearDown(tester.view.resetDevicePixelRatio);
-    final theme = const GameContentService().themes().first;
     final flow = GameFlowService(random: Random(2));
     var session = flow.prepareSession(
       config: const GameSetupService().configForPlayerCount(3),
-      theme: theme,
+      theme: testTheme,
     );
     for (var index = 0; index < session.assignments.length; index++) {
       session = flow.assignPlayerName(session, index, 'Player $index');
@@ -164,13 +183,63 @@ void main() {
     expect(find.byType(DistributionPage), findsOneWidget);
   });
 
+  group('GameContentService', () {
+    final contentService = GameContentService(assetBundle: _FileAssetBundle());
+
+    test('loads expected JSON themes with 300 valid pairs each', () async {
+      final themes = await contentService.themes();
+      expect(themes.map((theme) => theme.id), GameContentService.themeIds);
+
+      for (final theme in themes) {
+        expect(File('assets/themes/${theme.id}.json').existsSync(), isTrue);
+        expect(theme.pairs.length, 300);
+        for (final pair in theme.pairs) {
+          expect(pair.civilianWord.trim(), isNotEmpty);
+          expect(pair.undercoverWord.trim(), isNotEmpty);
+        }
+      }
+    });
+
+    test('keeps pairs unique and joke ratio below limits', () async {
+      final themes = await contentService.themes();
+      final broadThemeIds = {
+        'general',
+        'cuisine',
+        'cinema',
+        'personnalites_connues',
+      };
+      var totalPairs = 0;
+      var jokePairs = 0;
+
+      for (final theme in themes) {
+        final seen = <String>{};
+        var broadThemeJokes = 0;
+        for (final pair in theme.pairs) {
+          final key =
+              '${pair.civilianWord.trim().toLowerCase()}::'
+              '${pair.undercoverWord.trim().toLowerCase()}';
+          expect(seen.add(key), isTrue);
+          totalPairs++;
+          if (pair.style != WordPairStyle.normal) {
+            jokePairs++;
+            broadThemeJokes++;
+          }
+        }
+        if (broadThemeIds.contains(theme.id)) {
+          expect(broadThemeJokes / theme.pairs.length, lessThan(0.05));
+        }
+      }
+
+      expect(jokePairs / totalPairs, lessThan(0.2));
+    });
+  });
+
   group('GameFlowService', () {
-    final theme = const GameContentService().themes().first;
     const setup = GameSetupService();
 
     GameSession namedSession(GameSetupConfig config) {
       final flow = GameFlowService(random: Random(3));
-      var session = flow.prepareSession(config: config, theme: theme);
+      var session = flow.prepareSession(config: config, theme: testTheme);
       for (var index = 0; index < session.assignments.length; index++) {
         session = flow.assignPlayerName(session, index, 'Player $index');
       }

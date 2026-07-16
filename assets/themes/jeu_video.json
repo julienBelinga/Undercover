@@ -1,0 +1,1509 @@
+{
+  "id": "jeu_video",
+  "name": "Jeu video",
+  "description": "Consoles, persos cultes, boss, loot et rage quit.",
+  "icon": "gamepad",
+  "color": "#00C2FF",
+  "pairs": [
+    {
+      "civilianWord": "Campeur",
+      "undercoverWord": "Meuble de jardin en ligne",
+      "style": "troll"
+    },
+    {
+      "civilianWord": "Noob",
+      "undercoverWord": "Tutoriel vivant",
+      "style": "troll"
+    },
+    {
+      "civilianWord": "Rage quit",
+      "undercoverWord": "Therapie non remboursee",
+      "style": "troll"
+    },
+    {
+      "civilianWord": "Battle pass",
+      "undercoverWord": "Facture mensuelle de pixels",
+      "style": "troll"
+    },
+    {
+      "civilianWord": "PNJ",
+      "undercoverWord": "Humain sans mise a jour",
+      "style": "soft_joke"
+    },
+    {
+      "civilianWord": "Smurf",
+      "undercoverWord": "Lachete en basse elo",
+      "style": "troll"
+    },
+    {
+      "civilianWord": "Loot box",
+      "undercoverWord": "Casino pour skins",
+      "style": "troll"
+    },
+    {
+      "civilianWord": "Manette drift",
+      "undercoverWord": "Fantome dans le joystick",
+      "style": "soft_joke"
+    },
+    {
+      "civilianWord": "FIFA annuel",
+      "undercoverWord": "Mise a jour a 80 euros",
+      "style": "troll"
+    },
+    {
+      "civilianWord": "Dark Souls",
+      "undercoverWord": "Simulation de souffrance",
+      "style": "soft_joke"
+    },
+    {
+      "civilianWord": "Among Us",
+      "undercoverWord": "Mensonge avec jambes",
+      "style": "soft_joke"
+    },
+    {
+      "civilianWord": "Minecraft dirt house",
+      "undercoverWord": "Architecture de panique",
+      "style": "soft_joke"
+    },
+    {
+      "civilianWord": "Mario",
+      "undercoverWord": "Luigi",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Luigi",
+      "undercoverWord": "Peach",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Peach",
+      "undercoverWord": "Bowser",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Mario",
+      "undercoverWord": "Peach",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Luigi",
+      "undercoverWord": "Bowser",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Yoshi",
+      "undercoverWord": "Toad",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Toad",
+      "undercoverWord": "Wario",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Wario",
+      "undercoverWord": "Waluigi",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Yoshi",
+      "undercoverWord": "Wario",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Toad",
+      "undercoverWord": "Waluigi",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Link",
+      "undercoverWord": "Zelda",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Zelda",
+      "undercoverWord": "Ganondorf",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Ganondorf",
+      "undercoverWord": "Epona",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Link",
+      "undercoverWord": "Ganondorf",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Zelda",
+      "undercoverWord": "Epona",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Pikachu",
+      "undercoverWord": "Evoli",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Evoli",
+      "undercoverWord": "Mewtwo",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Mewtwo",
+      "undercoverWord": "Dracaufeu",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Pikachu",
+      "undercoverWord": "Mewtwo",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Evoli",
+      "undercoverWord": "Dracaufeu",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Sacha",
+      "undercoverWord": "Ondine",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Ondine",
+      "undercoverWord": "Pierre",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Pierre",
+      "undercoverWord": "Team Rocket",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Sacha",
+      "undercoverWord": "Pierre",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Ondine",
+      "undercoverWord": "Team Rocket",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Sonic",
+      "undercoverWord": "Tails",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Tails",
+      "undercoverWord": "Knuckles",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Knuckles",
+      "undercoverWord": "Dr Eggman",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Sonic",
+      "undercoverWord": "Knuckles",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Tails",
+      "undercoverWord": "Dr Eggman",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Kratos",
+      "undercoverWord": "Atreus",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Atreus",
+      "undercoverWord": "Zeus",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Zeus",
+      "undercoverWord": "Ares",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Kratos",
+      "undercoverWord": "Zeus",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Atreus",
+      "undercoverWord": "Ares",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Master Chief",
+      "undercoverWord": "Cortana",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Cortana",
+      "undercoverWord": "Arbiter",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Arbiter",
+      "undercoverWord": "Flood",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Master Chief",
+      "undercoverWord": "Arbiter",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Cortana",
+      "undercoverWord": "Flood",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Nathan Drake",
+      "undercoverWord": "Lara Croft",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Lara Croft",
+      "undercoverWord": "Indiana Jones",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Indiana Jones",
+      "undercoverWord": "Tomb Raider",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Nathan Drake",
+      "undercoverWord": "Indiana Jones",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Lara Croft",
+      "undercoverWord": "Tomb Raider",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Geralt",
+      "undercoverWord": "Ciri",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Ciri",
+      "undercoverWord": "Yennefer",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Yennefer",
+      "undercoverWord": "Triss",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Geralt",
+      "undercoverWord": "Yennefer",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Ciri",
+      "undercoverWord": "Triss",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Cloud",
+      "undercoverWord": "Sephiroth",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Sephiroth",
+      "undercoverWord": "Tifa",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Tifa",
+      "undercoverWord": "Aerith",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Cloud",
+      "undercoverWord": "Tifa",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Sephiroth",
+      "undercoverWord": "Aerith",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Ryu",
+      "undercoverWord": "Ken",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Ken",
+      "undercoverWord": "Chun-Li",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Chun-Li",
+      "undercoverWord": "Akuma",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Ryu",
+      "undercoverWord": "Chun-Li",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Ken",
+      "undercoverWord": "Akuma",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Scorpion",
+      "undercoverWord": "Sub-Zero",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Sub-Zero",
+      "undercoverWord": "Raiden",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Raiden",
+      "undercoverWord": "Liu Kang",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Scorpion",
+      "undercoverWord": "Raiden",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Sub-Zero",
+      "undercoverWord": "Liu Kang",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Jinx",
+      "undercoverWord": "Vi",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Vi",
+      "undercoverWord": "Caitlyn",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Caitlyn",
+      "undercoverWord": "Ekko",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Jinx",
+      "undercoverWord": "Caitlyn",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Vi",
+      "undercoverWord": "Ekko",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Tracer",
+      "undercoverWord": "Genji",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Genji",
+      "undercoverWord": "Mercy",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Mercy",
+      "undercoverWord": "Reaper",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Tracer",
+      "undercoverWord": "Mercy",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Genji",
+      "undercoverWord": "Reaper",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Minecraft",
+      "undercoverWord": "Terraria",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Terraria",
+      "undercoverWord": "Roblox",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Roblox",
+      "undercoverWord": "Fortnite",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Minecraft",
+      "undercoverWord": "Roblox",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Terraria",
+      "undercoverWord": "Fortnite",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "GTA",
+      "undercoverWord": "Red Dead Redemption",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Red Dead Redemption",
+      "undercoverWord": "Mafia",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Mafia",
+      "undercoverWord": "Watch Dogs",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "GTA",
+      "undercoverWord": "Mafia",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Red Dead Redemption",
+      "undercoverWord": "Watch Dogs",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "FIFA",
+      "undercoverWord": "NBA 2K",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "NBA 2K",
+      "undercoverWord": "Rocket League",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Rocket League",
+      "undercoverWord": "eFootball",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "FIFA",
+      "undercoverWord": "Rocket League",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "NBA 2K",
+      "undercoverWord": "eFootball",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Call of Duty",
+      "undercoverWord": "Battlefield",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Battlefield",
+      "undercoverWord": "Valorant",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Valorant",
+      "undercoverWord": "Counter-Strike",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Call of Duty",
+      "undercoverWord": "Valorant",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Battlefield",
+      "undercoverWord": "Counter-Strike",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "League of Legends",
+      "undercoverWord": "Dota 2",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Dota 2",
+      "undercoverWord": "Smite",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Smite",
+      "undercoverWord": "Heroes of the Storm",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "League of Legends",
+      "undercoverWord": "Smite",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Dota 2",
+      "undercoverWord": "Heroes of the Storm",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Elden Ring",
+      "undercoverWord": "Dark Souls",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Dark Souls",
+      "undercoverWord": "Bloodborne",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Bloodborne",
+      "undercoverWord": "Sekiro",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Elden Ring",
+      "undercoverWord": "Bloodborne",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Dark Souls",
+      "undercoverWord": "Sekiro",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Skyrim",
+      "undercoverWord": "Fallout",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Fallout",
+      "undercoverWord": "Starfield",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Starfield",
+      "undercoverWord": "Oblivion",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Skyrim",
+      "undercoverWord": "Starfield",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Fallout",
+      "undercoverWord": "Oblivion",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Resident Evil",
+      "undercoverWord": "Silent Hill",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Silent Hill",
+      "undercoverWord": "Dead Space",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Dead Space",
+      "undercoverWord": "The Evil Within",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Resident Evil",
+      "undercoverWord": "Dead Space",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Silent Hill",
+      "undercoverWord": "The Evil Within",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Among Us",
+      "undercoverWord": "Fall Guys",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Fall Guys",
+      "undercoverWord": "Gang Beasts",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Gang Beasts",
+      "undercoverWord": "Human Fall Flat",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Among Us",
+      "undercoverWord": "Gang Beasts",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Fall Guys",
+      "undercoverWord": "Human Fall Flat",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Animal Crossing",
+      "undercoverWord": "Stardew Valley",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Stardew Valley",
+      "undercoverWord": "The Sims",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "The Sims",
+      "undercoverWord": "Harvest Moon",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Animal Crossing",
+      "undercoverWord": "The Sims",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Stardew Valley",
+      "undercoverWord": "Harvest Moon",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Switch",
+      "undercoverWord": "PlayStation",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "PlayStation",
+      "undercoverWord": "Xbox",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Xbox",
+      "undercoverWord": "PC Gamer",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Switch",
+      "undercoverWord": "Xbox",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "PlayStation",
+      "undercoverWord": "PC Gamer",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Manette",
+      "undercoverWord": "Clavier souris",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Clavier souris",
+      "undercoverWord": "Joystick",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Joystick",
+      "undercoverWord": "Volant",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Manette",
+      "undercoverWord": "Joystick",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Clavier souris",
+      "undercoverWord": "Volant",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Sauvegarde",
+      "undercoverWord": "Checkpoint",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Checkpoint",
+      "undercoverWord": "Respawn",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Respawn",
+      "undercoverWord": "Game over",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Sauvegarde",
+      "undercoverWord": "Respawn",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Checkpoint",
+      "undercoverWord": "Game over",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Boss final",
+      "undercoverWord": "Mini-boss",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Mini-boss",
+      "undercoverWord": "Mob",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Mob",
+      "undercoverWord": "PNJ",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Boss final",
+      "undercoverWord": "Mob",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Mini-boss",
+      "undercoverWord": "PNJ",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Loot",
+      "undercoverWord": "Skin",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Skin",
+      "undercoverWord": "Battle pass",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Battle pass",
+      "undercoverWord": "Emote",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Loot",
+      "undercoverWord": "Battle pass",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Skin",
+      "undercoverWord": "Emote",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Ranked",
+      "undercoverWord": "Casual",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Casual",
+      "undercoverWord": "Matchmaking",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Matchmaking",
+      "undercoverWord": "Lobby",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Ranked",
+      "undercoverWord": "Matchmaking",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Casual",
+      "undercoverWord": "Lobby",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Noob",
+      "undercoverWord": "Smurf",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Smurf",
+      "undercoverWord": "Tryhard",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Tryhard",
+      "undercoverWord": "Campeur",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Noob",
+      "undercoverWord": "Tryhard",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Smurf",
+      "undercoverWord": "Campeur",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Headshot",
+      "undercoverWord": "Kill streak",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Kill streak",
+      "undercoverWord": "Assist",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Assist",
+      "undercoverWord": "Ace",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Headshot",
+      "undercoverWord": "Assist",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Kill streak",
+      "undercoverWord": "Ace",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Open world",
+      "undercoverWord": "Couloir",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Couloir",
+      "undercoverWord": "Donjon",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Donjon",
+      "undercoverWord": "Map",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Open world",
+      "undercoverWord": "Donjon",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Couloir",
+      "undercoverWord": "Map",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Speedrun",
+      "undercoverWord": "Glitch",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Glitch",
+      "undercoverWord": "Skip",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Skip",
+      "undercoverWord": "World record",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Speedrun",
+      "undercoverWord": "Skip",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Glitch",
+      "undercoverWord": "World record",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "RPG",
+      "undercoverWord": "FPS",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "FPS",
+      "undercoverWord": "MOBA",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "MOBA",
+      "undercoverWord": "Battle royale",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "RPG",
+      "undercoverWord": "MOBA",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "FPS",
+      "undercoverWord": "Battle royale",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Solo",
+      "undercoverWord": "Coop",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Coop",
+      "undercoverWord": "Multijoueur",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Multijoueur",
+      "undercoverWord": "Split screen",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Solo",
+      "undercoverWord": "Multijoueur",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Coop",
+      "undercoverWord": "Split screen",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Patch note",
+      "undercoverWord": "Nerf",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Nerf",
+      "undercoverWord": "Buff",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Buff",
+      "undercoverWord": "Meta",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Patch note",
+      "undercoverWord": "Buff",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Nerf",
+      "undercoverWord": "Meta",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Craft",
+      "undercoverWord": "Farm",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Farm",
+      "undercoverWord": "Grind",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Grind",
+      "undercoverWord": "XP",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Craft",
+      "undercoverWord": "Grind",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Farm",
+      "undercoverWord": "XP",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Quete principale",
+      "undercoverWord": "Quete annexe",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Quete annexe",
+      "undercoverWord": "Succes",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Succes",
+      "undercoverWord": "Trophee",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Quete principale",
+      "undercoverWord": "Succes",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Quete annexe",
+      "undercoverWord": "Trophee",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Zelda Breath of the Wild",
+      "undercoverWord": "Zelda Tears of the Kingdom",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Zelda Tears of the Kingdom",
+      "undercoverWord": "Ocarina of Time",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Ocarina of Time",
+      "undercoverWord": "Majora Mask",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Zelda Breath of the Wild",
+      "undercoverWord": "Ocarina of Time",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Zelda Tears of the Kingdom",
+      "undercoverWord": "Majora Mask",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Mario Kart",
+      "undercoverWord": "Smash Bros",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Smash Bros",
+      "undercoverWord": "Splatoon",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Splatoon",
+      "undercoverWord": "Pokemon Unite",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Mario Kart",
+      "undercoverWord": "Splatoon",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Smash Bros",
+      "undercoverWord": "Pokemon Unite",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Bioshock",
+      "undercoverWord": "Portal",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Portal",
+      "undercoverWord": "Half-Life",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Half-Life",
+      "undercoverWord": "Dishonored",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Bioshock",
+      "undercoverWord": "Half-Life",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Portal",
+      "undercoverWord": "Dishonored",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Hades",
+      "undercoverWord": "Celeste",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Celeste",
+      "undercoverWord": "Hollow Knight",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Hollow Knight",
+      "undercoverWord": "Cuphead",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Hades",
+      "undercoverWord": "Hollow Knight",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Celeste",
+      "undercoverWord": "Cuphead",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Crash Bandicoot",
+      "undercoverWord": "Spyro",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Spyro",
+      "undercoverWord": "Rayman",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Rayman",
+      "undercoverWord": "Ratchet",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Crash Bandicoot",
+      "undercoverWord": "Rayman",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Spyro",
+      "undercoverWord": "Ratchet",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Luigi",
+      "undercoverWord": "Toad",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Peach",
+      "undercoverWord": "Wario",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Peach",
+      "undercoverWord": "Ganondorf",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Bowser",
+      "undercoverWord": "Epona",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Bowser",
+      "undercoverWord": "Dracaufeu",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Mario",
+      "undercoverWord": "Pikachu",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Mario",
+      "undercoverWord": "Sacha",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Luigi",
+      "undercoverWord": "Ondine",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Bowser",
+      "undercoverWord": "Ares",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Mario",
+      "undercoverWord": "Master Chief",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Waluigi",
+      "undercoverWord": "Epona",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Yoshi",
+      "undercoverWord": "Link",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Yoshi",
+      "undercoverWord": "Pikachu",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Toad",
+      "undercoverWord": "Evoli",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Wario",
+      "undercoverWord": "Pierre",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Waluigi",
+      "undercoverWord": "Dr Eggman",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Waluigi",
+      "undercoverWord": "Ares",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Yoshi",
+      "undercoverWord": "Kratos",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Zelda",
+      "undercoverWord": "Evoli",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Ganondorf",
+      "undercoverWord": "Mewtwo",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Epona",
+      "undercoverWord": "Team Rocket",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Link",
+      "undercoverWord": "Sonic",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Link",
+      "undercoverWord": "Kratos",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Zelda",
+      "undercoverWord": "Atreus",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Dracaufeu",
+      "undercoverWord": "Team Rocket",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Pikachu",
+      "undercoverWord": "Sacha",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Mewtwo",
+      "undercoverWord": "Zeus",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Dracaufeu",
+      "undercoverWord": "Flood",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Ondine",
+      "undercoverWord": "Tails",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Pierre",
+      "undercoverWord": "Knuckles",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Team Rocket",
+      "undercoverWord": "Ares",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Sacha",
+      "undercoverWord": "Master Chief",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Sonic",
+      "undercoverWord": "Kratos",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Sonic",
+      "undercoverWord": "Master Chief",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Tails",
+      "undercoverWord": "Cortana",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Knuckles",
+      "undercoverWord": "Indiana Jones",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Dr Eggman",
+      "undercoverWord": "Triss",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Dr Eggman",
+      "undercoverWord": "Aerith",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Atreus",
+      "undercoverWord": "Cortana",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Zeus",
+      "undercoverWord": "Arbiter",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Flood",
+      "undercoverWord": "Tomb Raider",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Arbiter",
+      "undercoverWord": "Tifa",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Flood",
+      "undercoverWord": "Akuma",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Lara Croft",
+      "undercoverWord": "Ciri",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Indiana Jones",
+      "undercoverWord": "Yennefer",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Tomb Raider",
+      "undercoverWord": "Aerith",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Tomb Raider",
+      "undercoverWord": "Akuma",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Nathan Drake",
+      "undercoverWord": "Ryu",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Nathan Drake",
+      "undercoverWord": "Scorpion",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Lara Croft",
+      "undercoverWord": "Sub-Zero",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Nathan Drake",
+      "undercoverWord": "Minecraft",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Triss",
+      "undercoverWord": "Aerith",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Geralt",
+      "undercoverWord": "Cloud",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Geralt",
+      "undercoverWord": "Ryu",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Ciri",
+      "undercoverWord": "Ken",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Yennefer",
+      "undercoverWord": "Raiden",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Triss",
+      "undercoverWord": "Ekko",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Geralt",
+      "undercoverWord": "Tracer",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Sephiroth",
+      "undercoverWord": "Ken",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Tifa",
+      "undercoverWord": "Chun-Li",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Cloud",
+      "undercoverWord": "Jinx",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Cloud",
+      "undercoverWord": "Tracer",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Sephiroth",
+      "undercoverWord": "Genji",
+      "style": "normal"
+    }
+  ]
+}

@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:undercover/config/theme.dart';
 import 'package:undercover/models/game_models.dart';
+import 'package:undercover/pages/feature_proposals_page.dart';
 import 'package:undercover/pages/feedback_page.dart';
 import 'package:undercover/pages/rules_page.dart';
 import 'package:undercover/widgets/app_scaffold.dart';
@@ -27,11 +28,22 @@ class HelpPage extends StatelessWidget {
           ),
           const SizedBox(height: 12),
           _HelpTile(
-            icon: AppIcons.edit,
+            icon: AppIcons.bug,
             title: 'Signaler un bug',
-            subtitle: 'Envoyer un retour rapide ou une idee',
+            subtitle: 'Remonter un probleme rencontre dans l’app',
             onTap: () => Navigator.of(context).push(
               MaterialPageRoute<void>(builder: (_) => const FeedbackPage()),
+            ),
+          ),
+          const SizedBox(height: 12),
+          _HelpTile(
+            icon: AppIcons.idea,
+            title: 'Propositions d’amelioration',
+            subtitle: 'Poster, voter et commenter les idees de la communaute',
+            onTap: () => Navigator.of(context).push(
+              MaterialPageRoute<void>(
+                builder: (_) => const FeatureProposalsPage(),
+              ),
             ),
           ),
         ],

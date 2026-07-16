@@ -1,0 +1,1509 @@
+{
+  "id": "super_heros",
+  "name": "Super-heros",
+  "description": "DC, MCU, Marvel, pouvoirs, costumes et rivalites.",
+  "icon": "shield",
+  "color": "#E84142",
+  "pairs": [
+    {
+      "civilianWord": "Batman",
+      "undercoverWord": "Iron Man",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Superman",
+      "undercoverWord": "Captain Marvel",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Aquaman",
+      "undercoverWord": "Namor",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Flash",
+      "undercoverWord": "Quicksilver",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Green Arrow",
+      "undercoverWord": "Hawkeye",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Green Lantern",
+      "undercoverWord": "Doctor Strange",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Wonder Woman",
+      "undercoverWord": "Captain America",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Cyborg",
+      "undercoverWord": "War Machine",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Shazam",
+      "undercoverWord": "Thor",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Black Panther",
+      "undercoverWord": "Batman",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Joker",
+      "undercoverWord": "Green Goblin",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Lex Luthor",
+      "undercoverWord": "Kingpin",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Darkseid",
+      "undercoverWord": "Thanos",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Deathstroke",
+      "undercoverWord": "Deadpool",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Harley Quinn",
+      "undercoverWord": "Domino",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Catwoman",
+      "undercoverWord": "Black Cat",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Professor X",
+      "undercoverWord": "Martian Manhunter",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Magneto",
+      "undercoverWord": "Doctor Doom",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Wolverine",
+      "undercoverWord": "Deadpool",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Daredevil",
+      "undercoverWord": "Batman",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Punisher",
+      "undercoverWord": "Red Hood",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Moon Knight",
+      "undercoverWord": "Batman",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Scarlet Witch",
+      "undercoverWord": "Zatanna",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Vision",
+      "undercoverWord": "Red Tornado",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Ultron",
+      "undercoverWord": "Brainiac",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Avengers",
+      "undercoverWord": "Justice League",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "X-Men",
+      "undercoverWord": "Teen Titans",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Suicide Squad",
+      "undercoverWord": "Thunderbolts",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Vibranium",
+      "undercoverWord": "Adamantium",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Kryptonite",
+      "undercoverWord": "Vibranium",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Mjolnir",
+      "undercoverWord": "Stormbreaker",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Batmobile",
+      "undercoverWord": "Quinjet",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Wakanda",
+      "undercoverWord": "Atlantis",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Gotham",
+      "undercoverWord": "Hell Kitchen",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Asgard",
+      "undercoverWord": "Themyscira",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Infinity Stones",
+      "undercoverWord": "Mother Box",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Bouclier vibranium",
+      "undercoverWord": "Lasso de verite",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Secret identity",
+      "undercoverWord": "Civilian identity",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Sidekick",
+      "undercoverWord": "Apprenti",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Cape",
+      "undercoverWord": "Masque",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Batman",
+      "undercoverWord": "Milliardaire",
+      "style": "soft_joke"
+    },
+    {
+      "civilianWord": "Aquaman",
+      "undercoverWord": "Sauveteur",
+      "style": "soft_joke"
+    },
+    {
+      "civilianWord": "Hawkeye",
+      "undercoverWord": "Flechette",
+      "style": "troll"
+    },
+    {
+      "civilianWord": "Superman",
+      "undercoverWord": "Kryptonite",
+      "style": "soft_joke"
+    },
+    {
+      "civilianWord": "Cyclope",
+      "undercoverWord": "Lunettes rouges",
+      "style": "soft_joke"
+    },
+    {
+      "civilianWord": "Iron Man",
+      "undercoverWord": "Captain America",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Iron Man",
+      "undercoverWord": "Thor",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Iron Man",
+      "undercoverWord": "Hulk",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Iron Man",
+      "undercoverWord": "Black Widow",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Captain America",
+      "undercoverWord": "Thor",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Captain America",
+      "undercoverWord": "Hulk",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Captain America",
+      "undercoverWord": "Black Widow",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Thor",
+      "undercoverWord": "Hulk",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Thor",
+      "undercoverWord": "Black Widow",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Hulk",
+      "undercoverWord": "Black Widow",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Hulk",
+      "undercoverWord": "Spider-Man",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Black Widow",
+      "undercoverWord": "Spider-Man",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Spider-Man",
+      "undercoverWord": "Doctor Strange",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Spider-Man",
+      "undercoverWord": "Black Panther",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Spider-Man",
+      "undercoverWord": "Star-Lord",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Doctor Strange",
+      "undercoverWord": "Black Panther",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Doctor Strange",
+      "undercoverWord": "Star-Lord",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Doctor Strange",
+      "undercoverWord": "Groot",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Black Panther",
+      "undercoverWord": "Star-Lord",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Black Panther",
+      "undercoverWord": "Groot",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Star-Lord",
+      "undercoverWord": "Groot",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Star-Lord",
+      "undercoverWord": "Ant-Man",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Groot",
+      "undercoverWord": "Ant-Man",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Groot",
+      "undercoverWord": "Scarlet Witch",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Ant-Man",
+      "undercoverWord": "Scarlet Witch",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Ant-Man",
+      "undercoverWord": "Deadpool",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Ant-Man",
+      "undercoverWord": "Professor X",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Scarlet Witch",
+      "undercoverWord": "Deadpool",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Scarlet Witch",
+      "undercoverWord": "Professor X",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Deadpool",
+      "undercoverWord": "Professor X",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Professor X",
+      "undercoverWord": "Cyclope",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Cyclope",
+      "undercoverWord": "Superman",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Cyclope",
+      "undercoverWord": "Wonder Woman",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Cyclope",
+      "undercoverWord": "Green Lantern",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Superman",
+      "undercoverWord": "Wonder Woman",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Superman",
+      "undercoverWord": "Green Lantern",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Wonder Woman",
+      "undercoverWord": "Green Lantern",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Wonder Woman",
+      "undercoverWord": "Joker",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Green Lantern",
+      "undercoverWord": "Joker",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Joker",
+      "undercoverWord": "Thanos",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Joker",
+      "undercoverWord": "Gotham",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Thanos",
+      "undercoverWord": "Gotham",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Thanos",
+      "undercoverWord": "Batmobile",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Thanos",
+      "undercoverWord": "Mjolnir",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Gotham",
+      "undercoverWord": "Batmobile",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Gotham",
+      "undercoverWord": "Mjolnir",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Batmobile",
+      "undercoverWord": "Mjolnir",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Batmobile",
+      "undercoverWord": "Vibranium",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Mjolnir",
+      "undercoverWord": "Vibranium",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Vibranium",
+      "undercoverWord": "Infinity Stones",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Infinity Stones",
+      "undercoverWord": "Cowl",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Infinity Stones",
+      "undercoverWord": "Multivers",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Infinity Stones",
+      "undercoverWord": "Post-credit",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Cowl",
+      "undercoverWord": "Multivers",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Cowl",
+      "undercoverWord": "Post-credit",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Cowl",
+      "undercoverWord": "Avengers",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Cowl",
+      "undercoverWord": "Civil War",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Multivers",
+      "undercoverWord": "Post-credit",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Multivers",
+      "undercoverWord": "Avengers",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Multivers",
+      "undercoverWord": "Civil War",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Post-credit",
+      "undercoverWord": "Avengers",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Post-credit",
+      "undercoverWord": "Civil War",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Avengers",
+      "undercoverWord": "Civil War",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Civil War",
+      "undercoverWord": "Arkham",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Arkham",
+      "undercoverWord": "Pepper Potts",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Arkham",
+      "undercoverWord": "Alfred",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Arkham",
+      "undercoverWord": "Daredevil",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Arkham",
+      "undercoverWord": "Moon Knight",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Pepper Potts",
+      "undercoverWord": "Alfred",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Pepper Potts",
+      "undercoverWord": "Daredevil",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Pepper Potts",
+      "undercoverWord": "Moon Knight",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Pepper Potts",
+      "undercoverWord": "Homelander",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Alfred",
+      "undercoverWord": "Daredevil",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Alfred",
+      "undercoverWord": "Moon Knight",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Alfred",
+      "undercoverWord": "Homelander",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Daredevil",
+      "undercoverWord": "Moon Knight",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Homelander",
+      "undercoverWord": "Syndrome",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Homelander",
+      "undercoverWord": "Civilian identity",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Homelander",
+      "undercoverWord": "Laser eyes",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Syndrome",
+      "undercoverWord": "Civilian identity",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Syndrome",
+      "undercoverWord": "Laser eyes",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Syndrome",
+      "undercoverWord": "Billionaire hero",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Syndrome",
+      "undercoverWord": "Phase 1",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Civilian identity",
+      "undercoverWord": "Laser eyes",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Civilian identity",
+      "undercoverWord": "Billionaire hero",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Laser eyes",
+      "undercoverWord": "Billionaire hero",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Laser eyes",
+      "undercoverWord": "Phase 1",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Billionaire hero",
+      "undercoverWord": "Phase 1",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Billionaire hero",
+      "undercoverWord": "DC Comics",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Phase 1",
+      "undercoverWord": "DC Comics",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Phase 1",
+      "undercoverWord": "Gardiens de la Galaxie",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "DC Comics",
+      "undercoverWord": "Gardiens de la Galaxie",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Iron Man",
+      "undercoverWord": "Spider-Man",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Captain America",
+      "undercoverWord": "Doctor Strange",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Thor",
+      "undercoverWord": "Black Panther",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Hulk",
+      "undercoverWord": "Star-Lord",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Black Widow",
+      "undercoverWord": "Groot",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Ant-Man",
+      "undercoverWord": "Cyclope",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Scarlet Witch",
+      "undercoverWord": "Batman",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Deadpool",
+      "undercoverWord": "Superman",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Professor X",
+      "undercoverWord": "Wonder Woman",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Green Lantern",
+      "undercoverWord": "Thanos",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Joker",
+      "undercoverWord": "Batmobile",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Gotham",
+      "undercoverWord": "Vibranium",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Mjolnir",
+      "undercoverWord": "Infinity Stones",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Cowl",
+      "undercoverWord": "Arkham",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Multivers",
+      "undercoverWord": "Pepper Potts",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Post-credit",
+      "undercoverWord": "Alfred",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Avengers",
+      "undercoverWord": "Daredevil",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Civil War",
+      "undercoverWord": "Moon Knight",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Homelander",
+      "undercoverWord": "Billionaire hero",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Syndrome",
+      "undercoverWord": "DC Comics",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Civilian identity",
+      "undercoverWord": "Phase 1",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Laser eyes",
+      "undercoverWord": "DC Comics",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Iron Man",
+      "undercoverWord": "Doctor Strange",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Captain America",
+      "undercoverWord": "Spider-Man",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Thor",
+      "undercoverWord": "Star-Lord",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Hulk",
+      "undercoverWord": "Black Panther",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Black Widow",
+      "undercoverWord": "Ant-Man",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Groot",
+      "undercoverWord": "Deadpool",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Scarlet Witch",
+      "undercoverWord": "Cyclope",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Professor X",
+      "undercoverWord": "Batman",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Superman",
+      "undercoverWord": "Joker",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Wonder Woman",
+      "undercoverWord": "Thanos",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Green Lantern",
+      "undercoverWord": "Gotham",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Batmobile",
+      "undercoverWord": "Infinity Stones",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Mjolnir",
+      "undercoverWord": "Cowl",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Vibranium",
+      "undercoverWord": "Multivers",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Post-credit",
+      "undercoverWord": "Arkham",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Avengers",
+      "undercoverWord": "Pepper Potts",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Civil War",
+      "undercoverWord": "Alfred",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Daredevil",
+      "undercoverWord": "Homelander",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Moon Knight",
+      "undercoverWord": "Syndrome",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Civilian identity",
+      "undercoverWord": "DC Comics",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Laser eyes",
+      "undercoverWord": "Gardiens de la Galaxie",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Billionaire hero",
+      "undercoverWord": "Gardiens de la Galaxie",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Iron Man",
+      "undercoverWord": "Black Panther",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Captain America",
+      "undercoverWord": "Star-Lord",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Thor",
+      "undercoverWord": "Spider-Man",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Hulk",
+      "undercoverWord": "Doctor Strange",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Black Widow",
+      "undercoverWord": "Scarlet Witch",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Groot",
+      "undercoverWord": "Professor X",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Ant-Man",
+      "undercoverWord": "Batman",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Deadpool",
+      "undercoverWord": "Cyclope",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Superman",
+      "undercoverWord": "Thanos",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Wonder Woman",
+      "undercoverWord": "Gotham",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Green Lantern",
+      "undercoverWord": "Batmobile",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Joker",
+      "undercoverWord": "Mjolnir",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Vibranium",
+      "undercoverWord": "Cowl",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Infinity Stones",
+      "undercoverWord": "Avengers",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Multivers",
+      "undercoverWord": "Arkham",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Post-credit",
+      "undercoverWord": "Pepper Potts",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Civil War",
+      "undercoverWord": "Daredevil",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Alfred",
+      "undercoverWord": "Syndrome",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Moon Knight",
+      "undercoverWord": "Homelander",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Civilian identity",
+      "undercoverWord": "Gardiens de la Galaxie",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Iron Man",
+      "undercoverWord": "Star-Lord",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Iron Man",
+      "undercoverWord": "Groot",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Captain America",
+      "undercoverWord": "Black Panther",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Captain America",
+      "undercoverWord": "Groot",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Thor",
+      "undercoverWord": "Doctor Strange",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Thor",
+      "undercoverWord": "Ant-Man",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Hulk",
+      "undercoverWord": "Ant-Man",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Hulk",
+      "undercoverWord": "Scarlet Witch",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Black Widow",
+      "undercoverWord": "Doctor Strange",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Black Widow",
+      "undercoverWord": "Black Panther",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Spider-Man",
+      "undercoverWord": "Scarlet Witch",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Spider-Man",
+      "undercoverWord": "Deadpool",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Star-Lord",
+      "undercoverWord": "Deadpool",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Professor X",
+      "undercoverWord": "Superman",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Professor X",
+      "undercoverWord": "Green Lantern",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Cyclope",
+      "undercoverWord": "Batman",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Cyclope",
+      "undercoverWord": "Joker",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Batman",
+      "undercoverWord": "Superman",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Wonder Woman",
+      "undercoverWord": "Batmobile",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Wonder Woman",
+      "undercoverWord": "Mjolnir",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Green Lantern",
+      "undercoverWord": "Mjolnir",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Joker",
+      "undercoverWord": "Vibranium",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Thanos",
+      "undercoverWord": "Vibranium",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Thanos",
+      "undercoverWord": "Infinity Stones",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Gotham",
+      "undercoverWord": "Infinity Stones",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Gotham",
+      "undercoverWord": "Cowl",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Batmobile",
+      "undercoverWord": "Cowl",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Multivers",
+      "undercoverWord": "Alfred",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Multivers",
+      "undercoverWord": "Daredevil",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Post-credit",
+      "undercoverWord": "Daredevil",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Post-credit",
+      "undercoverWord": "Moon Knight",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Avengers",
+      "undercoverWord": "Arkham",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Avengers",
+      "undercoverWord": "Alfred",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Civil War",
+      "undercoverWord": "Pepper Potts",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Civil War",
+      "undercoverWord": "Homelander",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Arkham",
+      "undercoverWord": "Homelander",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Pepper Potts",
+      "undercoverWord": "Syndrome",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Moon Knight",
+      "undercoverWord": "Civilian identity",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Syndrome",
+      "undercoverWord": "Gardiens de la Galaxie",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "War Machine",
+      "undercoverWord": "Rescue",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Rescue",
+      "undercoverWord": "Jarvis",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "War Machine",
+      "undercoverWord": "Jarvis",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Bucky",
+      "undercoverWord": "Falcon",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Falcon",
+      "undercoverWord": "US Agent",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Bucky",
+      "undercoverWord": "US Agent",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Loki",
+      "undercoverWord": "Odin",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Odin",
+      "undercoverWord": "Hela",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Loki",
+      "undercoverWord": "Hela",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "She-Hulk",
+      "undercoverWord": "Abomination",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Abomination",
+      "undercoverWord": "Red Hulk",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "She-Hulk",
+      "undercoverWord": "Red Hulk",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Hawkeye",
+      "undercoverWord": "Yelena",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Yelena",
+      "undercoverWord": "Kate Bishop",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Hawkeye",
+      "undercoverWord": "Kate Bishop",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Miles Morales",
+      "undercoverWord": "Venom",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Venom",
+      "undercoverWord": "Green Goblin",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Miles Morales",
+      "undercoverWord": "Green Goblin",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Wong",
+      "undercoverWord": "Dormammu",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Dormammu",
+      "undercoverWord": "Ancient One",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Wong",
+      "undercoverWord": "Ancient One",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Shuri",
+      "undercoverWord": "Killmonger",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Killmonger",
+      "undercoverWord": "Okoye",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Shuri",
+      "undercoverWord": "Okoye",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Gamora",
+      "undercoverWord": "Drax",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Drax",
+      "undercoverWord": "Rocket",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Gamora",
+      "undercoverWord": "Rocket",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Rocket",
+      "undercoverWord": "Nebula",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Nebula",
+      "undercoverWord": "Mantis",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Rocket",
+      "undercoverWord": "Mantis",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Wasp",
+      "undercoverWord": "Kang",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Kang",
+      "undercoverWord": "Hank Pym",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Wasp",
+      "undercoverWord": "Hank Pym",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Vision",
+      "undercoverWord": "Quicksilver",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Quicksilver",
+      "undercoverWord": "Agatha",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Vision",
+      "undercoverWord": "Agatha",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Wolverine",
+      "undercoverWord": "Cable",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Cable",
+      "undercoverWord": "Domino",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Wolverine",
+      "undercoverWord": "Domino",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Magneto",
+      "undercoverWord": "Mystique",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Mystique",
+      "undercoverWord": "Beast",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Magneto",
+      "undercoverWord": "Beast",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Jean Grey",
+      "undercoverWord": "Storm",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Storm",
+      "undercoverWord": "Rogue",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Jean Grey",
+      "undercoverWord": "Rogue",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Robin",
+      "undercoverWord": "Nightwing",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Nightwing",
+      "undercoverWord": "Batgirl",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Robin",
+      "undercoverWord": "Batgirl",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Supergirl",
+      "undercoverWord": "Zod",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Zod",
+      "undercoverWord": "Lois Lane",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Supergirl",
+      "undercoverWord": "Lois Lane",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Aquaman",
+      "undercoverWord": "Flash",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Flash",
+      "undercoverWord": "Cyborg",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Aquaman",
+      "undercoverWord": "Cyborg",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Martian Manhunter",
+      "undercoverWord": "Shazam",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Shazam",
+      "undercoverWord": "Black Adam",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Martian Manhunter",
+      "undercoverWord": "Black Adam",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Harley Quinn",
+      "undercoverWord": "Riddler",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Riddler",
+      "undercoverWord": "Penguin",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Harley Quinn",
+      "undercoverWord": "Penguin",
+      "style": "normal"
+    }
+  ]
+}

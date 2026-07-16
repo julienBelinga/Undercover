@@ -36,11 +36,18 @@ class WordTheme {
 }
 
 class WordPair {
-  const WordPair({required this.civilianWord, required this.undercoverWord});
+  const WordPair({
+    required this.civilianWord,
+    required this.undercoverWord,
+    this.style = WordPairStyle.normal,
+  });
 
   final String civilianWord;
   final String undercoverWord;
+  final WordPairStyle style;
 }
+
+enum WordPairStyle { normal, softJoke, troll }
 
 class PlayerAssignment {
   const PlayerAssignment({
@@ -141,4 +148,9 @@ class AppIcons {
   static const theme = SolarIconsOutline.gamepadMinimalistic;
   static const close = SolarIconsOutline.closeCircle;
   static const back = SolarIconsOutline.arrowLeft;
+  static const bug = SolarIconsOutline.bug;
+  static const idea = SolarIconsOutline.chatSquareLike;
+  static const comment = SolarIconsOutline.chatRoundDots;
+  static const upvote = SolarIconsBold.arrowUp;
+  static const downvote = SolarIconsBold.arrowDown;
 }

@@ -20,12 +20,13 @@ class ThemeSelectionPage extends StatefulWidget {
 class _ThemeSelectionPageState extends State<ThemeSelectionPage> {
   static const _content = GameContentService();
   static const _storage = GameStorageService();
-  late final List<WordTheme> _themes = _content.themes();
+  late final Future<List<WordTheme>> _themesFuture;
   String? _lastThemeId;
 
   @override
   void initState() {
     super.initState();
+    _themesFuture = _content.themes();
     _loadLastTheme();
   }
 
@@ -80,16 +81,35 @@ class _ThemeSelectionPageState extends State<ThemeSelectionPage> {
             ),
             const SizedBox(height: 18),
             Expanded(
-              child: ListView.separated(
-                itemCount: _themes.length,
-                separatorBuilder: (_, _) => const SizedBox(height: 12),
-                itemBuilder: (context, index) {
-                  final theme = _themes[index];
-                  return _ThemeCard(
-                    key: Key('theme-${theme.id}'),
-                    theme: theme,
-                    isLastUsed: theme.id == _lastThemeId,
-                    onTap: () => _selectTheme(theme),
+              child: FutureBuilder<List<WordTheme>>(
+                future: _themesFuture,
+                builder: (context, snapshot) {
+                  if (snapshot.hasError) {
+                    return Center(
+                      child: Text(
+                        'Impossible de charger les themes.',
+                        style: Theme.of(
+                          context,
+                        ).textTheme.bodyMedium?.copyWith(color: AppTheme.muted),
+                      ),
+                    );
+                  }
+                  if (!snapshot.hasData) {
+                    return const Center(child: CircularProgressIndicator());
+                  }
+                  final themes = snapshot.data!;
+                  return ListView.separated(
+                    itemCount: themes.length,
+                    separatorBuilder: (_, _) => const SizedBox(height: 12),
+                    itemBuilder: (context, index) {
+                      final theme = themes[index];
+                      return _ThemeCard(
+                        key: Key('theme-${theme.id}'),
+                        theme: theme,
+                        isLastUsed: theme.id == _lastThemeId,
+                        onTap: () => _selectTheme(theme),
+                      );
+                    },
                   );
                 },
               ),

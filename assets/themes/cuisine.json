@@ -1,0 +1,1509 @@
+{
+  "id": "cuisine",
+  "name": "Cuisine",
+  "description": "Ingredients, plats, ustensiles et classiques de table.",
+  "icon": "chef",
+  "color": "#8995FF",
+  "pairs": [
+    {
+      "civilianWord": "Pates au beurre",
+      "undercoverWord": "Chef etoile flemme",
+      "style": "soft_joke"
+    },
+    {
+      "civilianWord": "Air fryer",
+      "undercoverWord": "Four TikTok",
+      "style": "soft_joke"
+    },
+    {
+      "civilianWord": "Riz colle",
+      "undercoverWord": "Beton maison",
+      "style": "soft_joke"
+    },
+    {
+      "civilianWord": "Salade sans sauce",
+      "undercoverWord": "Punition verte",
+      "style": "soft_joke"
+    },
+    {
+      "civilianWord": "Restes du frigo",
+      "undercoverWord": "Top Chef de survie",
+      "style": "soft_joke"
+    },
+    {
+      "civilianWord": "Four",
+      "undercoverWord": "Micro-ondes",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Micro-ondes",
+      "undercoverWord": "Air fryer",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Air fryer",
+      "undercoverWord": "Plaque",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Four",
+      "undercoverWord": "Air fryer",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Micro-ondes",
+      "undercoverWord": "Plaque",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Poele",
+      "undercoverWord": "Casserole",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Casserole",
+      "undercoverWord": "Marmite",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Marmite",
+      "undercoverWord": "Wok",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Poele",
+      "undercoverWord": "Marmite",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Casserole",
+      "undercoverWord": "Wok",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Sel",
+      "undercoverWord": "Poivre",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Poivre",
+      "undercoverWord": "Paprika",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Paprika",
+      "undercoverWord": "Curry",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Sel",
+      "undercoverWord": "Paprika",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Poivre",
+      "undercoverWord": "Curry",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Sucre",
+      "undercoverWord": "Miel",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Miel",
+      "undercoverWord": "Sirop",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Sirop",
+      "undercoverWord": "Caramel",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Sucre",
+      "undercoverWord": "Sirop",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Miel",
+      "undercoverWord": "Caramel",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Farine",
+      "undercoverWord": "Levure",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Levure",
+      "undercoverWord": "Maizena",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Maizena",
+      "undercoverWord": "Chapelure",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Farine",
+      "undercoverWord": "Maizena",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Levure",
+      "undercoverWord": "Chapelure",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Pates",
+      "undercoverWord": "Riz",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Riz",
+      "undercoverWord": "Semoule",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Semoule",
+      "undercoverWord": "Quinoa",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Pates",
+      "undercoverWord": "Semoule",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Riz",
+      "undercoverWord": "Quinoa",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Pizza",
+      "undercoverWord": "Lasagne",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Lasagne",
+      "undercoverWord": "Gratin",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Gratin",
+      "undercoverWord": "Tarte salee",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Pizza",
+      "undercoverWord": "Gratin",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Lasagne",
+      "undercoverWord": "Tarte salee",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Burger",
+      "undercoverWord": "Hot-dog",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Hot-dog",
+      "undercoverWord": "Kebab",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Kebab",
+      "undercoverWord": "Tacos",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Burger",
+      "undercoverWord": "Kebab",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Hot-dog",
+      "undercoverWord": "Tacos",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Sushi",
+      "undercoverWord": "Maki",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Maki",
+      "undercoverWord": "Sashimi",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Sashimi",
+      "undercoverWord": "Onigiri",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Sushi",
+      "undercoverWord": "Sashimi",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Maki",
+      "undercoverWord": "Onigiri",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Couscous",
+      "undercoverWord": "Tajine",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Tajine",
+      "undercoverWord": "Chakchouka",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Chakchouka",
+      "undercoverWord": "Harira",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Couscous",
+      "undercoverWord": "Chakchouka",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Tajine",
+      "undercoverWord": "Harira",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Boeuf",
+      "undercoverWord": "Poulet",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Poulet",
+      "undercoverWord": "Agneau",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Agneau",
+      "undercoverWord": "Dinde",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Boeuf",
+      "undercoverWord": "Agneau",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Poulet",
+      "undercoverWord": "Dinde",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Saumon",
+      "undercoverWord": "Thon",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Thon",
+      "undercoverWord": "Cabillaud",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Cabillaud",
+      "undercoverWord": "Crevette",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Saumon",
+      "undercoverWord": "Cabillaud",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Thon",
+      "undercoverWord": "Crevette",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Tomate",
+      "undercoverWord": "Poivron",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Poivron",
+      "undercoverWord": "Aubergine",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Aubergine",
+      "undercoverWord": "Courgette",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Tomate",
+      "undercoverWord": "Aubergine",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Poivron",
+      "undercoverWord": "Courgette",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Carotte",
+      "undercoverWord": "Pomme de terre",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Pomme de terre",
+      "undercoverWord": "Patate douce",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Patate douce",
+      "undercoverWord": "Navet",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Carotte",
+      "undercoverWord": "Patate douce",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Pomme de terre",
+      "undercoverWord": "Navet",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Oignon",
+      "undercoverWord": "Ail",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Ail",
+      "undercoverWord": "Echalote",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Echalote",
+      "undercoverWord": "Ciboulette",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Oignon",
+      "undercoverWord": "Echalote",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Ail",
+      "undercoverWord": "Ciboulette",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Basilic",
+      "undercoverWord": "Persil",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Persil",
+      "undercoverWord": "Coriandre",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Coriandre",
+      "undercoverWord": "Menthe",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Basilic",
+      "undercoverWord": "Coriandre",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Persil",
+      "undercoverWord": "Menthe",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Pomme",
+      "undercoverWord": "Poire",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Poire",
+      "undercoverWord": "Peche",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Peche",
+      "undercoverWord": "Abricot",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Pomme",
+      "undercoverWord": "Peche",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Poire",
+      "undercoverWord": "Abricot",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Fraise",
+      "undercoverWord": "Framboise",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Framboise",
+      "undercoverWord": "Myrtille",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Myrtille",
+      "undercoverWord": "Cerise",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Fraise",
+      "undercoverWord": "Myrtille",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Framboise",
+      "undercoverWord": "Cerise",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Orange",
+      "undercoverWord": "Citron",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Citron",
+      "undercoverWord": "Pamplemousse",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Pamplemousse",
+      "undercoverWord": "Clementine",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Orange",
+      "undercoverWord": "Pamplemousse",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Citron",
+      "undercoverWord": "Clementine",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Fromage",
+      "undercoverWord": "Yaourt",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Yaourt",
+      "undercoverWord": "Creme",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Creme",
+      "undercoverWord": "Beurre",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Fromage",
+      "undercoverWord": "Creme",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Yaourt",
+      "undercoverWord": "Beurre",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Camembert",
+      "undercoverWord": "Brie",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Brie",
+      "undercoverWord": "Comte",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Comte",
+      "undercoverWord": "Roquefort",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Camembert",
+      "undercoverWord": "Comte",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Brie",
+      "undercoverWord": "Roquefort",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Pain",
+      "undercoverWord": "Baguette",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Baguette",
+      "undercoverWord": "Brioche",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Brioche",
+      "undercoverWord": "Croissant",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Pain",
+      "undercoverWord": "Brioche",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Baguette",
+      "undercoverWord": "Croissant",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Gateau",
+      "undercoverWord": "Tarte",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Tarte",
+      "undercoverWord": "Fondant",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Fondant",
+      "undercoverWord": "Muffin",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Gateau",
+      "undercoverWord": "Fondant",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Tarte",
+      "undercoverWord": "Muffin",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Crepe",
+      "undercoverWord": "Gaufre",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Gaufre",
+      "undercoverWord": "Pancake",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Pancake",
+      "undercoverWord": "Blinis",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Crepe",
+      "undercoverWord": "Pancake",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Gaufre",
+      "undercoverWord": "Blinis",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Cafe",
+      "undercoverWord": "The",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "The",
+      "undercoverWord": "Chocolat chaud",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Chocolat chaud",
+      "undercoverWord": "Smoothie",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Cafe",
+      "undercoverWord": "Chocolat chaud",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "The",
+      "undercoverWord": "Smoothie",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Eau plate",
+      "undercoverWord": "Eau gazeuse",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Eau gazeuse",
+      "undercoverWord": "Limonade",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Limonade",
+      "undercoverWord": "Jus",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Eau plate",
+      "undercoverWord": "Limonade",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Eau gazeuse",
+      "undercoverWord": "Jus",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Entree",
+      "undercoverWord": "Plat",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Plat",
+      "undercoverWord": "Dessert",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Dessert",
+      "undercoverWord": "Fromage",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Entree",
+      "undercoverWord": "Dessert",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Plat",
+      "undercoverWord": "Fromage",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Recette",
+      "undercoverWord": "Menu",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Menu",
+      "undercoverWord": "Carte",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Carte",
+      "undercoverWord": "Degustation",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Recette",
+      "undercoverWord": "Carte",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Menu",
+      "undercoverWord": "Degustation",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Chef",
+      "undercoverWord": "Commis",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Commis",
+      "undercoverWord": "Serveur",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Serveur",
+      "undercoverWord": "Plongeur",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Chef",
+      "undercoverWord": "Serveur",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Commis",
+      "undercoverWord": "Plongeur",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Restaurant",
+      "undercoverWord": "Cantine",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Cantine",
+      "undercoverWord": "Bistro",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Bistro",
+      "undercoverWord": "Brasserie",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Restaurant",
+      "undercoverWord": "Bistro",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Cantine",
+      "undercoverWord": "Brasserie",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Barbecue",
+      "undercoverWord": "Plancha",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Plancha",
+      "undercoverWord": "Grill",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Grill",
+      "undercoverWord": "Brochette",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Barbecue",
+      "undercoverWord": "Grill",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Plancha",
+      "undercoverWord": "Brochette",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Sauce tomate",
+      "undercoverWord": "Sauce blanche",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Sauce blanche",
+      "undercoverWord": "Sauce barbecue",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Sauce barbecue",
+      "undercoverWord": "Mayonnaise",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Sauce tomate",
+      "undercoverWord": "Sauce barbecue",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Sauce blanche",
+      "undercoverWord": "Mayonnaise",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Ketchup",
+      "undercoverWord": "Moutarde",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Moutarde",
+      "undercoverWord": "Harissa",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Harissa",
+      "undercoverWord": "Pesto",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Ketchup",
+      "undercoverWord": "Harissa",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Moutarde",
+      "undercoverWord": "Pesto",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Omelette",
+      "undercoverWord": "Oeuf dur",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Oeuf dur",
+      "undercoverWord": "Oeuf au plat",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Oeuf au plat",
+      "undercoverWord": "Oeuf brouille",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Omelette",
+      "undercoverWord": "Oeuf au plat",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Oeuf dur",
+      "undercoverWord": "Oeuf brouille",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Salade",
+      "undercoverWord": "Soupe",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Soupe",
+      "undercoverWord": "Veloute",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Veloute",
+      "undercoverWord": "Bouillon",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Salade",
+      "undercoverWord": "Veloute",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Soupe",
+      "undercoverWord": "Bouillon",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Frite",
+      "undercoverWord": "Potatoes",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Potatoes",
+      "undercoverWord": "Puree",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Puree",
+      "undercoverWord": "Gratin dauphinois",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Frite",
+      "undercoverWord": "Puree",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Potatoes",
+      "undercoverWord": "Gratin dauphinois",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Glace",
+      "undercoverWord": "Sorbet",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Sorbet",
+      "undercoverWord": "Milkshake",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Milkshake",
+      "undercoverWord": "Yaourt glace",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Glace",
+      "undercoverWord": "Milkshake",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Sorbet",
+      "undercoverWord": "Yaourt glace",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Chocolat noir",
+      "undercoverWord": "Chocolat au lait",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Chocolat au lait",
+      "undercoverWord": "Chocolat blanc",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Chocolat blanc",
+      "undercoverWord": "Praline",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Chocolat noir",
+      "undercoverWord": "Chocolat blanc",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Chocolat au lait",
+      "undercoverWord": "Praline",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Cuisson saignante",
+      "undercoverWord": "Cuisson a point",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Cuisson a point",
+      "undercoverWord": "Bien cuit",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Bien cuit",
+      "undercoverWord": "Bleu",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Cuisson saignante",
+      "undercoverWord": "Bien cuit",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Cuisson a point",
+      "undercoverWord": "Bleu",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Couteau",
+      "undercoverWord": "Fourchette",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Fourchette",
+      "undercoverWord": "Cuillere",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Cuillere",
+      "undercoverWord": "Spatule",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Couteau",
+      "undercoverWord": "Cuillere",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Fourchette",
+      "undercoverWord": "Spatule",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Planche",
+      "undercoverWord": "Passoire",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Passoire",
+      "undercoverWord": "Fouet",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Fouet",
+      "undercoverWord": "Louche",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Planche",
+      "undercoverWord": "Fouet",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Passoire",
+      "undercoverWord": "Louche",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Frigo",
+      "undercoverWord": "Congelateur",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Congelateur",
+      "undercoverWord": "Placard",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Placard",
+      "undercoverWord": "Cave",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Frigo",
+      "undercoverWord": "Placard",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Congelateur",
+      "undercoverWord": "Cave",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Marinade",
+      "undercoverWord": "Panure",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Panure",
+      "undercoverWord": "Friture",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Friture",
+      "undercoverWord": "Vapeur",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Marinade",
+      "undercoverWord": "Friture",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Panure",
+      "undercoverWord": "Vapeur",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Petit dejeuner",
+      "undercoverWord": "Brunch",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Brunch",
+      "undercoverWord": "Dejeuner",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Dejeuner",
+      "undercoverWord": "Diner",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Petit dejeuner",
+      "undercoverWord": "Dejeuner",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Brunch",
+      "undercoverWord": "Diner",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Food truck",
+      "undercoverWord": "Buffet",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Buffet",
+      "undercoverWord": "Traiteur",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Traiteur",
+      "undercoverWord": "Livraison",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Food truck",
+      "undercoverWord": "Traiteur",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Buffet",
+      "undercoverWord": "Livraison",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Nutella",
+      "undercoverWord": "Confiture",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Confiture",
+      "undercoverWord": "Beurre de cacahuete",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Beurre de cacahuete",
+      "undercoverWord": "Compote",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Nutella",
+      "undercoverWord": "Beurre de cacahuete",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Confiture",
+      "undercoverWord": "Compote",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Micro-ondes",
+      "undercoverWord": "Casserole",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Air fryer",
+      "undercoverWord": "Marmite",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Plaque",
+      "undercoverWord": "Curry",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Plaque",
+      "undercoverWord": "Caramel",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Four",
+      "undercoverWord": "Sucre",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Four",
+      "undercoverWord": "Farine",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Micro-ondes",
+      "undercoverWord": "Levure",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Plaque",
+      "undercoverWord": "Tarte salee",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Four",
+      "undercoverWord": "Burger",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Wok",
+      "undercoverWord": "Curry",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Poele",
+      "undercoverWord": "Sel",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Poele",
+      "undercoverWord": "Sucre",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Casserole",
+      "undercoverWord": "Miel",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Marmite",
+      "undercoverWord": "Maizena",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Wok",
+      "undercoverWord": "Quinoa",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Wok",
+      "undercoverWord": "Tarte salee",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Poele",
+      "undercoverWord": "Pizza",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Poivre",
+      "undercoverWord": "Miel",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Paprika",
+      "undercoverWord": "Sirop",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Paprika",
+      "undercoverWord": "Maizena",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Curry",
+      "undercoverWord": "Chapelure",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Sel",
+      "undercoverWord": "Pates",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Sel",
+      "undercoverWord": "Pizza",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Poivre",
+      "undercoverWord": "Lasagne",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Caramel",
+      "undercoverWord": "Chapelure",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Sucre",
+      "undercoverWord": "Farine",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Sirop",
+      "undercoverWord": "Gratin",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Caramel",
+      "undercoverWord": "Tacos",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Levure",
+      "undercoverWord": "Riz",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Chapelure",
+      "undercoverWord": "Tarte salee",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Farine",
+      "undercoverWord": "Burger",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Pates",
+      "undercoverWord": "Pizza",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Pates",
+      "undercoverWord": "Burger",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Riz",
+      "undercoverWord": "Hot-dog",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Semoule",
+      "undercoverWord": "Sashimi",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Semoule",
+      "undercoverWord": "Chakchouka",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Quinoa",
+      "undercoverWord": "Harira",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Quinoa",
+      "undercoverWord": "Dinde",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Lasagne",
+      "undercoverWord": "Hot-dog",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Gratin",
+      "undercoverWord": "Kebab",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Tacos",
+      "undercoverWord": "Onigiri",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Kebab",
+      "undercoverWord": "Agneau",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Tacos",
+      "undercoverWord": "Crevette",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Maki",
+      "undercoverWord": "Tajine",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Sashimi",
+      "undercoverWord": "Chakchouka",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Onigiri",
+      "undercoverWord": "Dinde",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Onigiri",
+      "undercoverWord": "Crevette",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Sushi",
+      "undercoverWord": "Saumon",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Sushi",
+      "undercoverWord": "Tomate",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Maki",
+      "undercoverWord": "Poivron",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Sushi",
+      "undercoverWord": "Basilic",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Harira",
+      "undercoverWord": "Dinde",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Couscous",
+      "undercoverWord": "Boeuf",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Couscous",
+      "undercoverWord": "Saumon",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Tajine",
+      "undercoverWord": "Thon",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Harira",
+      "undercoverWord": "Navet",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Couscous",
+      "undercoverWord": "Oignon",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Poulet",
+      "undercoverWord": "Thon",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Agneau",
+      "undercoverWord": "Cabillaud",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Boeuf",
+      "undercoverWord": "Carotte",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Boeuf",
+      "undercoverWord": "Oignon",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Poulet",
+      "undercoverWord": "Ail",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Crevette",
+      "undercoverWord": "Courgette",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Saumon",
+      "undercoverWord": "Tomate",
+      "style": "normal"
+    },
+    {
+      "civilianWord": "Cabillaud",
+      "undercoverWord": "Echalote",
+      "style": "normal"
+    }
+  ]
+}
